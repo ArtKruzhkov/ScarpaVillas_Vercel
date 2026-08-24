@@ -1,0 +1,45 @@
+import React from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+
+export function ScarpaWineryHero() {
+  const { t } = useTranslation();
+
+  return (
+    <section
+      id="scarpa-winery-top"
+      className="relative flex section-height items-center justify-center overflow-hidden">
+      {/* BACKGROUND */}
+      <div className="absolute inset-0">
+        <img
+          src={`${process.env.PUBLIC_URL}/images/ScarpaWineryPage/scarpa_winery_hero/scarpa_winery_hero.webp`}
+          alt={t('scarpaWineryHero.title')}
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      {/* CONTENT */}
+      <div className="relative z-10 flex w-full justify-center px-6 mt-[20rem]">
+        <div className="flex max-w-[900px] flex-col items-center text-center">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={t('scarpaWineryHero.title')}
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{
+                duration: 0.35,
+                ease: [0.22, 1, 0.36, 1],
+              }}>
+              <h1 className="top-hero-title">{t('scarpaWineryHero.title')}</h1>
+
+              <p className="mt-2 font-serif text-[22px] leading-[28px] text-white sm:text-[28px] sm:leading-normal lg:text-[32px] xl:mt-4">
+                {t('scarpaWineryHero.subtitle')}
+              </p>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      </div>
+    </section>
+  );
+}

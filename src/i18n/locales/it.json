@@ -1,0 +1,1484 @@
+{
+  "nav": {
+    "villas": "Ville",
+    "borgo": "Il Borgo",
+    "experiences": "Esperienze",
+    "story": "La Storia",
+    "stays": "Soggiorni",
+    "discover": "Scopri",
+    "planStay": "Pianifica soggiorno",
+    "planStayMob": "Prenota"
+  },
+  "navDropdown": {
+    "story": {
+      "origins": "Origini",
+      "scarpaWinery": "Cantina Scarpa",
+      "people": "Persone",
+      "press": "Stampa"
+    },
+    "discover": {
+      "region": "Regione",
+      "journal": "Giornale"
+    },
+    "experiences": {
+      "wineTaste": "Vino e Sapori",
+      "natureMovement": "Natura e Movimento",
+      "cultureDiscovery": "Cultura e Scoperta",
+      "wine": "Vino",
+      "nature": "Natura",
+      "culture": "Cultura"
+    }
+  },
+  "hero": {
+    "titlePart1": "Soggiorna nel",
+    "titleItalic": "cuore di Barolo",
+    "titlePart2": "nella tua villa privata"
+  },
+  "about": {
+    "title": "Un ritmo di vita diverso",
+    "text1": "Sulle colline di Verduno, tra i vigneti di Monvigliero, Scarpa Villas offre un modo unico di vivere\u00A0il\u00A0Barolo",
+    "text2": "Ispirato alla filosofia di Scarpa, va oltre un semplice luogo di soggiorno: è plasmata dal vino, dal tempo e dalla terra\u00A0stessa.",
+    "text3": "Qui le giornate scorrono lentamente, tra il silenzio dei vigneti, il calore del sole e i rituali della vita\u00A0piemontese."
+  },
+  "experience": {
+    "title1": "Oltre il soggiorno.",
+    "title2": "Un vero Wine Resort.",
+    "paragraph1": "Le Scarpa Villas sono la naturale estensione della cantina Scarpa — un luogo dove la <strong>filosofia del vino può essere vissuta</strong>, non\u00A0solo\u00A0degustata.",
+    "paragraph2": "<strong>Fondata nel 1900</strong>, Scarpa ha sempre creduto che un grande vino sia il frutto del tempo, della pazienza e di un profondo legame\u00A0con\u00A0la\u00A0terra.",
+    "paragraph3": "Le ville avvicinano gli ospiti a questa filosofia attraverso i vigneti di Monvigliero, <strong>la cultura del Barolo</strong> e le esperienze radicate nelle tradizioni\u00A0del\u00A0Piemonte."
+  },
+  "gallery": {
+    "title1": "Quattro Ville",
+    "title2": "Quattro Modi Di Barolo"
+  },
+  "villaGallery": {
+    "discoverVilla": "Scopri la Villa",
+    "tettineiveDescription": "Una raffinata base di partenza per le esplorazioni — e un dolce ritorno a fine giornata.",
+    "boglionaDescription": "Una villa accogliente progettata per il comfort, la conversazione e i ritrovi informali.",
+    "bricchiDescription": "Un punto panoramico in collina per lunghe mattine, la luce dei vigneti e serate senza fretta.",
+    "tettimorraDescription": "Un rifugio intimo per serate tranquille, buona compagnia e tutta la bellezza delle Langhe intorno."
+  },
+  "borgo": {
+    "title1": "Il Borgo.",
+    "title2": "Un borgo collinare, tutto per te",
+    "descriptionDesktop": "Il Borgo può essere prenotato nella sua interezza: quattro ville, una piscina panoramica e la tenuta circostante, tutto esclusivamente per te. Un luogo pensato per incontri significativi, dalle feste private e matrimoni intimi ai ritiri aziendali, dove privacy, spazio e il ritmo di Barolo si fondono.",
+    "descriptionMobile1": "Prenotate l'intero Borgo: quattro ville, una piscina panoramica e la tenuta, tutti esclusivamente a vostra\u00A0disposizione.",
+    "descriptionMobile2": "Progettato per incontri significativi, dalle celebrazioni private e dai matrimoni intimi ai ritiri aziendali, dove privacy, spazio e il ritmo di Barolo si fondono insieme.",
+    "button": "Scopri Il Borgo"
+  },
+  "experiences": {
+    "title": "Modi Di Vivere Barolo",
+    "descriptionLine1": "Dalle degustazioni private ai lenti pomeriggi tra i vigneti, ogni esperienza è pensata per immergerti",
+    "descriptionLine2": "nel ritmo di Barolo.",
+    "wineTaste": "Vino & Gusto",
+    "cultureDiscovery": "Cultura & Scoperta",
+    "natureMovement": "Natura & Movimento",
+    "discoverAll": "Scopri Tutte Le Esperienze"
+  },
+  "experienceCards": {
+    "wineryVisits": "Visite alle cantine",
+    "wineryVisitsDescription": "Entra nelle storiche cantine Scarpa e scopri l'arte che si cela dietro ogni bottiglia.",
+
+    "privateWineTastings": "Degustazioni Private",
+    "privateWineTastingsDescription": "Scopri i vini Scarpa con un sommelier, dalle annate rare alle etichette iconiche.",
+
+    "chefPrivateDining": "Chef & Cena Privata",
+    "chefPrivateDiningDescription": "Goditi cene lente e colazioni su misura, nel comfort della tua villa.",
+
+    "cookingClasses": "Corsi Di Cucina",
+    "cookingClassesDescription": "Imparate le tradizioni della cucina piemontese attraverso un'esperienza pratica e senza fretta.",
+
+    "langheBaroloTours": "Tour Delle Langhe E Di Barolo",
+    "langheBaroloToursDescription": "Scopri borghi storici, mercati locali e angoli nascosti della regione.",
+
+    "turinExperiences": "Esperienze A Torino",
+    "turinExperiencesDescription": "Dai caffè storici ai bar del vermouth, esplora la cultura del capoluogo piemontese.",
+
+    "truffleHunting": "Caccia Al Tartufo",
+    "truffleHuntingDescription": "Passeggia nei boschi con un trifolau alla ricerca del tesoro più prezioso di Alba.",
+
+    "vineyardPicnics": "Picnic nei vigneti",
+    "vineyardPicnicsDescription": "Un tavolo semplice, una bottiglia di vino e i vigneti tutt'intorno a te.",
+
+    "hotAirBalloonFlights": "Voli In Mongolfiera",
+    "hotAirBalloonFlightsDescription": "Ammira le Langhe dall'alto all'alba, fluttuando silenziosamente sopra vigneti e colline.",
+
+    "vespaEBikeTours": "Tour in Vespa ed e-bike",
+    "vespaEBikeToursDescription": "Esplora le colline del Barolo in Vespa, muovendoti liberamente tra vigneti e borghi."
+  },
+  "moments": {
+    "title": "Momenti Da Scarpa Villas",
+    "title1": "Momenti",
+    "title2": " Da Scarpa Villas"
+  },
+  "stays": {
+    "signatureStays": "Soggiorni Esclusivi",
+    "signatureStaysDescription1": "Soggiorni pensati per farti vivere appieno l'esperienza del Barolo, senza dover pianificare ogni minimo particolare.",
+    "signatureStaysDescription2": "Ogni programma unisce vino, gastronomia e il ritmo del regione in un soggiorno armonioso e studiato nei minimi dettagli.",
+
+    "tasteOfLanghe": "Sapori Delle Langhe",
+    "tasteOfLangheSubtitle": "Un viaggio tra i sapori del Piemonte.",
+    "tasteOfLangheDescription": "Dalle degustazioni ai ristoranti locali, dai corsi di cucina ai tour nei vigneti, questo soggiorno ti immerge nella cultura culinaria delle Langhe.",
+
+    "luxRetreat": "The Lux Retreat",
+    "luxRetreatSubtitle": "Una breve fuga nel ritmo di Barolo.",
+    "luxRetreatDescription": "Un soggiorno di tre notti pensato per rallentare e ritrovare se stessi, tra cucina raffinata, vigneti e cene private nella tua villa.",
+
+    "autumnGems": "Gemme D'Autunno",
+    "autumnGemsSubtitle": "La stagione più incantevole a Barolo.",
+    "autumnGemsDescription": "Scoprite la stagione del tartufo, i colori dell'autunno e la profondità di Barolo e Barbaresco attraverso degustazioni curate ed esperienze stagionali.",
+
+    "piemonteEscape": "Piemonte Escape",
+    "piemonteEscapeSubtitle": "Un'immersione totale nella regione.",
+    "piemonteEscapeDescription": "Un soggiorno prolungato alla scoperta di vino, cultura e paesaggi tra Langhe, Monferrato e Torino, con accesso esclusivo alla cantina Scarpa."
+  },
+  "common": {
+    "nights": "notti",
+    "january": "Gennaio",
+    "february": "Febbraio",
+    "march": "Marzo",
+    "april": "Aprile",
+    "may": "Maggio",
+    "june": "Giugno",
+    "july": "Luglio",
+    "august": "Agosto",
+    "september": "Settembre",
+    "october": "Ottobre",
+    "november": "Novembre",
+    "december": "Dicembre"
+  },
+  "discover": {
+    "title": "Scopri Le Langhe",
+    "text1": "A pochi minuti dai vigneti di Monvigliero, le Langhe si snodano tra borghi storici, punti panoramici e alcune delle destinazioni gastronomiche più rinomate d'Italia.",
+    "text2": "Ogni luogo offre un modo diverso di vivere il regione, tra vino, tartufi, paesaggi e borghi."
+  },
+  "langheSlides": {
+    "villageMuseum": "Villaggio e Museo",
+    "villageMuseumSubtitle": "UN VIAGGIO NELLA STORIA DEL BAROLO",
+    "villageMuseumDescription": "Scopri il patrimonio della regione attraverso borghi storici e luoghi di interesse culturale.",
+
+    "laMorraBelvedere": "Belvedere di La Morra",
+    "laMorraBelvedereSubtitle": "IL PANORAMA PIÙ ICONICO DELLE LANGHE",
+    "laMorraBelvedereDescription": "Vigneti a perdita d'occhio, dove il paesaggio di Barolo si svela in un colpo d'occhio.",
+
+    "albaTruffleCulture": "Alba e la Cultura del Tartufo Bianco",
+    "albaTruffleCultureSubtitle": "LA PATRIA DEL TARTUFO BIANCO",
+    "albaTruffleCultureDescription": "Scopri le tradizioni culinarie che hanno reso Alba famosa in tutto il mondo."
+  },
+  "planStay": {
+    "title": "Il tuo posto a Barolo ti aspetta",
+    "text1": "Organizza il tuo soggiorno",
+    "text2": "presso Scarpa Villas",
+    "text3": "e vivi le Langhe a modo tuo.",
+    "button": "Pianifica soggiorno"
+  },
+  "footer": {
+    "title": "Rimani in contatto con le Langhe",
+    "description": "Storie occasionali, momenti stagionali e approfondimenti sulla regione",
+    "emailPlaceholder": "Inserisci la tua e-mail",
+    "button": "Resta In Contatto",
+    "stayInTouch": "Resta in contatto",
+    "sending": "Invio...",
+    "sent": "Inviato",
+    "privacyAgree": "Accetto l'informativa sulla privacy",
+    "logoText1": "Una collezione di",
+    "logoTextItalic": "ville private tra i vigneti",
+    "logoText2": "di Monvigliero, Verduno.",
+    "contact": "Contatti",
+    "cookiePolicy": "Informativa Cookie",
+    "privacyPolicy": "Informativa Privacy"
+  },
+  "contact": {
+    "title1": "Raccontaci i tuoi programmi e creeremo",
+    "title2": "l'esperienza italiana perfetta per te.",
+    "interests": "Cosa ti interessa?",
+    "details": "I tuoi dati",
+    "message": "Messaggio",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Numero di telefono",
+    "messagePlaceholder": "Condividi qualche dettaglio sulle date del viaggio, il numero di ospiti o eventuali richieste speciali.",
+    "interestsList": {
+      "villaRental": "Affitto villa",
+      "borgoExperience": "Esperienza Borgo",
+      "eventsCelebrations": "Eventi e celebrazioni",
+      "longTermStays": "Soggiorni a lungo termine",
+      "other": "Altro"
+    },
+    "submit": "Invia richiesta",
+    "sending": "Invio...",
+    "success": "Richiesta inviata",
+    "error": "Riprova"
+  },
+  "storyHero": {
+    "title": "La Storia",
+    "subtitle": "Un luogo plasmato dal tempo, dal vino e dalle persone"
+  },
+  "storyChapters": {
+    "heading": "Scarpa Villas fa parte di una storia più ampia — una storia che nasce tra i <italic1>vigneti del Piemonte</italic1> e continua attraverso il vino, le persone e uno stile di vita modellato nel corso di <italic2>generazioni</italic2>.",
+
+    "origins": {
+      "title": "Origini",
+      "description": "Un paesaggio modellato lentamente nel corso dei secoli, dove vigneti, borghi e tradizioni si sono evoluti insieme nel tempo.",
+      "button": "Scopri le Origini"
+    },
+
+    "winery": {
+      "title": "Cantina Scarpa",
+      "description": "Dal 1900, Scarpa crea vini definiti dal tempo, dalla pazienza e da un profondo rispetto per il territorio.",
+      "button": "Esplora la Cantina"
+    },
+
+    "people": {
+      "title": "Persone",
+      "description": "Dietro ogni esperienza c'è un gruppo di persone la cui cura e attenzione danno forma a ogni momento del soggiorno.",
+      "button": "Incontra le Persone"
+    },
+
+    "press": {
+      "title": "Stampa",
+      "description": "Una selezione di articoli e menzioni che raccontano Scarpa Villas e il suo posto nelle Langhe.",
+      "button": "Visualizza la Rassegna"
+    }
+  },
+  "storyVillasCTA": {
+    "text": "Scarpa Villas danno vita a questa storia, offrendo un modo per vivere Barolo attraverso lo spazio, il tempo e il legame con la terra.",
+    "button": "Esplora Le Ville"
+  },
+  "originsHero": {
+    "title": "Origini",
+    "subtitle": "Un paesaggio plasmato nel corso dei secoli"
+  },
+  "originsIntro": {
+    "titleLine1": "Sulle colline delle Langhe,",
+    "titleLine2": "il tempo non si misura in anni,",
+    "titleLine3": "ma in generazioni",
+    "textLine1": "Ciò che esiste oggi è il risultato di secoli di silenziosa trasformazione —",
+    "textLine2": "un paesaggio modellato lentamente, quasi impercettibilmente, nel tempo."
+  },
+  "originsHistory": {
+    "topText": "Molto prima che Barolo diventasse una delle regioni vinicole più celebrate al mondo, queste colline erano già abitate e coltivate.",
+    "bottomText": "Nel corso dei secoli, le Langhe si sono evolute attraverso stratificazioni storiche — dagli insediamenti preistorici e dalla prima agricoltura in Piemonte fino alla presenza romana, che contribuì a modellare ulteriormente il territorio con strade, coltivazioni e viticoltura."
+  },
+  "originsMedieval": {
+    "titleLine1": "Nel Medioevo, i borghi che oggi definiscono",
+    "titleLine2": " questo territorio iniziarono a prendere forma e il",
+    "titleLine3": " paesaggio vitato continuò a evolversi fino a diventare",
+    "titleLine4": " quello che oggi riconosciamo come Barolo.",
+    "text": "Ciò che vediamo oggi non è un luogo nato in un solo momento, ma modellato nel tempo — da generazioni che hanno vissuto, lavorato e coltivato questa terra."
+  },
+  "originsMonvigliero": {
+    "titleLine1": "Nel cuore di questo",
+    "titleLine2": "paesaggio si trova Monvigliero.",
+
+    "text1": "Situati sopra il borgo di Verduno, sul margine settentrionale della denominazione Barolo, questi vigneti sono da sempre conosciuti per il loro carattere distintivo — raffinato, espressivo e profondamente legato all'identità del territorio.",
+
+    "text2Start": "Oggi Monvigliero è considerato",
+    "text2Bold": "uno dei cru più distintivi del Barolo",
+    "text2End": ", modellato dall'altitudine, dall'esposizione e dal delicato equilibrio tra sole e aria che caratterizza queste colline.",
+
+    "text3Start": "Qui",
+    "text3Bold": "Nebbiolo e Pelaverga",
+    "text3End": " crescono fianco a fianco, continuando una tradizione che riflette la profondità e l'eleganza di questo luogo"
+  },
+  "originsCTA": {
+    "title": "SCARPA VILLAS CONTINUANO STORIA",
+    "textLine1": "CONTEMPORANEE NEL COMFORT, MA RADICATE IN UN PAESAGGIO",
+    "textLine2": "MODELLATO NEL CORSO DEI SECOLI, OFFRONO UN MODO DI VIVERE IL BAROLO",
+    "textLine3": "NON COME VISITATORI, MA COME PARTE DEL SUO RITMO.",
+    "button": "Scopri le Ville"
+  },
+  "scarpaWineryHero": {
+    "title": "La Cantina Scarpa",
+    "subtitle": "Sappiamo aspettare"
+  },
+  "scarpaWineryIntro": {
+    "title": "Da oltre un secolo, <brMobile/><italic>Scarpa racconta il vino</italic><br/>attraverso il tempo, il territorio e l'attesa",
+    "textLine1": "Radicata in Piemonte, la sua filosofia va oltre la produzione —",
+    "textLine2": "è un modo di intendere il vino."
+  },
+  "scarpaWineryLove": {
+    "title": "Vino per Amore",
+    "paragraph1": "<strong>Scarpa nasce nel 1900</strong> grazie ad Antonio Scarpa, che lasciò Venezia per Nizza Monferrato in cerca di opportunità — trovando molto di più.",
+    "paragraph2": "<strong>Due legami lo convinsero a restare:</strong> il potenziale ancora inesplorato di questa terra e l'amore per Ernestina Ottavia Deantonio, che sposò nel 1908.",
+    "paragraph3": "Insieme diedero vita a una cantina con un obiettivo preciso: rivelare il vero potenziale dei vini piemontesi, <strong>partendo dalla Barbera</strong>, quando era ancora poco valorizzata."
+  },
+  "scarpaWineryEvolution": {
+    "title": "Evoluzione",
+    "leftText": "Nel corso dei decenni, Scarpa si è evoluta grazie a una successione di visionari — da Antonio Scarpa a Mario Pesce, Carlo Castino e Silvio Pinchera.",
+    "rightText": "Ognuno contribuì ad approfondire la conoscenza del territorio, affinando uno stile fondato su eleganza, longevità e rispetto per la vigna."
+  },
+  "scarpaWineryProcess": {
+    "title": "Tempo, Purezza e Pazienza",
+    "paragraph1": "<strong>I vini Scarpa non vengono forzati</strong> — sono lasciati evolvere naturalmente.",
+    "paragraph2": "Lungo affinamento, <strong>intervento minimo</strong> e profondo rispetto per i vitigni autoctoni definiscono uno stile fondato su purezza ed espressione.",
+    "paragraph3": "Ogni scelta, dalla vigna alla cantina, è guidata da una convinzione semplice: <strong>i grandi vini si rivelano con il tempo.</strong>"
+  },
+  "scarpaWineryVineyards": {
+    "title": "Vigneti",
+    "paragraph1": "Scarpa coltiva vigneti tra Monferrato e Langhe, unendo tenute storiche e cru accuratamente selezionati.",
+    "paragraph2": "Dal vigneto a corpo unico di Poderi Bricchi alle colline di Barolo e Barbaresco — incluso Monvigliero a Verduno — ogni luogo contribuisce a una visione più ampia dell'identità del Piemonte."
+  },
+  "scarpaWineryCellar": {
+    "title": "Cantina",
+    "paragraph1": "Nelle storiche cantine di Nizza Monferrato, il vino segue il proprio ritmo.",
+    "paragraph2": "Grandi botti, lunghi affinamenti e il tempo stesso danno forma a vini pensati non solo per il presente, ma per i decenni a venire."
+  },
+  "scarpaWineryVillas": {
+    "title": "Ville",
+    "paragraph1": "Scarpa Villas porta questa filosofia oltre il calice.",
+    "paragraph2": "Immersa tra i vigneti, offre un modo di vivere gli stessi valori — tempo, spazio e legame con la terra — attraverso il soggiorno, non solo la degustazione.",
+    "button": "Scopri l'esperienza Scarpa"
+  },
+  "peopleHero": {
+    "title": "Persone",
+    "subtitle": "Le persone dietro l'esperienza Scarpa"
+  },
+  "peopleIntro": {
+    "titleLine1": "DIETRO OGNI ESPERIENZA SCARPA C'È UN GRUPPO DI PERSONE CHE CONDIVIDE GLI STESSI VALORI – CURA,",
+    "titleHighlight": "ATTENZIONE AI DETTAGLI,",
+    "titleLine3": "E UN PROFONDO LEGAME CON CIÒ CHE FA.",
+    "paragraph": "Dal vigneto alle ville, ogni persona contribuisce a creare un'esperienza personale e destinata a lasciare il segno."
+  },
+  "peopleTeam": {
+    "people": [
+      {
+        "name": "Davide Champion",
+        "position": "CEO",
+        "description": "Con grande orgoglio e un profondo senso di responsabilità, ho la fortuna di guidare questa straordinaria azienda, forte di secoli di storia e di una visione rivolta al futuro."
+      },
+      {
+        "name": "Paola Barbieri",
+        "position": "Responsabile dell'Ospitalità",
+        "description": "Insieme allo straordinario team di Scarpa Villas e della Tasting Room, mi occupo di rendere indimenticabile l'esperienza di ogni ospite."
+      },
+      {
+        "name": "Flavia Nikaj",
+        "position": "Villa Care",
+        "description": "Ogni giorno mi prendo cura di Scarpa Villas con attenzione ai dettagli, affinché ogni ospite possa sentirsi davvero come a casa durante il soggiorno."
+      },
+      {
+        "name": "Elena Rossi",
+        "position": "Servizio clienti",
+        "description": "Accolgo i nostri ospiti e li accompagno durante il soggiorno, facendo in modo che ogni momento sia piacevole, sereno e memorabile."
+      },
+      {
+        "name": "Marco Ferrero",
+        "position": "Gestione immobiliare",
+        "description": "Ogni giorno mi assicuro che le ville e la tenuta siano perfettamente pronte, così che gli ospiti possano rilassarsi e vivere appieno il loro soggiorno."
+      },
+      {
+        "name": "Luca Bianchi",
+        "position": "Manutenzione",
+        "description": "Mi occupo della manutenzione della tenuta dietro le quinte, affinché ogni ospite possa vivere un'esperienza confortevole e senza pensieri."
+      }
+    ]
+  },
+  "pressHero": {
+    "title": "Stampa",
+    "subtitle": "Menzioni e articoli selezionati"
+  },
+  "pressIntro": {
+    "textLine1": "Scarpa Villas",
+    "textItalic": "è stata raccontata",
+    "textLine2": "in una selezione",
+    "textLine3": "di riviste di viaggi e lifestyle",
+    "textLine4": "che raccontano la sua posizione",
+    "textLine5": "tra i vigneti del Barolo."
+  },
+  "pressArticles": {
+    "articles": [
+      {
+        "title": "GALA",
+        "date": "18 GIUGNO 2026",
+        "text": "Nel cuore del Piemonte, ville segrete dove vivere come un italiano per il tempo di un fine settimana."
+      },
+      {
+        "title": "MONACO LIFE",
+        "date": "8 LUGLIO 2026",
+        "text": "A poco più di due ore e mezza da Monaco, le dolci colline delle Langhe si estendono nel cuore del Piemonte, patria di alcuni dei vini più celebri al mondo e di una delle grandi destinazioni gastronomiche italiane. Un viaggio che lascia il Mediterraneo per immergersi tra vigneti, borghi medievali e un ritmo di vita più lento."
+      },
+      {
+        "title": "TIMES RIVIERA",
+        "date": "8 LUGLIO 2026",
+        "text": "Scarpa Villas: un'esperienza immersiva nel cuore del territorio del vino piemontese."
+      },
+      {
+        "title": "CELLAR TOURS",
+        "date": "5 FEBBRAIO 2025",
+        "text": "Nel cuore delle colline del Barolo, quattro ville si affacciano su una piscina panoramica con vista sul paesaggio delle Langhe."
+      },
+      {
+        "title": "THE ITALY EDIT",
+        "date": "26 APRILE 2022",
+        "text": "Una splendida villa immersa nell'ampio paesaggio dei vigneti del Barolo."
+      },
+      {
+        "title": "THE FASHION PRINCESS",
+        "date": "4 AGOSTO 2020",
+        "text": "Monvigliero Vineyard Villas, la residenza perfetta per una vacanza nelle Langhe."
+      }
+    ]
+  },
+  "experiencesHero": {
+    "title": "Esperienze",
+    "subtitle": "Modi per vivere il Barolo oltre il soggiorno"
+  },
+  "experiencesIntro": {
+    "titleLine1": "Ogni esperienza è pensata",
+    "titleLine2": "per metterti in contatto con il paesaggio, la cultura,",
+    "titleLine3": "e il ritmo delle Langhe.",
+    "text1": "A Scarpa Villas, il tuo soggiorno può essere modellato su ciò che più ti sta a cuore: dal vino e dalla gastronomia alla natura e alla scoperta.",
+    "text2": "Ogni esperienza è curata per farti sentire a tuo agio, senza fretta e profondamente in sintonia con il luogo."
+  },
+  "experiencesCategories": {
+    "wineTaste": {
+      "title": "Wine & Taste",
+      "subtitle": "Scopri l'essenza del Piemonte attraverso il vino, il cibo e le tradizioni locali.",
+      "cards": {
+        "privateWineTastings": {
+          "title": "Degustazioni private",
+          "description": "Degustazioni guidate dei vini Scarpa, dalle etichette iconiche alle annate rare."
+        },
+        "scarpaWinery": {
+          "title": "Cantina Scarpa",
+          "description": "Entra nelle cantine Scarpa ed esplora l’arte dietro ogni bottiglia."
+        },
+        "merendaSinoira": {
+          "title": "Merenda Sinoira",
+          "description": "Un tradizionale aperitivo piemontese di fine pomeriggio con piatti e vini locali."
+        },
+        "cookingClasses": {
+          "title": "Corsi di cucina",
+          "description": "Scoprite le tradizioni della cucina piemontese attraverso esperienze pratiche."
+        }
+      }
+    },
+    "cultureDiscovery": {
+      "title": "Cultura e scoperte",
+      "subtitle": "Alla scoperta del patrimonio, dei paesi e della vita quotidiana\u00A0del\u00A0Piemonte.",
+      "cards": {
+        "langheBaroloTours": {
+          "title": "Tour delle Langhe e del Barolo",
+          "description": "Visita borghi storici, mercati locali e angoli nascosti delle Langhe."
+        },
+        "localProducers": {
+          "title": "Produttori locali e degustazioni",
+          "description": "Scopri i piccoli produttori artigianali — dai formaggi alle nocciole — nelle zone meno conosciute del Piemonte."
+        },
+        "turinExperiences": {
+          "title": "Esperienze a Torino",
+          "description": "Scopri l’eleganza del capoluogo piemontese, dai caffè ai monumenti storici."
+        }
+      }
+    },
+    "natureMovement": {
+      "title": "Natura e movimento",
+      "subtitle": "Scopri il paesaggio attraverso il movimento, l'esplorazione e il tempo trascorso all'aria aperta.",
+      "cards": {
+        "truffleHunting": {
+          "title": "Caccia al tartufo",
+          "description": "Passeggia nei boschi con un trifolau e scopri una delle tradizioni più uniche della regione."
+        },
+        "hotAirBalloon": {
+          "title": "Voli in mongolfiera",
+          "description": "Ammira le Langhe dall’alto all’alba, in completo silenzio."
+        },
+        "vineyardPicnics": {
+          "title": "Picnic tra i vigneti",
+          "description": "Una tavola semplice apparecchiata tra i vigneti, dove il tempo rallenta."
+        },
+        "vespaEbike": {
+          "title": "Tour in Vespa ed e-bike",
+          "description": "Muovetevi liberamente tra borghi e vigneti al vostro ritmo."
+        }
+      }
+    }
+  },
+  "experiencesPlanStay": {
+    "titleLine1": "Tutte le esperienze si possono organizzare prima o durante",
+    "titleLine2": " il soggiorno e adattare alle tue preferenze.",
+    "subtitle": "Dicci cosa vorresti vivere — al resto pensiamo noi.",
+    "button": "Pianifica soggiorno"
+  },
+  "staysHero": {
+    "title": "Soggiorni esclusivi",
+    "subtitle": "Soggiorni curati in ogni dettaglio, pensati per te"
+  },
+  "staysIntro": {
+    "titleLine1": "Se preferisci arrivare e vivere l'esperienza di Barolo",
+    "titleLine2": " senza pianificare tutto, questi soggiorni combinano",
+    "titleLine3": " alloggio, vino, gastronomia e attività",
+    "titleLine4": " in un viaggio senza soluzione di continuità.",
+    "text1": "Scegli quello più adatto al tuo tempo e alla stagione",
+    "text2": "e al tuo modo di viaggiare."
+  },
+  "staysProgramme": {
+    "viewFullProgramme": "Scopri il programma",
+    "closeProgramme": "Chiudi il programma"
+  },
+  "staysLuxRetreat": {
+    "title": "Il Lux Retreat",
+    "subtitle": "Una breve fuga al ritmo di Barolo.",
+    "description1": "Un soggiorno di tre notti pensato per rallentare e ritrovarsi, tra caccia al tartufo, scoperta dei vigneti e cene private nella propria villa.",
+    "duration": "3 notti · Gennaio – Aprile",
+
+    "days": {
+      "day1": {
+        "label": "Giorno 1",
+        "title": "Arrivo",
+        "description1": "Arrivo alla villa e benvenuto da parte del team di accoglienza.",
+        "description2": "Un aperitivo privato viene servito nel vostro salotto, con formaggi locali, salumi, nocciole e una bottiglia di vino Scarpa."
+      },
+      "day2": {
+        "label": "Giorno 2",
+        "title": "Tartufi e picnic",
+        "description1": "Una passeggiata mattutina nei boschi delle Langhe in compagnia di un trifolau del posto, alla scoperta del mondo dei tartufi.”",
+        "description2": "L’esperienza si conclude con un picnic tra i vigneti a base di specialità locali e vino.",
+        "description3": "Pomeriggio libero per rilassarsi<br/>o esplorare al proprio ritmo."
+      },
+      "day3": {
+        "label": "Giorno 3",
+        "title": "Esplorazione e cena privata",
+        "description1": "Esplorate le colline in e-bike, muovendovi liberamente tra vigneti e borghi.",
+        "description2": "La sera, uno chef privato preparerà una cena di tre portate nella vostra villa, abbinata ai vini Scarpa."
+      },
+      "day4": {
+        "label": "Giorno 4",
+        "title": "Partenza",
+        "description1": "I programmi possono essere adattati in base alla disponibilità e alle tue preferenze."
+      }
+    }
+  },
+  "staysTasteOfLanghe": {
+    "title": "Sapori delle Langhe",
+    "subtitle": "Un viaggio tra i sapori del Piemonte.",
+    "description1": "Un soggiorno immersivo dedicato al vino, alla cucina e alle tradizioni locali — tra degustazioni, ristoranti, lezioni di cucina e visite ai vigneti.",
+    "duration": "5 notti · Gennaio – Maggio",
+
+    "days": {
+      "day1": {
+        "label": "Giorno 1",
+        "title": "Arrivo",
+        "description1": "Benvenuto in villa con aperitivo privato e una selezione di prodotti locali."
+      },
+      "day2": {
+        "label": "Giorno 2",
+        "title": "Wine Tour d’Autore",
+        "description1": "Benvenuto in villa con aperitivo privato e una selezione di prodotti locali.",
+        "description2": "Visita a due cantine, degustazioni di Barolo, Barbaresco o vini del Roero e pranzo in un ristorante locale con vista panoramica."
+      },
+      "day3": {
+        "label": "Giorno 3",
+        "title": "Esplorazione libera",
+        "description1": "Una giornata al tuo ritmo, con e-bike a disposizione per esplorare le colline circostanti."
+      },
+      "day4": {
+        "label": "Giorno 4",
+        "title": "Esperienza di cucina",
+        "description1": "Una lezione pratica di cucina con chef personale, seguita da pranzo o cena in abbinamento ai vini Scarpa."
+      },
+      "day5": {
+        "label": "Giorno 5",
+        "title": "Le Langhe al tuo ritmo",
+        "description1": "Tempo per esplorare in autonomia, con i consigli del nostro team.",
+        "description2": "Nel pomeriggio, in villa viene servita una tradizionale Merenda Sinoira."
+      },
+      "day6": {
+        "label": "Giorno 6",
+        "title": "Partenza",
+        "description1": "I programmi possono essere adattati in base alla disponibilità e alle tue preferenze."
+      }
+    }
+  },
+  "staysAutumnGems": {
+    "title": "Gemme d’Autunno",
+    "subtitle": "La stagione più suggestiva nelle Langhe",
+    "description1": "Vivi la stagione del tartufo, i colori autunnali e la profondità di Barolo e Barbaresco attraverso esperienze stagionali curate nei dettagli.",
+    "duration": "5 notti · Ottobre – Novembre",
+
+    "days": {
+      "day1": {
+        "label": "Giorno 1",
+        "title": "Arrivo",
+        "description1": "Benvenuto in villa con aperitivo privato e specialità locali."
+      },
+      "day2": {
+        "label": "Giorno 2",
+        "title": "Gioielli delle Langhe",
+        "description1": "Un wine tour di un’intera giornata con sommelier, tra visite ai vigneti, degustazioni di vini a base Nebbiolo e pranzo in un ristorante panoramico."
+      },
+      "day3": {
+        "label": "Giorno 3",
+        "title": "Esplorazione libera",
+        "description1": "Una giornata per esplorare la regione al tuo ritmo, con e-bike a disposizione."
+      },
+      "day4": {
+        "label": "Giorno 4",
+        "title": "Esperienza di cucina al tartufo",
+        "description1": "Una lezione di cucina dedicata al tartufo, seguita da pranzo o cena in abbinamento ai vini premium Scarpa e al tartufo bianco."
+      },
+      "day5": {
+        "label": "Giorno 5",
+        "title": "Monferrato e caccia al tartufo",
+        "description1": "Un’esperienza di un’intera giornata con visita alla storica cantina Scarpa, degustazioni e pranzo tradizionale.",
+        "description2": "Nel pomeriggio, un’esperienza di caccia al tartufo nei boschi delle Langhe."
+      },
+      "day6": {
+        "label": "Giorno 6",
+        "title": "Partenza",
+        "description1": "I programmi possono essere adattati in base alla disponibilità e alle tue preferenze."
+      }
+    }
+  },
+  "staysPiemonteEscape": {
+    "title": "Fuga in Piemonte",
+    "subtitle": "Un’immersione completa nella regione",
+    "description1": "Un soggiorno prolungato alla scoperta di vini, cultura e paesaggi tra Langhe, Monferrato e Torino.",
+    "duration": "7 notti · Gennaio – Maggio",
+
+    "days": {
+      "day1": {
+        "label": "Giorno 1",
+        "title": "Arrivo",
+        "description1": "Benvenuto in villa con aperitivo privato e prodotti locali."
+      },
+      "day2": {
+        "label": "Giorno 2",
+        "title": "Wine Tour Signature",
+        "description1": "Un’esperienza guidata di un’intera giornata tra Langhe o Roero, con visite in cantina, degustazioni e pranzo."
+      },
+      "day3": {
+        "label": "Giorno 3",
+        "title": "Esplorazione libera",
+        "description1": "Una giornata al tuo ritmo, con e-bike a disposizione."
+      },
+      "day4": {
+        "label": "Giorno 4",
+        "title": "Esperienza a Torino",
+        "description1": "Una visita guidata di un’intera giornata a Torino, tra luoghi storici e un pranzo leggero."
+      },
+      "day5": {
+        "label": "Giorno 5",
+        "title": "Caccia al tartufo",
+        "description1": "Un’esperienza di mezza giornata nei boschi con un trifolau locale, alla scoperta dei segreti del tartufo."
+      },
+      "day6": {
+        "label": "Giorno 6",
+        "title": "Cantina Scarpa e cena privata",
+        "description1": "Un’esperienza guidata di un’intera giornata tra Langhe o Roero, con visite in cantina, degustazioni e pranzo."
+      },
+      "day7": {
+        "label": "Giorno 7",
+        "title": "Esperienza in Alta Langa",
+        "description1": "Un viaggio di un’intera giornata in una zona meno conosciuta del Piemonte, con visite a un produttore tradizionale di formaggi e a un laboratorio di nocciole, accompagnate da degustazioni."
+      },
+      "day8": {
+        "label": "Giorno 8",
+        "title": "Partenza",
+        "description1": "I programmi possono essere adattati in base alla disponibilità e alle tue preferenze."
+      }
+    }
+  },
+  "discoverHero": {
+    "title": "Scopri",
+    "subtitle": "Come vivere le Langhe"
+  },
+  "discoverIntro": {
+    "titleLine1": "Non solo dove andare —",
+    "titleLine2": "ma come vivere il tempo qui.",
+    "text1": "Le Langhe non si definiscono con un solo itinerario o una lista di luoghi.",
+    "text2": "È una terra che si comprende meglio attraverso il suo ritmo —",
+    "text3": "attraverso ciò che scegli di fare, vedere e vivere lungo il cammino."
+  },
+  "discoverExplore": {
+    "heading": "SCEGLI IL TUO MODO DI ESPLORARE",
+    "subtitle": "Modi diversi di vivere lo stesso paesaggio",
+
+    "wine": {
+      "title": "PER GLI AMANTI DEL VINO",
+      "description": "Scopri Barolo attraverso degustazioni, vigneti e l'arte che si cela dietro ogni bottiglia.",
+      "button": "SCOPRI"
+    },
+
+    "food": {
+      "title": "PER GLI AMANTI DELLA CUCINA",
+      "description": "Dai tartufi alle tavole locali, scopri i sapori che definiscono il territorio.",
+      "button": "SCOPRI"
+    },
+
+    "nature": {
+      "title": "PER LA NATURA E LO SLOW TRAVEL",
+      "description": "Attraversa il paesaggio — a piedi, in bici o semplicemente prendendoti il tuo tempo.",
+      "button": "SCOPRI"
+    },
+
+    "culture": {
+      "title": "PER LA CULTURA E PAESI",
+      "description": "Passeggia tra borghi storici e scopri l'essenza delle Langhe.",
+      "button": "SCOPRI"
+    }
+  },
+  "discoverLinks": {
+    "region": {
+      "title": "La Regione",
+      "description": "Scopri cosa si trova oltre le ville — dai vigneti e borghi alle tradizioni locali e ai luoghi più nascosti.",
+      "button": "ESPLORA LA REGIONE"
+    },
+    "experiences": {
+      "title": "Esperienze",
+      "description": "Esperienze curate per farti vivere le Langhe — dalle degustazioni e dalla ricerca del tartufo alle cene private e visite guidate.",
+      "button": "SCEGLI LE TUE ESPERIENZE"
+    },
+    "journal": {
+      "title": "Giornale",
+      "description": "Storie, luoghi e momenti che danno forma all'esperienza delle Langhe.",
+      "button": "LEGGI IL GIORNALE"
+    }
+  },
+  "discoverPlanStay": {
+    "titleLine1": "LE LANGHE NON SONO UN LUOGO",
+    "titleLine2": "DA SCOPRIRE TUTTO IN UNA VOLTA",
+    "subtitleLine1": "SONO UN LUOGO IN CUI TORNARE —",
+    "subtitleLine2": " E DA VIVERE OGNI VOLTA A MODO TUO",
+    "button": "PIANIFICA SOGGIORNO"
+  },
+  "regionHero": {
+    "title": "La Regione",
+    "subtitle": "Alla scoperta delle Langhe oltre le ville"
+  },
+  "regionIntro": {
+    "titleLine1": "Un paesaggio plasmato da vigneti, borghi",
+    "titleLine2": "e tradizioni — dove ogni strada conduce",
+    "titleLine3": "a una nuova prospettiva",
+    "paragraph1": "Il Piemonte è una regione del nord Italia caratterizzata dai contrasti: tra montagne e dolci colline, tra città e campagna, tra la storia e uno stile di vita che è rimasto profondamente radicato nel territorio.",
+    "paragraph2": "Al suo interno si trovano le Langhe — un paesaggio riconosciuto dall'UNESCO, plasmato nei secoli da vigneti, piccoli borghi e tradizioni agricole. È qui che nascono Barolo e Barbaresco, ma questa regione è molto più dei suoi vini."
+  },
+  "regionExperience": {
+    "top": {
+      "titleLine1": "Le Langhe non si scoprono attraverso ",
+      "titleLine2": "i luoghi, ma seguendone il ritmo",
+      "paragraph1": "Le distanze sono brevi, ma l'esperienza si svela lentamente — tra strade sinuose, luci che cambiano e luoghi che si rivelano poco a poco.",
+      "paragraph2": "Capire le Langhe non significa vedere tutto, ma attraversarle nel modo giusto."
+    },
+    "bottom": {
+      "leftTitleLine1": "Come vivere",
+      "leftTitleLine2": "la regione",
+      "rightTitleLine1": "Non esiste un solo modo",
+      "rightTitleLine2": "per scoprire le Langhe",
+      "paragraph1": "C'è chi segue i borghi e la loro storia, chi i vigneti e i loro paesaggi, chi le tradizioni del cibo e della vita locale.",
+      "paragraph2Line1": "A definire l'esperienza non è la destinazione,",
+      "paragraph2Line2": "ma il modo in cui questi elementi si incontrano."
+    }
+  },
+  "regionWineLandscape": {
+    "title": "Vino & Paesaggio",
+    "paragraph1": "Le Langhe sono plasmate dai vigneti — non come semplice scenario, ma come un sistema vivo che definisce l’identità del territorio.",
+    "paragraph2": "Dai panorami del Belvedere di La Morra alle strade tranquille tra Verduno e Monvigliero, il paesaggio è qualcosa da attraversare e vivere lentamente, non solo da osservare.",
+    "paragraph3": "I filari seguono i profili delle colline e cambiano con le stagioni — dal verde della primavera ai toni intensi dell’autunno.",
+    "slides": {
+      "vineyardRoads": {
+        "title": "Strade tra i Vigneti",
+        "subtitle": "Strade sinuose tra Verduno e Barolo, dove il paesaggio si svela poco a poco."
+      },
+      "laMorra": {
+        "title": "Belvedere di La Morra",
+        "subtitle": "Il panorama più iconico delle Langhe."
+      },
+      "cappella": {
+        "title": "Cappella delle Brunate",
+        "subtitle": "Una piccola cappella trasformata in un’opera contemporanea da Sol LeWitt e David Tremlett."
+      },
+      "cedro": {
+        "title": "Il Cedro del Libano",
+        "subtitle": "Un albero solitario di oltre 160 anni, sopra i vigneti di La Morra — un punto di riferimento nel paesaggio."
+      }
+    }
+  },
+  "regionVillagesHistory": {
+    "title": "Borghi & Storia",
+    "paragraph1": "I borghi delle Langhe ne definiscono il paesaggio — Barolo, Serralunga d’Alba, Verduno, La Morra.",
+    "paragraph2": "Molti nacquero nel Medioevo, quando castelli, sistemi agricoli e prime produzioni vinicole iniziarono a organizzare il territorio.",
+    "paragraph3": "Oggi restano piccoli e ancora intatti, ognuno offrendo una prospettiva diversa e autentica sulla regione — dai borghi fortificati sulle colline ai tranquilli centri abitati.",
+    "paragraph4": "Passeggiare tra questi borghi significa meno visitarli e più comprendere come la regione si sia evoluta nel tempo.",
+    "slides": {
+      "cherasco": {
+        "title": "Cherasco",
+        "subtitle": "Un borgo elegante, tra ampie vie e architettura barocca — noto per antiquariato, cioccolato e ritmi più lenti."
+      },
+      "barolo": {
+        "title": "Barolo",
+        "subtitle": "Il cuore storico della regione vinicola, con il Museo del Vino e il castello."
+      },
+      "serralunga": {
+        "title": "Serralunga d’Alba",
+        "subtitle": "Una fortezza medievale che domina i vigneti."
+      },
+      "grinzane": {
+        "title": "Grinzane Cavour",
+        "subtitle": "Un castello UNESCO, sede di una delle enoteche più antiche della regione."
+      },
+      "monforte": {
+        "title": "Monforte d’Alba",
+        "subtitle": "Noto per il suo anfiteatro all’aperto, sede di concerti nelle sere d’estate."
+      }
+    }
+  },
+  "regionFoodTraditions": {
+    "title": "Cibo & Tradizioni",
+    "paragraph1": "Il cibo nelle Langhe non è un’attrazione — è parte della vita quotidiana.<br/>Dal tartufo bianco d’Alba ai piatti locali serviti nelle piccole trattorie,<br/>l’identità della regione è profondamente legata alle sue tradizioni culinarie.",
+    "paragraph2": "Esperienze come la Merenda Sinoira — una tradizionale tavola pomeridiana<br/>di piatti locali — raccontano un modo di mangiare conviviale, generoso<br/>e profondamente legato alla terra.",
+    "paragraph3": "Qui, la gastronomia non è separata dal paesaggio —<br/>ne è una diretta espressione.",
+    "slides": {
+      "hazelnuts": {
+        "title": "Nocciole Tonda Gentile",
+        "subtitle": "Un prodotto simbolo della regione, coltivato sulle colline oltre i vigneti."
+      },
+      "albaMarket": {
+        "title": "Mercato di Alba",
+        "subtitle": "Un mercato del sabato che riflette il ritmo della vita locale — produttori, prodotti e scambi quotidiani."
+      },
+      "whiteTruffle": {
+        "title": "Stagione del Tartufo Bianco",
+        "subtitle": "Una delle esperienze gastronomiche più uniche d’Italia."
+      },
+      "merendaSinoira": {
+        "title": "Merenda Sinoira",
+        "subtitle": "Una tavola tradizionale di piatti locali, condivisa lentamente nel pomeriggio."
+      }
+    }
+  },
+  "regionBeyondRoutes": {
+    "title": "Oltre gli Itinerari",
+    "paragraph1": "Oltre i borghi più conosciuti, le Langhe si estendono<br/>verso zone più tranquille e meno esplorate.",
+    "paragraph2": "In luoghi come l’Alta Langa, il paesaggio diventa più selvaggio<br/>e il ritmo ancora più lento.",
+    "paragraph3": "Qui, piccoli produttori mantengono vive le tradizioni della regione —<br/>dalla produzione di formaggi alla coltivazione delle nocciole.",
+    "paragraph4": "Queste aree rivelano un altro volto del Piemonte — meno visibile,<br/>ma altrettanto essenziale per la sua identità.",
+    "slides": {
+      "hiddenVillages": {
+        "title": "Borghi Nascosti",
+        "subtitle": "Luoghi che restano fuori dagli itinerari principali."
+      },
+      "altaLanga": {
+        "title": "Alta Langa",
+        "subtitle": "Un paesaggio più selvaggio e meno esplorato, oltre le principali vie del vino."
+      },
+      "sentieriBarolo": {
+        "title": "Sentieri del Barolo",
+        "subtitle": "Sentieri che attraversano direttamente i cru dei vigneti — un modo più lento di vivere il territorio."
+      },
+      "ebikeRoutes": {
+        "title": "Percorsi in E-bike",
+        "subtitle": "Le colline intorno alle ville offrono percorsi naturali tra borghi e vigneti."
+      }
+    }
+  },
+  "regionPlanStay": {
+    "experiencesText": "Molti di questi luoghi si esplorano in autonomia o attraverso esperienze curate, pensate per scoprire gli aspetti più profondi della regione.",
+    "experiencesButton": "Scopri le Esperienze",
+    "stayTextLine1": "Le Langhe non sono un luogo da scoprire tutto in una volta. ",
+    "stayTextLine2": "Sono un luogo in cui tornare — e da vivere a modo proprio.",
+    "stayButton": "Pianifica il Soggiorno"
+  },
+  "journalHero": {
+    "title": "Giornale",
+    "subtitle": "Storie dalle Langhe e oltre"
+  },
+  "journalIntro": {
+    "textLine1": "Una raccolta di storie, luoghi e momenti che ",
+    "textLine2": "raccontano l’esperienza delle Langhe."
+  },
+  "journalArticles": {
+    "continueReading": "Leggi la storia",
+    "viewAll": "Vedi tutti gli articoli",
+    "closeAll": "Chiudi tutti gli articoli"
+  },
+  "villasHero": {
+    "title": "Ville",
+    "subtitle": "Quattro modi diversi di vivere il Barolo"
+  },
+  "villasShare": {
+    "title": "Ogni villa offre un'atmosfera diversa — da ampia e conviviale a intima e riservata — pur condividendo la stessa cornice",
+    "titleItalic": "tra i vigneti di Monvigliero.",
+    "heading": "Ciò che tutte le ville condividono",
+    "features": {
+      "privateSpaces": "Spazi privati tra\ni vigneti di\nMonvigliero",
+      "pool": "Accesso alla\npiscina panoramica",
+      "kitchen": "Cucine completamente\nattrezzate e spazi\nall'aperto",
+      "hospitality": "L'ospitalità Scarpa\ne le esperienze\nselezionate"
+    }
+  },
+  "villasGrid": {
+    "discover": "Scopri la villa",
+    "tettineive": {
+      "title": "Tettineive",
+      "text1": "La villa più spaziosa per condividere momenti insieme.",
+      "text2": "Ideale per famiglie, gruppi e occasioni speciali."
+    },
+    "bogliona": {
+      "title": "La Bogliona",
+      "text1": "La villa più intima per coppie e soggiorni tranquilli.",
+      "text2": "Ideale per coppie e piccoli gruppi in cerca di privacy."
+    },
+    "bricchi": {
+      "title": "I Bricchi",
+      "text1": "Una villa contemporanea luminosa con vista panoramica.",
+      "text2": "Ideale per chi ama luce, spazi aperti e design moderno."
+    },
+    "tettimorra": {
+      "title": "Tettimorra",
+      "text1": "Una villa tradizionale immersa nei vigneti di Monvigliero.",
+      "text2": "Ideale per chi cerca autenticità e un legame profondo con il territorio."
+    }
+  },
+  "villasAdviceCTA": {
+    "title": "Non sei ancora sicuro di quale opzione faccia per te?",
+    "subtitle": "Il nostro team può aiutarti a scegliere la soluzione più adatta ai tuoi piani e al tuo gruppo.",
+    "placeholder": "Inserisci la tua e-mail",
+    "button": "Ricevi una consulenza",
+    "sending": "Invio...",
+    "success": "Richiesta inviata",
+    "error": "Riprova",
+    "privacy": "Accetto l'informativa sulla privacy"
+  },
+  "villasPlanStayCTA": {
+    "title": "Pianificando un evento o un gruppo numeroso?",
+    "text1": "Il Borgo ti permette di riservare",
+    "textItalic": "tutte e quattro le ville insieme",
+    "text1End": "creando una tenuta privata per gruppi, celebrazioni o ritiri.",
+    "text2": "Prenotate l'intera tenuta e gustatevi il Barolo in compagnia, in totale privacy.",
+    "button": "Scopri il Borgo"
+  },
+  "villa": {
+    "tettineive": {
+      "hero": {
+        "title": "Tettineive",
+        "subtitle": {
+          "part1": "Un luogo di ritrovo, ",
+          "italic": "spazio e momenti di tranquillità ",
+          "part2": "nelle Langhe."
+        }
+      },
+      "overview": {
+        "title": "Tettineive è la più spaziosa delle Scarpa Villas — progettata per le famiglie, le riunioni e i momenti da trascorrere insieme senza rinunciare alla privacy.",
+        "description": "<strong>Cinque camere da letto</strong>, ampi <strong>spazi comuni</strong> e un <strong>grande giardino privato</strong> creano un ambiente in cui ogni momento si svolge in modo naturale, tra esperienze condivise e tranquilli momenti personali."
+      },
+      "features": {
+        "items": [
+          {
+            "before": "Fino a",
+            "accent": "12 ospiti"
+          },
+          {
+            "text": "5 camere da letto"
+          },
+          {
+            "accent": "Giardino privato"
+          },
+          {
+            "text": "Vista panoramica"
+          }
+        ],
+        "intro": "A Tettineive, lo spazio diventa parte integrante dell'esperienza.",
+        "paragraph1": "Le mattine iniziano nella <strong>tranquillità del giardino</strong>, con la luce che si diffonde sulle colline. I pomeriggi si snodano lentamente — tra <strong>conversazioni, riposo e momenti all’aria aperta.</strong>",
+        "paragraph2": "La sera, la <strong>villa riunisce di nuovo tutti</strong> — attorno al tavolo, all’aria aperta, o semplicemente osservando il paesaggio che cambia con la luce."
+      },
+      "amenities": {
+        "top": {
+          "includes": {
+            "title": "La villa comprende:",
+            "items": [
+              {
+                "text": "Due camere da letto matrimoniali con bagno privato"
+              },
+              {
+                "text": "Due camere matrimoniali con letti king-size"
+              },
+              {
+                "text": "Una camera con due letti singoli"
+              },
+              {
+                "text": "Posti letto aggiuntivi per soluzioni flessibili"
+              }
+            ]
+          },
+          "amenities": {
+            "title": "Servizi:",
+            "items": [
+              {
+                "text": "Wi-Fi gratuito"
+              },
+              {
+                "text": "Aria condizionata"
+              },
+              {
+                "text": "Accappatoio, asciugamani e biancheria da letto"
+              },
+              {
+                "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
+              },
+              {
+                "text": "Lavatrice privata"
+              },
+              {
+                "text": "Cucina professionale"
+              },
+              {
+                "text": "Zona pranzo con barbecue"
+              }
+            ]
+          }
+        },
+        "bottom": {
+          "title": "All'esterno, <strong>un ampio giardino privato</strong> si affaccia sui vigneti, offrendo <strong>spazio per rilassarsi</strong>, stare in compagnia o semplicemente ammirare il panorama.",
+          "description": "Che sia per la colazione alla luce del mattino<br/> o per un momento di tranquillità al tramonto, gli spazi all'aperto diventano una parte essenziale del soggiorno."
+        }
+      },
+      "bookingCTA": {
+        "title": {
+          "bold": "Villa Tettineive:",
+          "italic": "ideale per famiglie,",
+          "text": " soggiorni di gruppo e eventi privati."
+        },
+        "button": "Verifica disponibilità"
+      },
+      "card": {
+        "title": "Tettineive",
+        "description": "La villa più spaziosa per ritrovi e momenti insieme."
+      }
+    },
+    "bogliona": {
+      "hero": {
+        "title": "La Bogliona",
+        "subtitle": {
+          "part1": "Un rifugio tranquillo per ",
+          "italic": "il calore e le serate tranquille ",
+          "part2": "nelle Langhe."
+        }
+      },
+      "overview": {
+        "title": "La Bogliona è la più intima delle Ville Scarpa: uno spazio pensato per coppie e piccoli gruppi che apprezzano la privacy, l'accoglienza e un ritmo di vita più lento.",
+        "description": "Con la sua <strong>vista diretta sulla piscina a sfioro</strong> e sui <strong>vigneti circostanti,</strong> la villa offre un ambiente in cui il paesaggio diventa parte integrante di ogni momento."
+      },
+      "features": {
+        "items": [
+          {
+            "before": "Fino a",
+            "accent": "9 ospiti"
+          },
+          {
+            "text": "4 camere da letto"
+          },
+          {
+            "accent": "Giardino privato e braciere"
+          },
+          {
+            "text": "Vista diretta sulla piscina a sfioro"
+          }
+        ],
+        "intro": "A La Bogliona, tutto sembra più vicino.",
+        "paragraph1": "La luce entra dalle ampie finestre, aprendo la villa al paesaggio circostante, mentre all’interno <strong>l’atmosfera rimane calda e intima.</strong>",
+        "paragraph2": "Le serate si svolgono lentamente <strong>— davanti al camino, in giardino o attorno al tavolo —</strong> dove il tempo sembra rallentare e protrarsi oltre l’attimo."
+      },
+      "amenities": {
+        "top": {
+          "includes": {
+            "title": "La villa comprende:",
+            "items": [
+              {
+                "text": "Due camere da letto matrimoniali con bagno privato"
+              },
+              {
+                "text": "Una camera matrimoniale con letto king-size"
+              },
+              {
+                "text": "Una camera singola"
+              },
+              {
+                "text": "Un monolocale con divano letto"
+              }
+            ]
+          },
+          "amenities": {
+            "title": "Servizi:",
+            "items": [
+              {
+                "text": "Wi-Fi gratuito"
+              },
+              {
+                "text": "Aria condizionata"
+              },
+              {
+                "text": "Accappatoio, asciugamani e biancheria da letto"
+              },
+              {
+                "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
+              },
+              {
+                "text": "Lavatrice privata"
+              },
+              {
+                "text": "Cucina professionale"
+              },
+              {
+                "text": "Braciere da esterno"
+              }
+            ]
+          }
+        },
+        "bottom": {
+          "title": "All'esterno, <strong>un giardino privato e un focolare</strong><br/> creano uno <strong>spazio per serate tranquille</strong> sotto il cielo aperto",
+          "description": "Circondata dai vigneti, la villa offre una rara sensazione<br/> di quiete — dove il mondo sembra lontano e il momento è tutto ciò che conta."
+        }
+      },
+      "bookingCTA": {
+        "title": {
+          "bold": "Villa La Bogliona:",
+          "italic": "ideale per coppie",
+          "text": " e piccoli gruppi in cerca di privacy."
+        },
+        "button": "Verifica disponibilità"
+      },
+      "card": {
+        "title": "La Bogliona",
+        "description": "La villa più intima per coppie e soggiorni tranquilli."
+      }
+    },
+    "bricchi": {
+      "hero": {
+        "title": "I Bricchi",
+        "subtitle": {
+          "part1": "Luce, apertura e uno ",
+          "italic": "stile di vita moderno ",
+          "part2": "nelle Langhe."
+        }
+      },
+      "overview": {
+        "title": "I Bricchi è una villa caratterizzata dalla luce e dall'apertura, dove ampie finestre e viste panoramiche fanno entrare il paesaggio in ogni stanza.",
+        "description": "Progettata sia per <strong>momenti condivisi</strong> che per <strong>tranquilli momenti di riflessione</strong>, offre uno spazio contemporaneo che risulta al tempo stesso ampio e intimo."
+      },
+      "features": {
+        "items": [
+          {
+            "before": "Fino a",
+            "accent": "10 ospiti"
+          },
+          {
+            "text": "5 camere da letto"
+          },
+          {
+            "accent": "Balconi panoramici e ampie finestre"
+          },
+          {
+            "text": "Spazio esterno con pergolato"
+          }
+        ],
+        "intro": "Da I Bricchi, <strong>la luce diventa parte integrante dell'esperienza.</strong>",
+        "paragraph1": "Durante il giorno, la luce si muove attraverso la villa, trasformando l'atmosfera dalla limpidezza del mattino alle morbide tonalità della sera.",
+        "paragraph2": "Gli spazi sono pensati sia per <strong>ritrovarsi che per isolarsi —</strong> dalle lunghe conversazioni sotto il pergolato ai <strong>momenti di tranquillità davanti al caminetto.</strong>"
+      },
+      "amenities": {
+        "top": {
+          "includes": {
+            "title": "La villa comprende:",
+            "items": [
+              {
+                "text": "Una camera da letto principale con bagno privato"
+              },
+              {
+                "text": "Due camere da letto matrimoniali con letti king-size"
+              },
+              {
+                "text": "Una suite con bagno privato e divano letto"
+              },
+              {
+                "text": "Bagno in comune per le camere aggiuntive"
+              }
+            ]
+          },
+          "amenities": {
+            "title": "Servizi:",
+            "items": [
+              {
+                "text": "Wi-Fi gratuito"
+              },
+              {
+                "text": "Aria condizionata"
+              },
+              {
+                "text": "Accappatoio, asciugamani e biancheria da letto"
+              },
+              {
+                "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
+              },
+              {
+                "text": "Lavatrice privata"
+              },
+              {
+                "text": "Cucina professionale"
+              }
+            ]
+          }
+        },
+        "bottom": {
+          "title": "All'esterno, <strong>uno spazio coperto da un pergolato</strong> costituisce un'estensione naturale della villa — <strong>un luogo dove gustare pasti senza fretta,</strong> conversare e trascorrere del tempo all'aria aperta a qualsiasi ora del giorno.",
+          "description": "Circondato dai vigneti, l'ambiente invita sia al movimento che alla tranquillità."
+        }
+      },
+      "bookingCTA": {
+        "title": {
+          "bold": "Villa I Bricchi:",
+          "italic": "ideale per gruppi che apprezzano la luce,",
+          "text": " l'ampiezza degli spazi e il design contemporaneo."
+        },
+        "button": "Verifica disponibilità"
+      },
+      "card": {
+        "title": "I Bricchi",
+        "description": "Una villa contemporanea inondata di luce con vista panoramica."
+      }
+    },
+    "tettimorra": {
+      "hero": {
+        "title": "Tettimorra",
+        "subtitle": {
+          "part1": "Un rifugio senza tempo affacciato su ",
+          "italic": "i vigneti di Monvigliero.",
+          "part2": ""
+        }
+      },
+      "overview": {
+        "title": "Tettimorra è una villa radicata nella tradizione piemontese, dove l'atmosfera di una storica dimora di campagna è stata accuratamente preservata e reinterpretata.",
+        "description": "Con le sue travi in legno restaurate, <strong>gli interni tranquilli,</strong> e la <strong>vista diretta sul vigneto di Monvigliero,</strong> offre un soggiorno all'insegna dell'intimità, dell'autenticità e di un profondo legame con il territorio."
+      },
+      "features": {
+        "items": [
+          {
+            "before": "Fino a",
+            "accent": "10 ospiti"
+          },
+          {
+            "text": "4 - 5 camere da letto"
+          },
+          {
+            "accent": "Terrazza con vista su Monvigliero"
+          },
+          {
+            "text": "Dettagli architettonici tradizionali"
+          }
+        ],
+        "intro": "A Tettimorra, il tempo scorre in modo diverso: più lento, più dolce, seguendo il <strong>ritmo dei vigneti.</strong>",
+        "paragraph1": "Dalla terrazza, <strong>il paesaggio di Monvigliero</strong> si dispiega come un orizzonte continuo di vigneti, che cambia con la luce nel corso della giornata.",
+        "paragraph2": "Le mattine iniziano in silenzio, con un caffè davanti alla vista sulle colline. Le serate si conclusono in una quiete tranquilla, dove la <strong>presenza del paesaggio</strong> diventa parte dell’esperienza."
+      },
+      "amenities": {
+        "top": {
+          "includes": {
+            "title": "La villa comprende:",
+            "items": [
+              {
+                "text": "Una camera da letto principale con bagno privato"
+              },
+              {
+                "text": "Due camere da letto matrimoniali con letti king-size"
+              },
+              {
+                "text": "Una camera singola"
+              },
+              {
+                "text": "Una camera con due letti singoli e divano letto con bagno privato"
+              }
+            ]
+          },
+          "amenities": {
+            "title": "Servizi:",
+            "items": [
+              {
+                "text": "Wi-Fi gratuito"
+              },
+              {
+                "text": "Aria condizionata"
+              },
+              {
+                "text": "Accappatoio, asciugamani e biancheria da letto"
+              },
+              {
+                "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
+              },
+              {
+                "text": "Lavatrice privata"
+              },
+              {
+                "text": "Cucina professionale"
+              }
+            ]
+          }
+        },
+        "bottom": {
+          "title": "Un patio coperto si affaccia direttamente sul <strong>vigneto di Monvigliero,</strong> creando una rara continuità tra la <strong>villa e il paesaggio.</strong>",
+          "description": "Qui la vista rimane ininterrotta: una semplice composizione di terra, vite e cielo."
+        }
+      },
+      "bookingCTA": {
+        "title": {
+          "bold": "Villa Tettimorra:",
+          "italic": "ideale per chi cerca l'autenticità",
+          "text": " e un legame più stretto con il territorio."
+        },
+        "button": "Verifica disponibilità"
+      },
+      "card": {
+        "title": "Tettimorra",
+        "description": "Una villa tradizionale immersa nei vigneti di Monvigliero."
+      }
+    }
+  },
+  "otherVillas": {
+    "title": "Non è la villa giusta per te?",
+    "subtitle": "Scopri altre ville:"
+  },
+  "scarpaLeadership": {
+    "owner": {
+      "quote": "Scarpa Villas nasce dall’amore per questa terra e dal desiderio di preservarne l’identità. Ogni spazio racconta la sua bellezza, la sua storia e il legame autentico che condivide con chi lo vive.",
+      "name": "Evgeny Strzhalkovskiy",
+      "role": "Proprietario"
+    },
+    "ceo": {
+      "quote": "Il nostro obiettivo è trasformare ogni soggiorno in un’esperienza personale e memorabile, definita dalla cura, dalla qualità e dall’attenzione a ogni dettaglio.",
+      "name": "Davide Champion",
+      "role": "Chief Executive"
+    }
+  },
+  "borgoHero": {
+    "title": "IL BORGO",
+    "subtitle": "Una tenuta privata nel cuore del Barolo"
+  },
+  "borgoEstate": {
+    "titleLine1": "QUATTRO VILLE,",
+    "titleLine2": "UN'UNICA DIMORA —",
+    "titleLine3": "INTERAMENTE PER VOI",
+    "text1": "Il Borgo può essere riservato nella sua interezza, offrendo accesso esclusivo alle quattro ville, alla piscina panoramica e all'intera tenuta.",
+    "text2": "Nessuno spazio condiviso, nessun altro ospite: solo il vostro gruppo, in totale privacy."
+  },
+  "borgoEstate2": {
+    "titleLine1": "QUATTRO VILLE, UN SOLO BORGO —",
+    "titleLine2": "TUTTA PER VOI",
+    "text": "Il Borgo può essere prenotato nella sua interezza — garantendovi l'accesso esclusivo a tutte e quattro le ville, alla piscina panoramica e alla tenuta circostante. Nessuno spazio in comune, nessun altro ospite — solo il vostro gruppo, in completa privacy."
+  },
+  "borgoAbout": {
+    "idealFor": "Ideale per:",
+    "includesTitle": "Il Borgo comprende:",
+    "cards": {
+      "corporate": "Soggiorni aziendali",
+      "weddings": "Matrimoni in località esclusive",
+      "celebrations": "Feste e incontri privati",
+      "family": "Soggiorni per più famiglie"
+    },
+    "includes": {
+      "villas": "Quattro ville indipendenti",
+      "spaces": "Uso privato di tutti gli spazi interni ed esterni",
+      "pool": "Piscina panoramica riservata esclusivamente al vostro gruppo",
+      "garden": "Giardini privati e aree comuni all'aperto",
+      "kitchen": "Cucine completamente attrezzate in ogni villa"
+    }
+  },
+  "borgoMoments": {
+    "title": "AL BORGO, IL TEMPO SI VIVE INSIEME",
+    "text1Line1": "Le mattine iniziano lentamente, mentre il paesaggio si apre sulle colline.",
+    "text1Line2": " Le giornate scorrono tra momenti condivisi e attimi di quiete, lasciando a ciascuno il proprio ritmo.",
+    "text2Line1": "La sera riunisce tutti ancora una volta —",
+    "text2Line2": " attorno a lunghe tavolate, sotto il cielo aperto o nel calore delle ville."
+  },
+  "borgoExperiences": {
+    "title": "IL VOSTRO SOGGIORNO PUÒ ESSERE PERSONALIZZATO CON UN'AMPIA SCELTA DI ESPERIENZE:",
+    "titleLine1": "IL VOSTRO SOGGIORNO PUÒ ESSERE PERSONALIZZATO",
+    "titleLine2": "CON UN'AMPIA SCELTA DI ESPERIENZE:",
+    "button": "SCOPRI TUTTE LE ESPERIENZE",
+    "items": {
+      "chef": "Chef privato e cene in villa",
+      "wine": "Degustazioni e visite in cantina",
+      "truffle": "Ricerca del tartufo e attività all'aperto",
+      "concierge": "Servizi di concierge e housekeeping"
+    }
+  },
+  "borgoPhilosophy": {
+    "titleLine1": "Il Borgo non è solo",
+    "titleLine2": "un soggiorno più grande —",
+    "titleLine3": "è un modo diverso",
+    "titleLine4": "di vivere le ville.",
+    "subtitleLine1": "Offre la libertà di una tenuta privata,",
+    "subtitleLine2": "dove l'intero ambiente si adatta al vostro gruppo."
+  },
+  "borgoCTA": {
+    "titleLine1": "Raccontaci i tuoi progetti —",
+    "titleLine2": "prepareremo una proposta su misura per il tuo soggiorno.",
+    "button": "RICHIEDI DISPONIBILITÀ"
+  },
+  "cookiePolicyContent": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Ultimo aggiornamento: agosto 2026",
+
+    "cookiesWeUseTitle": "Cookie utilizzati",
+    "cookiesWeUseText": "Scarpa Villas può utilizzare cookie tecnici necessari al corretto funzionamento del sito. Qualora vengano utilizzati strumenti di analisi o altre tecnologie non essenziali, questi vengono gestiti nel rispetto della normativa applicabile in materia di protezione dei dati personali e cookie.",
+
+    "technicalTitle": "Cookie tecnici",
+    "technicalText": "I cookie tecnici sono necessari per il funzionamento del sito e per fornire i servizi richiesti dall’utente. Per l’utilizzo di tali cookie non è richiesto il consenso preventivo.",
+
+    "thirdPartyTitle": "Servizi di terze parti",
+    "thirdPartyText": "Alcune funzionalità del sito possono utilizzare servizi forniti da soggetti terzi. Tali servizi possono trattare informazioni secondo le rispettive informative sulla privacy e sui cookie.",
+
+    "manageTitle": "Gestione dei cookie",
+    "manageText": "È possibile gestire o eliminare i cookie attraverso le impostazioni del proprio browser. La disattivazione di alcuni cookie tecnici potrebbe compromettere il corretto funzionamento di alcune parti del sito.",
+
+    "contactTitle": "Contatti",
+    "contactText": "Per ulteriori informazioni, è possibile contattare Scarpa Villas all’indirizzo ",
+    "contactEmail": "info@scarpa-villas.com"
+  },
+  "privacyPolicyContent": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Ultimo aggiornamento: agosto 2026",
+
+    "intro": "Scarpa Villas rispetta la privacy degli utenti e si impegna a proteggere le informazioni personali fornite durante l’utilizzo del presente sito web. La presente Privacy Policy descrive quali informazioni possono essere raccolte, come vengono utilizzate e quali possibilità sono riconosciute agli utenti.",
+
+    "dataTitle": "Dati personali raccolti",
+    "dataText": "Quando contatti Scarpa Villas attraverso il sito web, possiamo raccogliere i dati personali che scegli volontariamente di fornire, tra cui nome, indirizzo email, numero di telefono, interessi, informazioni relative al soggiorno e qualsiasi altra informazione inserita nel messaggio.",
+
+    "purposeTitle": "Come utilizziamo i tuoi dati",
+    "purposeText": "Le informazioni fornite vengono utilizzate per rispondere alle richieste, assisterti nella scelta della villa, fornire informazioni relative a soggiorni ed esperienze e comunicare con te in merito alla tua richiesta.",
+
+    "formsTitle": "Moduli del sito",
+    "formsText": "I dati personali inviati attraverso i moduli di contatto e di richiesta informazioni sulle ville vengono utilizzati esclusivamente per gestire la richiesta e comunicare con l’utente. Ti invitiamo a non inserire dati personali sensibili nei campi di testo libero, salvo quando strettamente necessario per la richiesta.",
+
+    "servicesTitle": "Fornitori di servizi",
+    "servicesText": "Scarpa Villas può avvalersi di fornitori di servizi terzi affidabili per il funzionamento di alcune funzionalità del sito e per la gestione delle richieste inviate tramite il sito web. Tali fornitori possono trattare dati personali esclusivamente nella misura necessaria alla fornitura dei propri servizi.",
+
+    "retentionTitle": "Conservazione dei dati",
+    "retentionText": "I dati personali vengono conservati solo per il tempo ragionevolmente necessario a rispondere alla richiesta, gestire il rapporto con l’utente, adempiere agli obblighi di legge applicabili o accertare, esercitare o difendere un diritto in sede giudiziaria.",
+
+    "rightsTitle": "I tuoi diritti",
+    "rightsText": "Nei limiti previsti dalla normativa applicabile in materia di protezione dei dati personali, puoi avere il diritto di richiedere l’accesso ai tuoi dati personali, la loro rettifica o cancellazione, la limitazione o l’opposizione a determinati trattamenti, la portabilità dei dati ove applicabile e la revoca del consenso quando il trattamento è basato sul consenso.",
+
+    "securityTitle": "Sicurezza dei dati",
+    "securityText": "Vengono adottate misure tecniche e organizzative adeguate per proteggere i dati personali da accessi non autorizzati, perdita, uso improprio, alterazione o divulgazione.",
+
+    "thirdPartyTitle": "Siti web di terze parti",
+    "thirdPartyText": "Il sito di Scarpa Villas può contenere collegamenti a siti web o servizi esterni. Scarpa Villas non è responsabile delle pratiche in materia di privacy o dei contenuti di tali siti web di terze parti.",
+
+    "changesTitle": "Modifiche alla Privacy Policy",
+    "changesText": "La presente Privacy Policy può essere aggiornata periodicamente per riflettere eventuali modifiche al sito, ai servizi offerti o alla normativa applicabile.",
+
+    "contactTitle": "Contatti",
+    "contactText": "Per domande relative alla presente Privacy Policy o al trattamento dei dati personali, è possibile contattare Scarpa Villas all’indirizzo ",
+    "contactEmail": "info@scarpa-villas.com"
+  },
+  "cookieBanner": {
+    "text": "Utilizziamo i cookie per garantire il corretto funzionamento del sito e migliorare la tua esperienza di navigazione.",
+    "reject": "Rifiuta",
+    "accept": "Accetta"
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "text": "La pagina che stai cercando non esiste o potrebbe essere stata spostata.",
+    "button": "Torna alla Home"
+  }
+}

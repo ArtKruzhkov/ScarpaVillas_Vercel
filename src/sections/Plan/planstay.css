@@ -1,0 +1,54 @@
+.plan-stay-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  border: 3px solid #ffffff;
+  padding: 12px 91px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.plan-stay-btn:hover {
+  background: #ffffff;
+  color: #2c3654;
+}
+
+@media (max-width: 1279px) {
+  .plan-stay-btn {
+    margin-top: 3rem;
+    padding: 12px 80px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .plan-stay-btn {
+    margin-top: 2rem;
+    padding: 12px 48px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .plan-stay-btn {
+    font-size: 15px;
+    padding: 8px 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .plan-stay-btn {
+    width: 100%;
+    max-width: 430px;
+    padding: 9px 20px;
+    font-size: 13px;
+    line-height: unset;
+    letter-spacing: 0.06em;
+  }
+}

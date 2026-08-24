@@ -1,0 +1,23 @@
+.section-height-villas-share {
+  height: auto;
+  max-height: 786px;
+}
+
+@media (min-width: 640px) {
+  .section-height-villas-share {
+    height: calc(100vh - 73px);
+    max-height: 1000px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-height-villas-share {
+    height: auto;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  .section-height-villas-share {
+    min-height: 760px;
+  }
+}

@@ -1,0 +1,30 @@
+.scarpaLeadership_image-height {
+  height: calc(100vh - 86px);
+  max-height: 1000px;
+}
+
+@media (max-width: 1535px) {
+  .scarpaLeadership_image-height {
+    height: calc(100vh - 86px);
+    /* max-height: 750px; */
+  }
+}
+
+@media (max-width: 1023px) {
+  .scarpaLeadership_image-height {
+    height: calc(100vh - 73px);
+    max-height: 840px;
+  }
+}
+
+@media (max-width: 639px) {
+  .scarpaLeadership_image-height {
+    height: 520px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  .scarpaLeadership_image-height {
+    min-height: 480px;
+  }
+}

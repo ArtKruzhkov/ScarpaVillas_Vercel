@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="description" content="Luxury private villas in the heart of Barolo." />
+    <title>Scarpa Villas</title>
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicons/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/favicons/favicon-16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/favicons/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="%PUBLIC_URL%/favicons/favicon-48x48.png" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/favicons/apple-touch-icon.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/favicons/manifest.json" />
+
+    <!-- For GH Pages -->
+    <script>
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+    <!-- For GH Pages -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Bodoni+Moda:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

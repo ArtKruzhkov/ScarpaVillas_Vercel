@@ -1,0 +1,144 @@
+.villa-tettimorra {
+  top: 41%;
+  left: 23%;
+}
+
+.villa-bricchi {
+  top: 27%;
+  left: 38.5%;
+}
+
+.villa-bogliona {
+  top: 34.5%;
+  left: 51.5%;
+}
+
+.villa-tettineive {
+  top: 48.5%;
+  left: 67%;
+}
+
+@media (max-width: 1820px) {
+  .villa-tettimorra {
+    top: 43.5%;
+    left: 20.5%;
+  }
+
+  .villa-tettineive {
+    top: 45.5%;
+    left: 67%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .villa-tettimorra {
+    top: 35%;
+    left: 22%;
+  }
+
+  .villa-bricchi {
+    top: 25%;
+    left: 39%;
+  }
+
+  .villa-bogliona {
+    top: 33%;
+    left: 53%;
+  }
+
+  .villa-tettineive {
+    top: 43.5%;
+    left: 68.5%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .villa-tettimorra {
+    top: 41.5%;
+    left: 11%;
+  }
+
+  .villa-bricchi {
+    top: 25%;
+    left: 32%;
+  }
+
+  .villa-tettineive {
+    top: 46.5%;
+    left: 76%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .villa-tettimorra {
+    top: 43%;
+    left: 2%;
+  }
+
+  .villa-bricchi {
+    top: 26%;
+    left: 32%;
+  }
+
+  .villa-bogliona {
+    top: 32%;
+    left: 54%;
+  }
+
+  .villa-tettineive {
+    top: 48.5%;
+    left: 83%;
+  }
+}
+
+.villa-label {
+  display: block;
+  background: #f4f1ea;
+  padding: 4px 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #2c3654;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1440px) {
+  .villa-label {
+    font-size: 16px;
+    padding: 4px 20px;
+    letter-spacing: 0.15em;
+  }
+}
+
+@media (max-width: 1023px) {
+  .villa-label {
+    font-size: 13px;
+    padding: 4px 14px;
+  }
+}
+
+.villa-label:hover {
+  background: #ffffff;
+}
+
+.section-height-gallery {
+  height: calc(100vh - 86px);
+  max-height: 1000px;
+  min-height: 720px;
+}
+
+@media (max-width: 639px) {
+  .section-height-gallery {
+    height: 65vh;
+    min-height: 552px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  .section-height-gallery {
+    min-height: 552px;
+  }
+}

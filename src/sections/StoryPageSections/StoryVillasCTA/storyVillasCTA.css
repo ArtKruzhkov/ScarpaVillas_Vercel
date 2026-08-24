@@ -1,0 +1,22 @@
+.storyVillasCTA_image-height {
+  height: calc(100vh - 86px);
+  max-height: 1000px;
+}
+
+@media (max-width: 1023px) {
+  .storyVillasCTA_image-height {
+    height: 580px;
+  }
+}
+
+@media (max-width: 639px) {
+  .storyVillasCTA_image-height {
+    height: 520px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 540px) {
+  .storyVillasCTA_image-height {
+    min-height: 480px;
+  }
+}

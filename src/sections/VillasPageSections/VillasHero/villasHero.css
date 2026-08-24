@@ -1,0 +1,30 @@
+.villas_hero-title {
+  font-family: 'Bodoni Moda', serif;
+  text-transform: uppercase;
+  font-size: 62px;
+  font-weight: 500;
+  letter-spacing: 15%;
+  line-height: 64px;
+  color: white;
+}
+
+@media (max-width: 1023px) {
+  .villas_hero-title {
+    font-size: 50px;
+    line-height: 52px;
+  }
+}
+
+/* @media (max-width: 767px) {
+  .villas_hero-title {
+    font-size: 48px;
+    line-height: 46px;
+  }
+} */
+
+@media (max-width: 639px) {
+  .villas_hero-title {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
