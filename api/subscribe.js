@@ -1,6 +1,4 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({
       message: 'Method not allowed',
@@ -44,9 +42,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(200).json({
       success: true,
     });
-  } catch {
+  } catch (error) {
+    console.error('Brevo subscription error:', error);
+
     return res.status(500).json({
       message: 'Internal server error',
     });
   }
-}
+};
