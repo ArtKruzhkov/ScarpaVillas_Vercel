@@ -42,10 +42,7 @@ export function Navbar() {
     }, 400);
   };
 
-  const homeUrl =
-    i18n.language === 'en'
-      ? `${process.env.PUBLIC_URL}`
-      : `${process.env.PUBLIC_URL}/${i18n.language}`;
+  const homeUrl = i18n.language === 'en' ? '/' : `/${i18n.language}`;
 
   const storyUrl = i18n.language === 'en' ? '/story' : `/${i18n.language}/story`;
   const villasUrl = i18n.language === 'en' ? '/villas' : `/${i18n.language}/villas`;
@@ -512,15 +509,15 @@ export function Navbar() {
 
           {/* LOGO */}
           <div className="flex justify-center lg:px-8 xl:px-20">
-            <a
-              href={homeUrl}
+            <Link
+              to={homeUrl}
               className="flex flex-col items-center justify-center text-center leading-none">
               <img
                 src={`${process.env.PUBLIC_URL}/images/nav/logo.png`}
                 alt="Scarpa Villas"
                 className="w-[120px] sm:w-[140px] shrink-0"
               />
-            </a>
+            </Link>
           </div>
 
           {/* RIGHT NAV */}
