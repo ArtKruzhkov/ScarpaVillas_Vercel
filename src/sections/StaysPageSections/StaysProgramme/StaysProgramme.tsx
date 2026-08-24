@@ -173,7 +173,7 @@ export function StaysProgramme({
                 type="button"
                 onClick={() => setIsOpen((prev) => !prev)}
                 aria-expanded={isOpen}
-                className="mt-8 lg:mt-16 h-[44px] md:h-[57px] overflow-hidden border-y-[2px] border-[#2C3654] px-4 font-sans text-[13px] md:text-[16px] min-[1680px]:text-[18px] font-semibold uppercase tracking-[0.2em] text-[#2C3654] transition-opacity duration-300 hover:opacity-60">
+                className="mt-8 lg:mt-16 h-[40px] md:h-[50px] 2xl:h-[52px] overflow-hidden border-y-[2px] border-[#2C3654] font-sans text-[13px] md:text-[16px] 2xl:text-[18px] font-semibold uppercase tracking-[0.2em] text-[#2C3654] transition-opacity duration-300 hover:opacity-60">
                 <AnimatePresence mode="wait">
                   <motion.span
                     key={`${i18n.language}-${isOpen}`}
