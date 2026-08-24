@@ -33,10 +33,10 @@ export function OriginsMonvigliero() {
         />
 
         {/* Mobile overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/5 to-transparent lg:hidden" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/0 to-transparent" />
 
         {/* Title */}
-        <div className="absolute inset-x-0 bottom-8 flex justify-center pointer-events-none">
+        <div className="absolute inset-x-0 bottom-8 lg:bottom-16 flex justify-center pointer-events-none">
           <motion.h2
             initial={{
               opacity: 0,
