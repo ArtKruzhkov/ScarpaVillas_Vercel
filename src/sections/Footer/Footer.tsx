@@ -14,54 +14,6 @@ export function Footer() {
 
   const policyPrefix = activePolicy === 'cookie' ? 'cookiePolicyContent' : 'privacyPolicyContent';
 
-  // const handleSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
-  //   e.preventDefault();
-
-  //   if (!email.trim() || !privacyAccepted || isSubmitting) {
-  //     return;
-  //   }
-
-  //   setIsSubmitting(true);
-
-  //   try {
-  //     const response = await fetch('https://api.brevo.com/v3/contacts', {
-  //       method: 'POST',
-  //       headers: {
-  //         accept: 'application/json',
-  //         'content-type': 'application/json',
-  //         'api-key': process.env.REACT_APP_BREVO_API_KEY!,
-  //       },
-  //       body: JSON.stringify({
-  //         email: email.trim(),
-  //         attributes: {
-  //           LANGUAGE: i18n.language.toUpperCase(),
-  //         },
-  //         listIds: [2],
-  //         updateEnabled: true,
-  //       }),
-  //     });
-
-  //     if (!response.ok) {
-  //       const error = await response.json();
-  //       throw new Error(error.message || 'Subscription failed');
-  //     }
-
-  //     setEmail('');
-  //     setPrivacyAccepted(false);
-  //     setIsSubmitted(true);
-
-  //     setTimeout(() => {
-  //       setIsSubmitted(false);
-  //     }, 3000);
-
-  //     console.log('Successfully subscribed to Brevo');
-  //   } catch (error) {
-  //     console.error('Brevo subscription error:', error);
-  //   } finally {
-  //     setIsSubmitting(false);
-  //   }
-  // };
-
   const handleSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -71,18 +23,59 @@ export function Footer() {
 
     setIsSubmitting(true);
 
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email.trim(),
+          language: i18n.language,
+        }),
+      });
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
+      if (!response.ok) {
+        const error = await response.json();
 
-    setEmail('');
-    setPrivacyAccepted(false);
+        throw new Error(error.message || 'Subscription failed');
+      }
 
-    setTimeout(() => {
-      setIsSubmitted(false);
-    }, 3000);
+      setEmail('');
+      setPrivacyAccepted(false);
+      setIsSubmitted(true);
+
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 3000);
+    } catch (error) {
+      console.error('Newsletter subscription error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
+  // const handleSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+
+  //   if (!email.trim() || !privacyAccepted || isSubmitting) {
+  //     return;
+  //   }
+
+  //   setIsSubmitting(true);
+
+  //   await new Promise((resolve) => setTimeout(resolve, 1000));
+
+  //   setIsSubmitting(false);
+  //   setIsSubmitted(true);
+
+  //   setEmail('');
+  //   setPrivacyAccepted(false);
+
+  //   setTimeout(() => {
+  //     setIsSubmitted(false);
+  //   }, 3000);
+  // };
 
   return (
     <footer className="text-white max-w-8xl 2xl:max-w-[1920px] mx-auto">
