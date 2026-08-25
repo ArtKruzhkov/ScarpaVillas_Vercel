@@ -9,6 +9,7 @@ import { ScarpaWineryVineyards } from '../../sections/ScarpaWineryPageSections/S
 import { ScarpaWineryCellar } from '../../sections/ScarpaWineryPageSections/ScarpaWineryCellar/ScarpaWineryCellar';
 import { ScarpaWineryVillas } from '../../sections/ScarpaWineryPageSections/ScarpaWineryVillas/ScarpaWineryVillas';
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
+import { ScarpaWineryCTA } from '../../sections/ScarpaWineryPageSections/ScarpaWineryCTA/ScarpaWineryCTA';
 
 export function ScarpaWineryPage() {
   // useEffect(() => {
@@ -26,6 +27,7 @@ export function ScarpaWineryPage() {
         <ScarpaWineryLove />
         <ScarpaWineryEvolution />
         <ScarpaWineryProcess />
+        <ScarpaWineryCTA />
         <ScarpaWineryVineyards />
         <ScarpaWineryCellar />
         <ScarpaWineryVillas />

@@ -327,8 +327,13 @@
   "scarpaWineryVillas": {
     "title": "Ville",
     "paragraph1": "Scarpa Villas porta questa filosofia oltre il calice.",
-    "paragraph2": "Immersa tra i vigneti, offre un modo di vivere gli stessi valori — tempo, spazio e legame con la terra — attraverso il soggiorno, non solo la degustazione.",
+    "paragraph2": "Immersa tra i vigneti, offre un modo di vivere gli stessi valori — tempo, spazio e legame con la terra — attraverso il soggiorno, non\u00A0solo\u00A0la\u00A0degustazione.",
     "button": "Scopri l'esperienza Scarpa"
+  },
+  "scarpaWineryCTA": {
+    "titleLine1": "Continua il tuo viaggio nel mondo Scarpa",
+    "titleLine2": "e scopri i nostri vini.",
+    "button": "Scopri Scarpa Wine"
   },
   "peopleHero": {
     "title": "Persone",
@@ -890,8 +895,8 @@
   },
   "journalArticles": {
     "continueReading": "Leggi la storia",
-    "viewAll": "Vedi tutti gli articoli",
-    "closeAll": "Chiudi tutti gli articoli"
+    "showMore": "Mostra altri articoli",
+    "showLess": "Mostra meno articoli"
   },
   "villasHero": {
     "title": "Ville",

@@ -238,7 +238,7 @@ export const journalArticles: JournalArticle[] = [
     },
     image: `${baseUrl}/images/JournalPage/journal_articles/article-1.png`,
     image_hero: `${baseUrl}/images/JournalPage/journal_articles/article-1_hero.png`,
-    title: 'Identity Viticultural: Vinifying Diversity',
+    title: 'Identity Viticultural: Vinifying Diversity (Copy)',
     title_ital: 'Identità varietale: vinificare la diversità',
     articleTitleLine1: 'Identity Viticultural:',
     articleTitleLine2: 'Vinifying Diversity',
@@ -303,7 +303,7 @@ export const journalArticles: JournalArticle[] = [
     },
     image: `${baseUrl}/images/JournalPage/journal_articles/article-2.png`,
     image_hero: `${baseUrl}/images/JournalPage/journal_articles/article-2_hero.png`,
-    title: 'La Bogliona Takes the Stage: When Art Meets 125 Years of Tradition',
+    title: 'La Bogliona Takes the Stage: When Art Meets 125 Years of Tradition (Copy)',
     title_ital: 'La Bogliona va in scena: quando l`arte incontra 125 anni di tradizione',
     articleTitleLine1: 'La Bogliona Takes the Stage:',
     articleTitleLine2: 'When Art Meets 125 Years of Tradition',
@@ -348,7 +348,8 @@ export const journalArticles: JournalArticle[] = [
     },
     image: `${baseUrl}/images/JournalPage/journal_articles/article-3.png`,
     image_hero: `${baseUrl}/images/JournalPage/journal_articles/article-3_hero.png`,
-    title: '“Leaving Room for Experience” – Matteo Scalise and the Scarpa Villas Project, Part 2',
+    title:
+      '“Leaving Room for Experience” – Matteo Scalise and the Scarpa Villas Project, Part 2 (Copy)',
     title_ital:
       '“Lasciare spazio all’esperienza” – Matteo Scalise e il progetto Scarpa Villas, parte 2',
     subtitle:
@@ -390,7 +391,96 @@ export const journalArticles: JournalArticle[] = [
     },
     image: `${baseUrl}/images/JournalPage/journal_articles/article-4.png`,
     image_hero: `${baseUrl}/images/JournalPage/journal_articles/article-4_hero.png`,
-    title: 'From Monferrato to the Langhe: Davide Champion Tells the Story of Scarpa',
+    title: 'From Monferrato to the Langhe: Davide Champion Tells the Story of Scarpa (Copy)',
+    title_ital: 'Dal Monferrato alle Langhe: Davide Champion racconta il viaggio di Scarpa',
+    articleTitleLine1: 'From Monferrato to the Langhe:',
+    articleTitleLine2: 'Davide Champion Tells the Story of Scarpa',
+    articleTitleLine1_ital: 'Dal Monferrato alle Langhe:',
+    articleTitleLine2_ital: 'Davide Champion racconta il viaggio di Scarpa',
+    subtitle:
+      'Scarpa was founded in 1900 in Nizza, in the heart of Monferrato, but its roots have always been firmly planted in the Langhe as well. Since 2018, with the acquisition of vineyards in three key MGA areas – Monvigliero in Verduno, Roncaglie in La Morra and Canova in Neive – this historic connection has evolved into an ambitious, long-term project. We discussed this with Davide Champion, CEO of Scarpa, in a conversation covering history, the region and a vision for the future.',
+    subtitle_ital:
+      'Scarpa nasce nel 1900 nel cuore del Monferrato, a Nizza, ma le sue radici affondano da sempre anche nelle Langhe. Dal 2018, con l`acquisizione di vigneti in tre importanti MGA – Monvigliero a Verduno, Roncaglie a La Morra e Canova a Neive – questo legame storico si è trasformato in un progetto ambizioso e di lungo respiro. Ne abbiamo parlato con Davide Champion, CEO di Scarpa, in una conversazione che attraversa storia, territorio e visione del futuro.',
+    content: [
+      {
+        paragraphs: [
+          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
+          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+        ],
+        paragraphs_ital: [
+          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
+          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+        ],
+      },
+      {
+        title: 'A Story Rooted in the Territory',
+        title_ital: 'Una storia radicata nel territorio',
+        paragraphs: [
+          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
+          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+        ],
+        paragraphs_ital: [
+          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
+          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'scarpa-villas-part-2_3',
+    date: {
+      month: 'May',
+      month_ital: 'Maggio',
+      day: 22,
+      year: 2026,
+    },
+    image: `${baseUrl}/images/JournalPage/journal_articles/article-3.png`,
+    image_hero: `${baseUrl}/images/JournalPage/journal_articles/article-3_hero.png`,
+    title:
+      '“Leaving Room for Experience” – Matteo Scalise and the Scarpa Villas Project, Part 2 (Copy 2)',
+    title_ital:
+      '“Lasciare spazio all’esperienza” – Matteo Scalise e il progetto Scarpa Villas, parte 2',
+    subtitle:
+      'Our conversation with Matteo Scalise continues, delving into the origins of the Scarpa Villas project – a dialogue that takes us through the project’s vision, materials and landscape, until it reaches the very heart of the experience: space as a form of listening, time as memory.',
+    subtitle_ital:
+      'Prosegue la nostra conversazione con Matteo Scalise alle radici del progetto Scarpa Villas –un dialogo che ci accompagna dentro l’intenzione, i materiali, il paesaggio, fino a toccare il cuore dell’esperienza: lo spazio come ascolto, il tempo come memoria.',
+    content: [
+      {
+        paragraphs: [
+          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
+          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+        ],
+        paragraphs_ital: [
+          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
+          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+        ],
+      },
+      {
+        title: 'A Story Rooted in the Territory',
+        title_ital: 'Una storia radicata nel territorio',
+        paragraphs: [
+          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
+          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+        ],
+        paragraphs_ital: [
+          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
+          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'davide-champion-scarpa-journey-3',
+    date: {
+      month: 'April',
+      month_ital: 'Aprile',
+      day: 7,
+      year: 2026,
+    },
+    image: `${baseUrl}/images/JournalPage/journal_articles/article-4.png`,
+    image_hero: `${baseUrl}/images/JournalPage/journal_articles/article-4_hero.png`,
+    title: 'From Monferrato to the Langhe: Davide Champion Tells the Story of Scarpa (Copy 2)',
     title_ital: 'Dal Monferrato alle Langhe: Davide Champion racconta il viaggio di Scarpa',
     articleTitleLine1: 'From Monferrato to the Langhe:',
     articleTitleLine2: 'Davide Champion Tells the Story of Scarpa',

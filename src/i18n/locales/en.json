@@ -328,8 +328,13 @@
   "scarpaWineryVillas": {
     "title": "Villas",
     "paragraph1": "Scarpa Villas extend this philosophy beyond the glass.",
-    "paragraph2": "Set among the vineyards, they offer a way to experience the same values — time, space, and connection to the land — through living, not just tasting.",
+    "paragraph2": "Set among the vineyards, they offer a way to experience the same values — time, space, and connection to the land — through living, not\u00A0just\u00A0tasting.",
     "button": "Discover the Scarpa Experience"
+  },
+  "scarpaWineryCTA": {
+    "titleLine1": "Continue your journey into Scarpa",
+    "titleLine2": "and discover our wines.",
+    "button": "Discover Scarpa Wine"
   },
   "peopleHero": {
     "title": "People",
@@ -891,8 +896,8 @@
   },
   "journalArticles": {
     "continueReading": "Read the Story",
-    "viewAll": "View All Articles",
-    "closeAll": "Close All Articles"
+    "showMore": "Show More Articles",
+    "showLess": "Show Less Articles"
   },
   "villasHero": {
     "title": "Villas",

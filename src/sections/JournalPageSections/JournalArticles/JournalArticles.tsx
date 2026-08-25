@@ -9,24 +9,31 @@ export function JournalArticles() {
 
   const isItalian = i18n.language === 'it';
 
-  const [showAll, setShowAll] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
-  const visibleArticles = showAll ? journalArticles : journalArticles.slice(0, 4);
+  const ARTICLES_STEP = 4;
+
+  const [visibleCount, setVisibleCount] = useState(ARTICLES_STEP);
+
+  const visibleArticles = journalArticles.slice(0, visibleCount);
+
+  const isAllVisible = visibleCount >= journalArticles.length;
 
   const handleToggleArticles = () => {
-    if (showAll) {
-      setShowAll(false);
+    if (isAllVisible) {
+      setVisibleCount(ARTICLES_STEP);
 
-      sectionRef.current?.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
+      requestAnimationFrame(() => {
+        sectionRef.current?.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+        });
       });
 
       return;
     }
 
-    setShowAll(true);
+    setVisibleCount((prev) => Math.min(prev + ARTICLES_STEP, journalArticles.length));
   };
 
   return (
@@ -137,7 +144,7 @@ export function JournalArticles() {
           })}
         </div>
 
-        {journalArticles.length > 4 && (
+        {journalArticles.length > ARTICLES_STEP && (
           <motion.div
             viewport={{ once: true, amount: 0.5 }}
             initial={{ opacity: 0, y: 20 }}
@@ -150,10 +157,10 @@ export function JournalArticles() {
             <button
               type="button"
               onClick={handleToggleArticles}
-              className="flex h-[40px] w-fit items-center justify-center border-y border-[#2C3654] font-sans text-[13px] font-semibold uppercase tracking-[0.2em] text-[#2C3654] transition-opacity duration-300 hover:opacity-60 md:h-[50px] 2xl:h-[52px] md:text-[16px] 2xl:text-[18px]">
+              className="flex h-[40px] w-fit items-center justify-center border-y border-[#2C3654] font-sans text-[13px] font-semibold uppercase tracking-[0.2em] text-[#2C3654] transition-opacity duration-300 hover:opacity-60 md:h-[50px] md:text-[16px] 2xl:h-[52px] 2xl:text-[18px]">
               <AnimatePresence mode="wait">
                 <motion.span
-                  key={`${showAll}-${i18n.language}`}
+                  key={`${isAllVisible}-${i18n.language}`}
                   initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -8 }}
@@ -161,7 +168,7 @@ export function JournalArticles() {
                     duration: 0.3,
                     ease: [0.22, 1, 0.36, 1],
                   }}>
-                  {showAll ? t('journalArticles.closeAll') : t('journalArticles.viewAll')}
+                  {isAllVisible ? t('journalArticles.showLess') : t('journalArticles.showMore')}
                 </motion.span>
               </AnimatePresence>
             </button>
