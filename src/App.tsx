@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Navbar } from './sections/Navbar/Navbar';
 import { Footer } from './sections/Footer/Footer';
 import { HomePage } from './pages/HomePage/HomePage';
@@ -23,6 +24,7 @@ import { CookieBanner } from './components/ui/CookieBanner/CookieBanner';
 import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage';
 
 export default function App() {
+  const location = useLocation();
   return (
     <div className="min-h-dvh bg-white text-ink-900">
       <Navbar />
@@ -76,7 +78,7 @@ export default function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
 
-      <Footer />
+      <Footer key={location.pathname} />
 
       <CookieBanner />
     </div>

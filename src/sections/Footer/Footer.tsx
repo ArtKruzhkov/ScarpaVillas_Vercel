@@ -501,7 +501,7 @@ export function Footer() {
                   }}
                   viewport={{
                     once: true,
-                    amount: 0.45,
+                    amount: 0.25,
                   }}
                   transition={{
                     duration: 1,

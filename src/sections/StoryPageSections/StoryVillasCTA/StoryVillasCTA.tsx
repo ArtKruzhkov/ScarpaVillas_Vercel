@@ -39,11 +39,12 @@ export function StoryVillasCTA() {
 
           {/* Content */}
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.35 }}
+            viewport={{ once: true, amount: 0.55 }}
             transition={{
               duration: 1,
+              delay: 0.25,
               ease: [0.22, 1, 0.36, 1],
             }}
             className="absolute inset-0 flex flex-col items-center justify-end px-4 md:px-6 pb-10 text-center sm:pb-14 lg:pb-16">
