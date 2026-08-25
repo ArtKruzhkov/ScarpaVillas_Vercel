@@ -1,46 +1,145 @@
-# Getting Started with Create React App
+# Scarpa Villas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive multilingual website for **Scarpa Villas**, a luxury hospitality project located in the wine region of Piedmont, Italy.
 
-## Available Scripts
+The website presents the villas, the Scarpa winery, local experiences, curated stays, the surrounding region, and editorial content through the Journal.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Responsive design for desktop, tablet, and mobile
+- English and Italian localization
+- Client-side routing with localized URLs
+- Animated page transitions and scroll-based animations
+- Interactive image sliders and galleries
+- Villa and experience pages
+- Journal with individual article pages
+- Newsletter subscription integrated with Brevo
+- Contact and inquiry forms powered by EmailJS
+- Serverless API endpoint for secure newsletter subscriptions
+- Production deployment on Vercel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**
+- **TypeScript**
+- **React Router**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Swiper**
+- **i18next / react-i18next**
+- **EmailJS**
+- **Brevo API**
+- **Vercel Serverless Functions**
+- **Create React App**
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```text
+scarpa-villas/
+├── api/
+│   └── subscribe.js
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── sections/
+│   ├── locales/
+│   ├── App.tsx
+│   └── index.tsx
+├── package.json
+├── tsconfig.json
+└── vercel.json
+```
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository and install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone <repository-url>
+cd scarpa-villas
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the development server:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The application will be available at:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```text
+http://localhost:3000
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Production Build
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Create an optimized production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The generated production files will be placed in the `build` directory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Environment Variables
+
+The project uses environment variables for external services.
+
+Create a `.env.local` file for local development when required:
+
+```env
+REACT_APP_EMAILJS_SERVICE_ID=
+REACT_APP_EMAILJS_TEMPLATE_ID=
+REACT_APP_EMAILJS_PUBLIC_KEY=
+REACT_APP_VILLA_ADVICE_TEMPLATE_ID=
+BREVO_API_KEY=
+```
+
+> Never commit `.env` or `.env.local` files containing API keys or other secrets.
+
+Variables prefixed with `REACT_APP_` are used by the client application.
+
+`BREVO_API_KEY` is a server-side variable and is used only by the Vercel serverless API endpoint.
+
+## Newsletter Integration
+
+Newsletter subscriptions are handled through:
+
+```text
+POST /api/subscribe
+```
+
+The serverless function securely communicates with the **Brevo API** and adds or updates subscribers without exposing the Brevo API key to the browser.
+
+Subscriber language (`EN` or `IT`) is also stored in Brevo and can be used for audience segmentation and localized campaigns.
+
+## Deployment
+
+The project is deployed with **Vercel** and connected to the GitHub repository.
+
+Changes pushed to the production branch trigger a new deployment automatically.
+
+Before deploying, verify that the project builds successfully:
+
+```bash
+npm run build
+```
+
+## Languages
+
+The website currently supports:
+
+- English (`/`)
+- Italian (`/it`)
+
+Localized routes are preserved across the main sections of the website.
+
+## License
+
+This project was developed for **Scarpa Villas**.
+
+All brand assets, photography, text content, and other proprietary materials belong to their respective owners.
