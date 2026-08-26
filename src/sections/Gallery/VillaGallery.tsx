@@ -57,7 +57,7 @@ export function VillaGallery({ activeVillaId, setActiveVillaId }: VillaGalleryPr
     <div className="bg-white pt-10 pb-16 md:pb-24">
       <div
         ref={galleryRef}
-        className="lg:scroll-mt-[100px] mx-auto grid w-full max-w-8xl grid-cols-1 lg:grid-cols-[1fr_180px] gap-6 xl:gap-12 px-8 md:px-12 xl:px-16">
+        className="lg:scroll-mt-[126px] mx-auto grid w-full max-w-8xl grid-cols-1 lg:grid-cols-[1fr_180px] gap-6 xl:gap-12 px-8 md:px-12 xl:px-16">
         <motion.div
           initial={{
             opacity: 0,
