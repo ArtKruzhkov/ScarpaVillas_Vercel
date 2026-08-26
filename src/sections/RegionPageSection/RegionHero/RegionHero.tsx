@@ -12,7 +12,7 @@ export function RegionHero() {
       {/* BACKGROUND */}
       <div className="absolute inset-0">
         <img
-          src={`${process.env.PUBLIC_URL}/images/RegionPage/region_hero/region_hero.png`}
+          src={`${process.env.PUBLIC_URL}/images/RegionPage/region_hero/region_hero.webp`}
           alt={t('regionHero.title')}
           className="h-full w-full object-cover"
         />
