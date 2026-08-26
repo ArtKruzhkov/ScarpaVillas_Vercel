@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -11,9 +11,14 @@ type VillaGalleryItem = {
   image: string;
 };
 
+type VillaGalleryProps = {
+  activeVillaId: string;
+  setActiveVillaId: React.Dispatch<React.SetStateAction<string>>;
+};
+
 const baseUrl = process.env.PUBLIC_URL;
 
-export function VillaGallery() {
+export function VillaGallery({ activeVillaId, setActiveVillaId }: VillaGalleryProps) {
   const { t, i18n } = useTranslation();
   const langPrefix = i18n.language === 'en' ? '' : `/${i18n.language}`;
 
@@ -44,7 +49,7 @@ export function VillaGallery() {
     },
   ];
 
-  const [activeVillaId, setActiveVillaId] = useState('tettimorra');
+  // const [activeVillaId, setActiveVillaId] = useState('tettimorra');
   const activeVilla = villaSlides.find((villa) => villa.id === activeVillaId) ?? villaSlides[3];
   const galleryRef = useRef<HTMLDivElement>(null);
 

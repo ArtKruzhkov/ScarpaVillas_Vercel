@@ -1,8 +1,8 @@
 import { VillaGallery } from './VillaGallery';
 import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect, useRef } from 'react';
+// import { Link } from 'react-router-dom';
 import './gallery.css';
 
 type Villa = {
@@ -155,7 +155,10 @@ export function Gallery() {
   const [isLaptop, setIsLaptop] = useState(false);
   const [shouldShowVillaMask, setShouldShowVillaMask] = useState(false);
 
-  const langPrefix = i18n.language === 'en' ? '' : `/${i18n.language}`;
+  const [selectedVillaId, setSelectedVillaId] = useState('tettimorra');
+  const villaGalleryRef = useRef<HTMLDivElement>(null);
+
+  // const langPrefix = i18n.language === 'en' ? '' : `/${i18n.language}`;
 
   // useEffect(() => {
   //   const update = () => {
@@ -357,13 +360,32 @@ export function Gallery() {
                       duration: 0.6,
                       ease: [0.22, 1, 0.36, 1],
                     }}>
-                    <Link
+                    {/* <Link
                       to={`${langPrefix}${villa.href}`}
                       className="villa-label"
                       onMouseEnter={() => setActiveVilla(villa.name)}
                       onMouseLeave={() => setActiveVilla(null)}>
                       {villa.name}
-                    </Link>
+                    </Link> */}
+                    <button
+                      type="button"
+                      className="villa-label"
+                      onMouseEnter={() => setActiveVilla(villa.name)}
+                      onMouseLeave={() => setActiveVilla(null)}
+                      onClick={() => {
+                        const villaId = villa.href.split('/').pop();
+
+                        if (!villaId) return;
+
+                        setSelectedVillaId(villaId);
+
+                        villaGalleryRef.current?.scrollIntoView({
+                          behavior: 'smooth',
+                          block: 'start',
+                        });
+                      }}>
+                      {villa.name}
+                    </button>
                   </motion.div>
 
                   <div className={`w-px bg-[#e7e2d7] ${villa.lineHeight}`} />
@@ -375,7 +397,10 @@ export function Gallery() {
           ))}
         </div>
       </div>
-      <VillaGallery />
+      {/* <VillaGallery /> */}
+      <div ref={villaGalleryRef} className="scroll-mt-[73px] lg:scroll-mt-[86px]">
+        <VillaGallery activeVillaId={selectedVillaId} setActiveVillaId={setSelectedVillaId} />
+      </div>
     </section>
   );
 }
