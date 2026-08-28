@@ -77,7 +77,7 @@ export function PeopleTeam() {
               <motion.img
                 src={person.image}
                 alt={t(person.nameKey)}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover will-change-transform"
                 initial={{
                   scale: 1.08,
                 }}
