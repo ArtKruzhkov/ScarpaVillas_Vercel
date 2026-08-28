@@ -12,6 +12,7 @@ export function PeopleTeam() {
       positionKey: 'peopleTeam.people.0.position',
       descriptionKey: 'peopleTeam.people.0.description',
       image: `${baseUrl}/images/PeoplePage/people_team/davide.webp`,
+      quoted: true,
     },
     {
       id: 2,
@@ -25,28 +26,28 @@ export function PeopleTeam() {
       nameKey: 'peopleTeam.people.2.name',
       positionKey: 'peopleTeam.people.2.position',
       descriptionKey: 'peopleTeam.people.2.description',
-      image: `${baseUrl}/images/PeoplePage/people_team/flavia.webp`,
+      image: `${baseUrl}/images/PeoplePage/people_team/magda.webp`,
     },
     {
       id: 4,
       nameKey: 'peopleTeam.people.3.name',
       positionKey: 'peopleTeam.people.3.position',
       descriptionKey: 'peopleTeam.people.3.description',
-      image: `${baseUrl}/images/PeoplePage/people_team/pos1.webp`,
+      image: `${baseUrl}/images/PeoplePage/people_team/asia.webp`,
     },
     {
       id: 5,
       nameKey: 'peopleTeam.people.4.name',
       positionKey: 'peopleTeam.people.4.position',
       descriptionKey: 'peopleTeam.people.4.description',
-      image: `${baseUrl}/images/PeoplePage/people_team/pos2.webp`,
+      image: `${baseUrl}/images/PeoplePage/people_team/flavia.webp`,
     },
     {
       id: 6,
       nameKey: 'peopleTeam.people.5.name',
       positionKey: 'peopleTeam.people.5.position',
       descriptionKey: 'peopleTeam.people.5.description',
-      image: `${baseUrl}/images/PeoplePage/people_team/pos2.webp`,
+      image: `${baseUrl}/images/PeoplePage/people_team/vittorio.webp`,
     },
   ];
 
@@ -121,7 +122,9 @@ export function PeopleTeam() {
                   </p>
 
                   <p className="mt-2 md:mt-3 font-sans text-[13px] leading-[16px] lg:text-[15px] lg:leading-[20px] 2xl:text-[18px] 2xl:leading-[28px] text-white">
-                    "{t(person.descriptionKey)}"
+                    {person.quoted && '“'}
+                    {t(person.descriptionKey)}
+                    {person.quoted && '”'}
                   </p>
                 </motion.div>
               </AnimatePresence>

@@ -350,32 +350,32 @@
       {
         "name": "Davide Champion",
         "position": "CEO",
-        "description": "Con grande orgoglio e un profondo senso di responsabilità, ho la fortuna di guidare questa straordinaria azienda, forte di secoli di storia e di una visione rivolta al futuro."
+        "description": "Con immenso orgoglio e un forte senso di responsabilità, ho la fortuna di guidare questa straordinaria azienda, che vanta secoli di storia e un futuro visionario."
       },
       {
         "name": "Paola Barbieri",
-        "position": "Responsabile dell'Ospitalità",
-        "description": "Insieme allo straordinario team di Scarpa Villas e della Tasting Room, mi occupo di rendere indimenticabile l'esperienza di ogni ospite."
+        "position": "Hospitality Manager",
+        "description": "Insieme al team di Scarpa Villas, Paola si dedica a creare esperienze davvero memorabili per tutti gli ospiti, privati e aziendali, che scoprono il mondo di Scarpa Villas."
+      },
+      {
+        "name": "Magda Szymanska",
+        "position": "Property Manager",
+        "description": "Spinta dalla passione per la cucina, il vino e l’ospitalità, Magda cura ogni dettaglio, condividendo con gli ospiti le migliori esperienze gastronomiche della regione."
+      },
+      {
+        "name": "Asia Negro",
+        "position": "Property Manager",
+        "description": "Nata e cresciuta nelle Langhe, Asia condivide il suo amore per la natura e la vita locale, aiutando gli ospiti a scoprire la regione attraverso autentiche esperienze all’aria aperta."
       },
       {
         "name": "Flavia Nikaj",
-        "position": "Villa Care",
-        "description": "Ogni giorno mi prendo cura di Scarpa Villas con attenzione ai dettagli, affinché ogni ospite possa sentirsi davvero come a casa durante il soggiorno."
+        "position": "Housekeeping",
+        "description": "Con dedizione e precisione, Flavia cura la pulizia e l’ordine delle Ville, assicurandosi che ogni ambiente sia accogliente, impeccabile e faccia sentire gli ospiti a casa."
       },
       {
-        "name": "Elena Rossi",
-        "position": "Servizio clienti",
-        "description": "Accolgo i nostri ospiti e li accompagno durante il soggiorno, facendo in modo che ogni momento sia piacevole, sereno e memorabile."
-      },
-      {
-        "name": "Marco Ferrero",
-        "position": "Gestione immobiliare",
-        "description": "Ogni giorno mi assicuro che le ville e la tenuta siano perfettamente pronte, così che gli ospiti possano rilassarsi e vivere appieno il loro soggiorno."
-      },
-      {
-        "name": "Luca Bianchi",
-        "position": "Manutenzione",
-        "description": "Mi occupo della manutenzione della tenuta dietro le quinte, affinché ogni ospite possa vivere un'esperienza confortevole e senza pensieri."
+        "name": "Vittorio Luciano",
+        "position": "Giardiniere e manutentore",
+        "description": "Appassionato di natura, Vittorio cura il verde che circonda le ville, prendendosi cura di ogni pianta e fiore per creare giardini tranquilli dove gli ospiti possono rilassarsi."
       }
     ]
   },

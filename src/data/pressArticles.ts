@@ -30,6 +30,20 @@ export const pressArticles: PressArticle[] = [
     id: 'article-2',
     image: `${baseUrl}/images/PressPage/press_articles/article2.webp`,
 
+    title: 'Times Riviera',
+    title_ital: 'Times Riviera',
+
+    date: 'JULY 8, 2026',
+    date_ital: 'LUGLIO 8, 2026',
+
+    text: 'Life moves at a gentler pace among these vineyards, where every sunrise over the hills, every carefully prepared meal, every glass of Barolo, and every quiet evening overlooking the landscape contributes to an experience that feels both deeply authentic and wonderfully restorative.',
+    text_ital:
+      'La vita scorre a un ritmo più tranquillo tra questi vigneti, dove ogni alba sulle colline, ogni pasto preparato con cura, ogni bicchiere di Barolo e ogni serata trascorsa ammirando il paesaggio contribuiscono a creare un’esperienza profondamente autentica e meravigliosamente rigenerante.',
+  },
+  {
+    id: 'article-3',
+    image: `${baseUrl}/images/PressPage/press_articles/article3.webp`,
+
     title: 'Gala',
     title_ital: 'Gala',
 
@@ -41,8 +55,8 @@ export const pressArticles: PressArticle[] = [
       'Le colline del Piemonte nascondono ancora alcuni tesori ben custoditi. Immerse nel cuore dei vigneti del Barolo, le Scarpa Villas offrono un’esperienza immersiva nell’arte di vivere all’italiana, con degustazioni di vini eccezionali, pasti gourmet senza fretta e gite panoramiche in bicicletta.',
   },
   {
-    id: 'article-3',
-    image: `${baseUrl}/images/PressPage/press_articles/article3.webp`,
+    id: 'article-4',
+    image: `${baseUrl}/images/PressPage/press_articles/article4.webp`,
 
     title: 'Times Monaco',
     title_ital: 'Times Monaco',
@@ -55,43 +69,17 @@ export const pressArticles: PressArticle[] = [
       'Scarpa Villas non è semplicemente una destinazione di lusso. È un invito a vivere il Piemonte al meglio attraverso i suoi paesaggi, la sua gente, le sue tradizioni e i suoi vini.',
   },
   {
-    id: 'article-4',
-    image: `${baseUrl}/images/PressPage/press_articles/article4.webp`,
-
-    title: 'CELLAR TOURS',
-    title_ital: 'CELLAR TOURS',
-
-    date: 'FEBRUARY 5, 2025',
-    date_ital: 'FEBBRAIO 5, 2025',
-
-    text: 'In the heart of Barolo wine country, four villas are set around a panoramic pool overlooking the Langhe countryside.',
-    text_ital:
-      'Nel cuore delle colline del Barolo, quattro ville si affacciano su una piscina panoramica con vista sul paesaggio delle Langhe.',
-  },
-  {
     id: 'article-5',
     image: `${baseUrl}/images/PressPage/press_articles/article5.webp`,
 
-    title: 'THE ITALY EDIT',
-    title_ital: 'THE ITALY EDIT',
+    title: 'Magazine Lifestyle Brazil',
+    title_ital: 'Magazine Lifestyle Brazil',
 
-    date: 'APRIL 26, 2022',
-    date_ital: 'APRILE 26, 2022',
+    date: 'MAY 5, 2026',
+    date_ital: 'MAGGIO 5, 2026',
 
-    text: 'A heavenly villa surrounded by the expansive Barolo vineyard landscape.',
-    text_ital: "Una splendida villa immersa nell'ampio paesaggio dei vigneti del Barolo.",
-  },
-  {
-    id: 'article-6',
-    image: `${baseUrl}/images/PressPage/press_articles/article6.webp`,
-
-    title: 'THE FASHION PRINCESS',
-    title_ital: 'THE FASHION PRINCESS',
-
-    date: 'AUGUST 4, 2020',
-    date_ital: 'AGOSTO 4, 2020',
-
-    text: 'Monvigliero Vineyard Villas, the perfect place to stay for a holiday in the Langhe.',
-    text_ital: 'Monvigliero Vineyard Villas, la residenza perfetta per una vacanza nelle Langhe.',
+    text: 'Ideal for those seeking a private setting for family gatherings or discreet celebrations, away from prying eyes and the hustle of the world.',
+    text_ital:
+      'Ideale per chi è alla ricerca di un ambiente riservato per riunioni di famiglia o feste intime, lontano da sguardi indiscreti e dal trambusto del mondo.',
   },
 ];

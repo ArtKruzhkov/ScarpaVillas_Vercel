@@ -356,27 +356,27 @@
       {
         "name": "Paola Barbieri",
         "position": "Hospitality Manager",
-        "description": "Together with the fantastic team working at Scarpa Villas and Tasting Room, I'm in charge of making every guest experience unforgettable."
+        "description": "Together with the Scarpa Villas team, Paola is dedicated to creating memorable experiences for all private and corporate guests who discover the world of Scarpa."
+      },
+      {
+        "name": "Magda Szymanska",
+        "position": "Property Manager",
+        "description": "Driven by a passion for fine food, wine, and hospitality, Magda ensures every detail is thoughtfully curated, sharing the region’s finest culinary experiences with guests."
+      },
+      {
+        "name": "Asia Negro",
+        "position": "Property Manager",
+        "description": "Born and raised in the heart of the Langhe, Asia shares her love for nature and local life, helping guests discover the region through authentic outdoor experiences."
       },
       {
         "name": "Flavia Nikaj",
-        "position": "Villa Care",
-        "description": "I keep the Scarpa Villas welcoming every day, caring for every space with attention to detail so that each guest feels truly at home throughout their stay."
+        "position": "Housekeeping",
+        "description": "With dedication and precision, Flavia takes care of the daily cleaning and order of the Villas, ensuring every space is welcoming, pristine, and feels just like home."
       },
       {
-        "name": "Elena Rossi",
-        "position": "Guest Relations",
-        "description": "I welcome our guests and help make every stay smooth, warm and memorable from arrival to departure."
-      },
-      {
-        "name": "Marco Ferrero",
-        "position": "Estate Operations",
-        "description": "Every day I help ensure the villas and estate are perfectly prepared so guests can simply relax and enjoy their stay."
-      },
-      {
-        "name": "Luca Bianchi",
-        "position": "Maintenance",
-        "description": "I take care of the estate behind the scenes so that every guest can enjoy a comfortable and worry-free experience."
+        "name": "Vittorio Luciano",
+        "position": "Gardener & Maintenance",
+        "description": "Passionate about nature, Vittorio tends the greenery surrounding the villas, nurturing every plant and flower to create peaceful gardens where guests can unwind."
       }
     ]
   },

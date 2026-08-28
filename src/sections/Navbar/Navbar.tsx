@@ -287,7 +287,7 @@ export function Navbar() {
                                   <img
                                     src={villa.image}
                                     alt={villa.name}
-                                    className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover/villa:scale-105"
+                                    className="h-full w-full will-change-transform object-cover transition-transform duration-700 ease-out group-hover/villa:scale-105"
                                   />
 
                                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
@@ -373,7 +373,7 @@ export function Navbar() {
                                   <img
                                     src={storyLink.image}
                                     alt={storyLink.name}
-                                    className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover/story:scale-105"
+                                    className="h-full w-full will-change-transform object-cover transition-transform duration-700 ease-out group-hover/story:scale-105"
                                   />
 
                                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
@@ -460,7 +460,7 @@ export function Navbar() {
                                   <img
                                     src={experience.image}
                                     alt={experience.name}
-                                    className="h-full max-h-[232.81px] max-w-[372.5px] w-full object-cover transition-transform duration-700 ease-out group-hover/experience:scale-105"
+                                    className="h-full will-change-transform max-h-[232.81px] max-w-[372.5px] w-full object-cover transition-transform duration-700 ease-out group-hover/experience:scale-105"
                                   />
 
                                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
@@ -606,7 +606,7 @@ export function Navbar() {
                                   <img
                                     src={link.image}
                                     alt={link.name}
-                                    className="h-full w-full max-h-[232.81px] object-cover transition-transform duration-700 ease-out group-hover/discover:scale-105"
+                                    className="h-full w-full will-change-transform max-h-[232.81px] object-cover transition-transform duration-700 ease-out group-hover/discover:scale-105"
                                   />
 
                                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
@@ -828,7 +828,7 @@ export function Navbar() {
                               <img
                                 src={villa.image}
                                 alt={villa.name}
-                                className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                                className="h-full w-full object-cover"
                               />
 
                               <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/5 to-transparent" />
@@ -929,7 +929,7 @@ export function Navbar() {
                               <img
                                 src={experience.image}
                                 alt={experience.name}
-                                className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                                className="h-full w-full object-cover"
                               />
 
                               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent" />
@@ -1017,7 +1017,7 @@ export function Navbar() {
                               <img
                                 src={storyLink.image}
                                 alt={storyLink.name}
-                                className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                                className="h-full w-full object-cover"
                               />
 
                               <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/5 to-transparent" />
@@ -1119,7 +1119,7 @@ export function Navbar() {
                               <img
                                 src={discoverLink.image}
                                 alt={discoverLink.name}
-                                className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                                className="h-full w-full object-cover"
                               />
 
                               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent" />

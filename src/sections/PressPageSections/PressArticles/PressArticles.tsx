@@ -262,7 +262,7 @@ export function PressArticles() {
                     ease: [0.22, 1, 0.36, 1],
                   }}>
                   <article className="flex h-full w-full flex-col bg-[#2C3654] text-white">
-                    <div className="flex-1 overflow-hidden">
+                    <div className="aspect-[1.1] overflow-hidden">
                       <img src={article.image} alt={title} className="h-full w-full object-cover" />
                     </div>
 
