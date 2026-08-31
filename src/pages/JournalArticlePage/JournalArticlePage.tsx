@@ -266,7 +266,7 @@ export function JournalArticlePage() {
           }}>
           <Link
             to={`${langPrefix}/discover/journal`}
-            className="flex items-center justify-center h-[57px] xl:min-w-[330px] bg-[#2C3654] px-10 font-sans text-[18px] font-bold uppercase tracking-[0.18em] text-white transition-opacity duration-300 hover:opacity-80 disabled:opacity-80">
+            className="flex h-[44px] items-center justify-center bg-[#2C3654] px-10 font-sans text-[13px] font-bold uppercase tracking-[0.18em] text-white transition-opacity duration-300 hover:opacity-80 md:h-[57px] md:text-[18px] xl:min-w-[330px]">
             Back to Journal
           </Link>
         </motion.div>
