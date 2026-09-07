@@ -117,24 +117,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'Some wines are defined not only by where they come from, but by their relationship with time. La Bogliona belongs to this tradition: a wine shaped by patience, evolution and the belief that waiting is an essential part of its identity.',
+          'This idea became the starting point for “La Bogliona Takes the Stage”, a creative competition conceived to bring Scarpa’s 125th anniversary celebrations to a close. Rather than simply looking back, the project opened the story of the winery to new interpretations.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'Ci sono vini che non sono definiti soltanto dal luogo da cui provengono, ma anche dal loro rapporto con il tempo. La Bogliona appartiene a questa tradizione: un vino plasmato dall’attesa, dall’evoluzione e dalla convinzione che il tempo sia una parte essenziale della sua identità.',
+          'Da questa idea nasce “La Bogliona va in scena”, il contest creativo pensato per concludere le celebrazioni dei 125 anni di Scarpa. Più che limitarsi a guardare al passato, il progetto ha aperto la storia della cantina a nuove interpretazioni.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: '125 Years, Looking Forward',
+        title_ital: '125 anni, guardando al futuro',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Celebrating 125 years means recognising the value of what has been passed down while asking how that heritage can continue to speak to the present. Tradition, in this sense, is not something static: it gains meaning when it is interpreted, questioned and carried forward.',
+          'La Bogliona becomes a symbol of this continuity. Its ability to evolve over time reflects a broader philosophy in which history provides the foundation for new ideas rather than setting their limits.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'Celebrare 125 anni significa riconoscere il valore di ciò che è stato tramandato e, allo stesso tempo, chiedersi come questa eredità possa continuare a parlare al presente. La tradizione, in questo senso, non è qualcosa di statico: acquista significato quando viene interpretata, interrogata e portata avanti.',
+          'La Bogliona diventa così un simbolo di questa continuità. La sua capacità di evolvere nel tempo riflette una filosofia più ampia, in cui la storia rappresenta il punto di partenza per nuove idee, non il loro limite.',
+        ],
+      },
+      {
+        title: 'When Wine Meets Art',
+        title_ital: 'Quando il vino incontra l’arte',
+        paragraphs: [
+          'Bringing La Bogliona into a creative context creates a dialogue between two forms of expression. Wine and art both transform material through time, sensitivity and interpretation, revealing meanings that are never entirely fixed.',
+          'The competition therefore marks more than the end of an anniversary. It becomes a way of imagining what comes next: a meeting between Scarpa’s history and contemporary creativity, with time continuing to connect the two.',
+        ],
+        paragraphs_ital: [
+          'Portare La Bogliona in un contesto creativo significa creare un dialogo tra due forme di espressione. Vino e arte trasformano entrambi la materia attraverso il tempo, la sensibilità e l’interpretazione, rivelando significati che non sono mai completamente definiti.',
+          'Il contest segna quindi qualcosa di più della conclusione di un anniversario. Diventa un modo per immaginare ciò che verrà: un incontro tra la storia di Scarpa e la creatività contemporanea, con il tempo a fare ancora una volta da filo conduttore.',
         ],
       },
     ],
@@ -159,24 +171,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'The Scarpa Villas project begins with a simple but demanding idea: architecture should not compete with the place around it. Instead, it should create the conditions for the landscape, its rhythms and its history to become part of the experience.',
+          'In Matteo Scalise’s vision, design becomes an exercise in restraint. Every intervention is considered in relation to what already exists, leaving room for the character of the Langhe to remain present and recognisable.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'Il progetto Scarpa Villas nasce da un’idea semplice ma esigente: l’architettura non deve competere con il luogo che la circonda. Deve invece creare le condizioni perché il paesaggio, i suoi ritmi e la sua storia diventino parte dell’esperienza.',
+          'Nella visione di Matteo Scalise, il progetto diventa un esercizio di misura. Ogni intervento viene pensato in relazione a ciò che già esiste, lasciando spazio al carattere delle Langhe perché rimanga presente e riconoscibile.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: 'Materials in Dialogue with the Landscape',
+        title_ital: 'Materiali in dialogo con il paesaggio',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Materials play a fundamental role in establishing this relationship. Their textures, weight and natural imperfections bring the architecture closer to the surrounding territory and allow the spaces to change subtly with light and time.',
+          'Rather than creating a contrast between old and new, the project searches for continuity. Contemporary elements become part of a longer story, connecting the villas with the landscape without trying to imitate it.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'I materiali hanno un ruolo fondamentale nel costruire questa relazione. Le loro texture, il loro peso e le imperfezioni naturali avvicinano l’architettura al territorio circostante e permettono agli spazi di cambiare in modo sottile con la luce e con il tempo.',
+          'Più che creare un contrasto tra antico e contemporaneo, il progetto ricerca una continuità. Gli elementi nuovi entrano a far parte di una storia più lunga, mettendo le ville in relazione con il paesaggio senza cercare di imitarlo.',
+        ],
+      },
+      {
+        title: 'Space as Listening, Time as Memory',
+        title_ital: 'Lo spazio come ascolto, il tempo come memoria',
+        paragraphs: [
+          'The result is an architecture that asks to be experienced rather than simply observed. Views, silence, changing light and the movement between interior and exterior encourage a slower and more attentive way of inhabiting the space.',
+          'Here, time becomes part of the design itself. The experience is built through moments and memories, leaving space for each guest to establish a personal relationship with the place.',
+        ],
+        paragraphs_ital: [
+          'Il risultato è un’architettura che chiede di essere vissuta, più che semplicemente osservata. Le viste, il silenzio, il mutare della luce e il passaggio tra interno ed esterno invitano a un modo più lento e attento di abitare lo spazio.',
+          'Qui il tempo diventa parte del progetto stesso. L’esperienza si costruisce attraverso momenti e ricordi, lasciando a ogni ospite lo spazio per creare una relazione personale con il luogo.',
         ],
       },
     ],
@@ -204,24 +228,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'Scarpa’s story begins in 1900 in Nizza, in the heart of Monferrato. More than a century later, this origin remains fundamental to the identity of the winery, shaping a way of thinking about wine that is inseparable from territory, history and time.',
+          'The Langhe, however, have always been part of this story as well. The relationship between these two great Piedmontese wine regions has gradually developed into a broader vision, connecting Scarpa’s historic roots with new possibilities.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'La storia di Scarpa inizia nel 1900 a Nizza, nel cuore del Monferrato. Più di un secolo dopo, questa origine rimane fondamentale per l’identità della cantina e definisce un modo di pensare il vino inseparabile dal territorio, dalla storia e dal tempo.',
+          'Anche le Langhe, però, hanno sempre fatto parte di questo racconto. Il rapporto tra queste due grandi aree vitivinicole piemontesi si è progressivamente trasformato in una visione più ampia, capace di unire le radici storiche di Scarpa a nuove possibilità.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: 'Three Vineyards, Three Expressions of the Langhe',
+        title_ital: 'Tre vigneti, tre espressioni delle Langhe',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Since 2018, the acquisition of vineyards in Monvigliero in Verduno, Roncaglie in La Morra and Canova in Neive has given this connection a new dimension. Three different MGA areas offer three distinct perspectives on the complexity of the Langhe.',
+          'Each site brings its own conditions, exposures and identity. Together, they form a project that approaches the territory through its differences, allowing each vineyard to remain a precise expression of its origin.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'Dal 2018, l’acquisizione di vigneti a Monvigliero, a Verduno, Roncaglie, a La Morra, e Canova, a Neive, ha dato una nuova dimensione a questo legame. Tre MGA differenti offrono tre prospettive distinte sulla complessità delle Langhe.',
+          'Ogni sito porta con sé condizioni, esposizioni e identità proprie. Insieme formano un progetto che interpreta il territorio attraverso le sue differenze, lasciando che ogni vigneto rimanga un’espressione precisa della propria origine.',
+        ],
+      },
+      {
+        title: 'A Long-Term Vision',
+        title_ital: 'Una visione di lungo periodo',
+        paragraphs: [
+          'For Davide Champion, this journey is not a departure from Scarpa’s history but a continuation of it. Moving from Monferrato into the Langhe means extending a philosophy built over generations while respecting the identity of each territory.',
+          'It is a project designed to unfold over time. History provides continuity, the vineyards provide direction, and the future lies in understanding how these different places can become part of one coherent Scarpa story.',
+        ],
+        paragraphs_ital: [
+          'Per Davide Champion, questo percorso non rappresenta un allontanamento dalla storia di Scarpa, ma la sua continuazione. Dal Monferrato alle Langhe significa estendere una filosofia costruita nel corso delle generazioni, rispettando al tempo stesso l’identità di ogni territorio.',
+          'È un progetto pensato per svilupparsi nel tempo. La storia garantisce continuità, i vigneti indicano la direzione e il futuro sta nel comprendere come luoghi differenti possano entrare a far parte di un unico e coerente racconto Scarpa.',
         ],
       },
     ],
@@ -316,24 +352,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'Some wines are defined not only by where they come from, but by their relationship with time. La Bogliona belongs to this tradition: a wine shaped by patience, evolution and the belief that waiting is an essential part of its identity.',
+          'This idea became the starting point for “La Bogliona Takes the Stage”, a creative competition conceived to bring Scarpa’s 125th anniversary celebrations to a close. Rather than simply looking back, the project opened the story of the winery to new interpretations.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'Ci sono vini che non sono definiti soltanto dal luogo da cui provengono, ma anche dal loro rapporto con il tempo. La Bogliona appartiene a questa tradizione: un vino plasmato dall’attesa, dall’evoluzione e dalla convinzione che il tempo sia una parte essenziale della sua identità.',
+          'Da questa idea nasce “La Bogliona va in scena”, il contest creativo pensato per concludere le celebrazioni dei 125 anni di Scarpa. Più che limitarsi a guardare al passato, il progetto ha aperto la storia della cantina a nuove interpretazioni.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: '125 Years, Looking Forward',
+        title_ital: '125 anni, guardando al futuro',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Celebrating 125 years means recognising the value of what has been passed down while asking how that heritage can continue to speak to the present. Tradition, in this sense, is not something static: it gains meaning when it is interpreted, questioned and carried forward.',
+          'La Bogliona becomes a symbol of this continuity. Its ability to evolve over time reflects a broader philosophy in which history provides the foundation for new ideas rather than setting their limits.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'Celebrare 125 anni significa riconoscere il valore di ciò che è stato tramandato e, allo stesso tempo, chiedersi come questa eredità possa continuare a parlare al presente. La tradizione, in questo senso, non è qualcosa di statico: acquista significato quando viene interpretata, interrogata e portata avanti.',
+          'La Bogliona diventa così un simbolo di questa continuità. La sua capacità di evolvere nel tempo riflette una filosofia più ampia, in cui la storia rappresenta il punto di partenza per nuove idee, non il loro limite.',
+        ],
+      },
+      {
+        title: 'When Wine Meets Art',
+        title_ital: 'Quando il vino incontra l’arte',
+        paragraphs: [
+          'Bringing La Bogliona into a creative context creates a dialogue between two forms of expression. Wine and art both transform material through time, sensitivity and interpretation, revealing meanings that are never entirely fixed.',
+          'The competition therefore marks more than the end of an anniversary. It becomes a way of imagining what comes next: a meeting between Scarpa’s history and contemporary creativity, with time continuing to connect the two.',
+        ],
+        paragraphs_ital: [
+          'Portare La Bogliona in un contesto creativo significa creare un dialogo tra due forme di espressione. Vino e arte trasformano entrambi la materia attraverso il tempo, la sensibilità e l’interpretazione, rivelando significati che non sono mai completamente definiti.',
+          'Il contest segna quindi qualcosa di più della conclusione di un anniversario. Diventa un modo per immaginare ciò che verrà: un incontro tra la storia di Scarpa e la creatività contemporanea, con il tempo a fare ancora una volta da filo conduttore.',
         ],
       },
     ],
@@ -359,24 +407,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'The Scarpa Villas project begins with a simple but demanding idea: architecture should not compete with the place around it. Instead, it should create the conditions for the landscape, its rhythms and its history to become part of the experience.',
+          'In Matteo Scalise’s vision, design becomes an exercise in restraint. Every intervention is considered in relation to what already exists, leaving room for the character of the Langhe to remain present and recognisable.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'Il progetto Scarpa Villas nasce da un’idea semplice ma esigente: l’architettura non deve competere con il luogo che la circonda. Deve invece creare le condizioni perché il paesaggio, i suoi ritmi e la sua storia diventino parte dell’esperienza.',
+          'Nella visione di Matteo Scalise, il progetto diventa un esercizio di misura. Ogni intervento viene pensato in relazione a ciò che già esiste, lasciando spazio al carattere delle Langhe perché rimanga presente e riconoscibile.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: 'Materials in Dialogue with the Landscape',
+        title_ital: 'Materiali in dialogo con il paesaggio',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Materials play a fundamental role in establishing this relationship. Their textures, weight and natural imperfections bring the architecture closer to the surrounding territory and allow the spaces to change subtly with light and time.',
+          'Rather than creating a contrast between old and new, the project searches for continuity. Contemporary elements become part of a longer story, connecting the villas with the landscape without trying to imitate it.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'I materiali hanno un ruolo fondamentale nel costruire questa relazione. Le loro texture, il loro peso e le imperfezioni naturali avvicinano l’architettura al territorio circostante e permettono agli spazi di cambiare in modo sottile con la luce e con il tempo.',
+          'Più che creare un contrasto tra antico e contemporaneo, il progetto ricerca una continuità. Gli elementi nuovi entrano a far parte di una storia più lunga, mettendo le ville in relazione con il paesaggio senza cercare di imitarlo.',
+        ],
+      },
+      {
+        title: 'Space as Listening, Time as Memory',
+        title_ital: 'Lo spazio come ascolto, il tempo come memoria',
+        paragraphs: [
+          'The result is an architecture that asks to be experienced rather than simply observed. Views, silence, changing light and the movement between interior and exterior encourage a slower and more attentive way of inhabiting the space.',
+          'Here, time becomes part of the design itself. The experience is built through moments and memories, leaving space for each guest to establish a personal relationship with the place.',
+        ],
+        paragraphs_ital: [
+          'Il risultato è un’architettura che chiede di essere vissuta, più che semplicemente osservata. Le viste, il silenzio, il mutare della luce e il passaggio tra interno ed esterno invitano a un modo più lento e attento di abitare lo spazio.',
+          'Qui il tempo diventa parte del progetto stesso. L’esperienza si costruisce attraverso momenti e ricordi, lasciando a ogni ospite lo spazio per creare una relazione personale con il luogo.',
         ],
       },
     ],
@@ -404,24 +464,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'Scarpa’s story begins in 1900 in Nizza, in the heart of Monferrato. More than a century later, this origin remains fundamental to the identity of the winery, shaping a way of thinking about wine that is inseparable from territory, history and time.',
+          'The Langhe, however, have always been part of this story as well. The relationship between these two great Piedmontese wine regions has gradually developed into a broader vision, connecting Scarpa’s historic roots with new possibilities.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'La storia di Scarpa inizia nel 1900 a Nizza, nel cuore del Monferrato. Più di un secolo dopo, questa origine rimane fondamentale per l’identità della cantina e definisce un modo di pensare il vino inseparabile dal territorio, dalla storia e dal tempo.',
+          'Anche le Langhe, però, hanno sempre fatto parte di questo racconto. Il rapporto tra queste due grandi aree vitivinicole piemontesi si è progressivamente trasformato in una visione più ampia, capace di unire le radici storiche di Scarpa a nuove possibilità.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: 'Three Vineyards, Three Expressions of the Langhe',
+        title_ital: 'Tre vigneti, tre espressioni delle Langhe',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Since 2018, the acquisition of vineyards in Monvigliero in Verduno, Roncaglie in La Morra and Canova in Neive has given this connection a new dimension. Three different MGA areas offer three distinct perspectives on the complexity of the Langhe.',
+          'Each site brings its own conditions, exposures and identity. Together, they form a project that approaches the territory through its differences, allowing each vineyard to remain a precise expression of its origin.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'Dal 2018, l’acquisizione di vigneti a Monvigliero, a Verduno, Roncaglie, a La Morra, e Canova, a Neive, ha dato una nuova dimensione a questo legame. Tre MGA differenti offrono tre prospettive distinte sulla complessità delle Langhe.',
+          'Ogni sito porta con sé condizioni, esposizioni e identità proprie. Insieme formano un progetto che interpreta il territorio attraverso le sue differenze, lasciando che ogni vigneto rimanga un’espressione precisa della propria origine.',
+        ],
+      },
+      {
+        title: 'A Long-Term Vision',
+        title_ital: 'Una visione di lungo periodo',
+        paragraphs: [
+          'For Davide Champion, this journey is not a departure from Scarpa’s history but a continuation of it. Moving from Monferrato into the Langhe means extending a philosophy built over generations while respecting the identity of each territory.',
+          'It is a project designed to unfold over time. History provides continuity, the vineyards provide direction, and the future lies in understanding how these different places can become part of one coherent Scarpa story.',
+        ],
+        paragraphs_ital: [
+          'Per Davide Champion, questo percorso non rappresenta un allontanamento dalla storia di Scarpa, ma la sua continuazione. Dal Monferrato alle Langhe significa estendere una filosofia costruita nel corso delle generazioni, rispettando al tempo stesso l’identità di ogni territorio.',
+          'È un progetto pensato per svilupparsi nel tempo. La storia garantisce continuità, i vigneti indicano la direzione e il futuro sta nel comprendere come luoghi differenti possano entrare a far parte di un unico e coerente racconto Scarpa.',
         ],
       },
     ],
@@ -448,24 +520,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'The Scarpa Villas project begins with a simple but demanding idea: architecture should not compete with the place around it. Instead, it should create the conditions for the landscape, its rhythms and its history to become part of the experience.',
+          'In Matteo Scalise’s vision, design becomes an exercise in restraint. Every intervention is considered in relation to what already exists, leaving room for the character of the Langhe to remain present and recognisable.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'Il progetto Scarpa Villas nasce da un’idea semplice ma esigente: l’architettura non deve competere con il luogo che la circonda. Deve invece creare le condizioni perché il paesaggio, i suoi ritmi e la sua storia diventino parte dell’esperienza.',
+          'Nella visione di Matteo Scalise, il progetto diventa un esercizio di misura. Ogni intervento viene pensato in relazione a ciò che già esiste, lasciando spazio al carattere delle Langhe perché rimanga presente e riconoscibile.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: 'Materials in Dialogue with the Landscape',
+        title_ital: 'Materiali in dialogo con il paesaggio',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Materials play a fundamental role in establishing this relationship. Their textures, weight and natural imperfections bring the architecture closer to the surrounding territory and allow the spaces to change subtly with light and time.',
+          'Rather than creating a contrast between old and new, the project searches for continuity. Contemporary elements become part of a longer story, connecting the villas with the landscape without trying to imitate it.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'I materiali hanno un ruolo fondamentale nel costruire questa relazione. Le loro texture, il loro peso e le imperfezioni naturali avvicinano l’architettura al territorio circostante e permettono agli spazi di cambiare in modo sottile con la luce e con il tempo.',
+          'Più che creare un contrasto tra antico e contemporaneo, il progetto ricerca una continuità. Gli elementi nuovi entrano a far parte di una storia più lunga, mettendo le ville in relazione con il paesaggio senza cercare di imitarlo.',
+        ],
+      },
+      {
+        title: 'Space as Listening, Time as Memory',
+        title_ital: 'Lo spazio come ascolto, il tempo come memoria',
+        paragraphs: [
+          'The result is an architecture that asks to be experienced rather than simply observed. Views, silence, changing light and the movement between interior and exterior encourage a slower and more attentive way of inhabiting the space.',
+          'Here, time becomes part of the design itself. The experience is built through moments and memories, leaving space for each guest to establish a personal relationship with the place.',
+        ],
+        paragraphs_ital: [
+          'Il risultato è un’architettura che chiede di essere vissuta, più che semplicemente osservata. Le viste, il silenzio, il mutare della luce e il passaggio tra interno ed esterno invitano a un modo più lento e attento di abitare lo spazio.',
+          'Qui il tempo diventa parte del progetto stesso. L’esperienza si costruisce attraverso momenti e ricordi, lasciando a ogni ospite lo spazio per creare una relazione personale con il luogo.',
         ],
       },
     ],
@@ -493,24 +577,36 @@ export const journalArticles: JournalArticle[] = [
     content: [
       {
         paragraphs: [
-          'The story begins with a close relationship between landscape, people and time. Each decision reflects a desire to preserve the identity of the territory while allowing it to evolve.',
-          'What emerges is a dialogue between tradition and contemporary vision, shaped by the rhythms of the Langhe.',
+          'Scarpa’s story begins in 1900 in Nizza, in the heart of Monferrato. More than a century later, this origin remains fundamental to the identity of the winery, shaping a way of thinking about wine that is inseparable from territory, history and time.',
+          'The Langhe, however, have always been part of this story as well. The relationship between these two great Piedmontese wine regions has gradually developed into a broader vision, connecting Scarpa’s historic roots with new possibilities.',
         ],
         paragraphs_ital: [
-          'La storia nasce da un rapporto profondo tra paesaggio, persone e tempo. Ogni scelta riflette il desiderio di preservare l’identità del territorio, lasciandola al tempo stesso evolvere.',
-          'Ne emerge un dialogo tra tradizione e visione contemporanea, scandito dai ritmi delle Langhe.',
+          'La storia di Scarpa inizia nel 1900 a Nizza, nel cuore del Monferrato. Più di un secolo dopo, questa origine rimane fondamentale per l’identità della cantina e definisce un modo di pensare il vino inseparabile dal territorio, dalla storia e dal tempo.',
+          'Anche le Langhe, però, hanno sempre fatto parte di questo racconto. Il rapporto tra queste due grandi aree vitivinicole piemontesi si è progressivamente trasformato in una visione più ampia, capace di unire le radici storiche di Scarpa a nuove possibilità.',
         ],
       },
       {
-        title: 'A Story Rooted in the Territory',
-        title_ital: 'Una storia radicata nel territorio',
+        title: 'Three Vineyards, Three Expressions of the Langhe',
+        title_ital: 'Tre vigneti, tre espressioni delle Langhe',
         paragraphs: [
-          'The landscape is never simply a backdrop. It influences materials, gestures and the way every experience takes shape.',
-          'Understanding this relationship means looking beyond individual places and discovering the connections that bind them together.',
+          'Since 2018, the acquisition of vineyards in Monvigliero in Verduno, Roncaglie in La Morra and Canova in Neive has given this connection a new dimension. Three different MGA areas offer three distinct perspectives on the complexity of the Langhe.',
+          'Each site brings its own conditions, exposures and identity. Together, they form a project that approaches the territory through its differences, allowing each vineyard to remain a precise expression of its origin.',
         ],
         paragraphs_ital: [
-          'Il paesaggio non è mai un semplice sfondo. Influenza i materiali, i gesti e il modo in cui ogni esperienza prende forma.',
-          'Comprendere questo rapporto significa guardare oltre i singoli luoghi e scoprire le connessioni che li uniscono.',
+          'Dal 2018, l’acquisizione di vigneti a Monvigliero, a Verduno, Roncaglie, a La Morra, e Canova, a Neive, ha dato una nuova dimensione a questo legame. Tre MGA differenti offrono tre prospettive distinte sulla complessità delle Langhe.',
+          'Ogni sito porta con sé condizioni, esposizioni e identità proprie. Insieme formano un progetto che interpreta il territorio attraverso le sue differenze, lasciando che ogni vigneto rimanga un’espressione precisa della propria origine.',
+        ],
+      },
+      {
+        title: 'A Long-Term Vision',
+        title_ital: 'Una visione di lungo periodo',
+        paragraphs: [
+          'For Davide Champion, this journey is not a departure from Scarpa’s history but a continuation of it. Moving from Monferrato into the Langhe means extending a philosophy built over generations while respecting the identity of each territory.',
+          'It is a project designed to unfold over time. History provides continuity, the vineyards provide direction, and the future lies in understanding how these different places can become part of one coherent Scarpa story.',
+        ],
+        paragraphs_ital: [
+          'Per Davide Champion, questo percorso non rappresenta un allontanamento dalla storia di Scarpa, ma la sua continuazione. Dal Monferrato alle Langhe significa estendere una filosofia costruita nel corso delle generazioni, rispettando al tempo stesso l’identità di ogni territorio.',
+          'È un progetto pensato per svilupparsi nel tempo. La storia garantisce continuità, i vigneti indicano la direzione e il futuro sta nel comprendere come luoghi differenti possano entrare a far parte di un unico e coerente racconto Scarpa.',
         ],
       },
     ],
