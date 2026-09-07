@@ -111,7 +111,7 @@ export const journalArticles: JournalArticle[] = [
     articleTitleLine1_ital: 'La Bogliona va in scena:',
     articleTitleLine2_ital: 'quando l`arte incontra 125 anni di tradizione',
     subtitle:
-      'For a wine that knows how to wait, time is a promise. It is precisely this philosophy that inspired “La Bogliona va in scena”, the creative competition with which we have chosen to bring our celebrations marking 125 years of history to a close.',
+      'For a wine that knows how to wait, time is a promise. It is precisely this philosophy that inspired “La Bogliona va in\u00A0scena”, the creative competition we chose as the final chapter in the celebrations of our 125th anniversary.',
     subtitle_ital:
       'Il tempo, per un vino che sa aspettare, è una promessa. È esattamente questa filosofia che ha ispirato "La Bogliona va in scena", il contest creativo con cui abbiamo scelto di concludere le celebrazioni per i nostri 125 anni di storia.',
     content: [
@@ -346,7 +346,7 @@ export const journalArticles: JournalArticle[] = [
     articleTitleLine1_ital: 'La Bogliona va in scena:',
     articleTitleLine2_ital: 'quando l`arte incontra 125 anni di tradizione',
     subtitle:
-      'For a wine that knows how to wait, time is a promise. It is precisely this philosophy that inspired “La Bogliona va in scena”, the creative competition with which we have chosen to bring our celebrations marking 125 years of history to a close.',
+      'For a wine that knows how to wait, time is a promise. It is precisely this philosophy that inspired “La Bogliona va in\u00A0scena”, the creative competition we chose as the final chapter in the celebrations of our 125th anniversary.',
     subtitle_ital:
       'Il tempo, per un vino che sa aspettare, è una promessa. È esattamente questa filosofia che ha ispirato "La Bogliona va in scena", il contest creativo con cui abbiamo scelto di concludere le celebrazioni per i nostri 125 anni di storia.',
     content: [

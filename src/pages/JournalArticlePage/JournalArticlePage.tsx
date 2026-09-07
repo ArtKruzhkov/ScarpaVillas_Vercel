@@ -226,7 +226,7 @@ export function JournalArticlePage() {
                         <img
                           src={nextArticle.image}
                           alt={nextTitle}
-                          className="aspect-[1.35/1] w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                          className="aspect-[1.35/1] w-full object-cover will-change-transform transition-transform duration-700 group-hover:scale-105"
                         />
                       </div>
 
