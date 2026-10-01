@@ -7,7 +7,7 @@ export function Experience() {
   const { t, i18n } = useTranslation();
 
   return (
-    <section className="bg-white pt-12 pb-6 lg:pt-20 pb-10 xl:pt-[5.5rem] xl:pb-[3rem]">
+    <section className="bg-white pt-10 pb-10 lg:pt-16 lg:pb-16 xl:pt-20 xl:pb-20">
       <Container className="!px-0 lg:!px-2">
         {/* Desktop */}
         <div className="hidden lg:grid grid grid-cols-1 lg:gap-10 lg:grid-cols-[450px_minmax(0,1fr)] xl:grid-cols-[574px_minmax(0,1fr)] px-6">

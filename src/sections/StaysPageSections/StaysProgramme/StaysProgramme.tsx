@@ -8,6 +8,13 @@ export type StaysProgrammeDay = {
   descriptionKeys: string[];
 };
 
+export type StaysProgrammeDetails = {
+  includedTitleKey: string;
+  includedKeys: string[];
+  notIncludedTitleKey: string;
+  notIncludedKeys: string[];
+};
+
 export type StaysProgrammeProps = {
   id: string;
   titleKey: string;
@@ -20,7 +27,14 @@ export type StaysProgrammeProps = {
   background?: 'white' | 'beige';
 
   days: StaysProgrammeDay[];
+
+  details?: StaysProgrammeDetails;
 };
+
+const tailorMadeDescriptionKeys = [
+  'staysProgramme.tailorMadeDescription1',
+  'staysProgramme.tailorMadeDescription2',
+];
 
 export function StaysProgramme({
   id,
@@ -33,6 +47,7 @@ export function StaysProgramme({
   imagePosition = 'left',
   background = 'white',
   days,
+  details,
 }: StaysProgrammeProps) {
   const [isOpen, setIsOpen] = React.useState(false);
   const { t, i18n } = useTranslation();
@@ -62,7 +77,7 @@ export function StaysProgramme({
 
   return (
     <section id={id} className={`scroll-mt-[73px] lg:scroll-mt-[86px] ${backgroundClass}`}>
-      <div className="mx-auto max-w-8xl px-4 py-8 sm:px-6 lg:px-8 lg:py-16">
+      <div className="mx-auto max-w-8xl px-4 pt-8 sm:px-6 lg:px-8 lg:pt-16">
         {/* TOP */}
         <div
           className={`grid overflow-hidden ${
@@ -292,6 +307,120 @@ export function StaysProgramme({
                   </motion.article>
                 ))}
               </div>
+
+              {details && (
+                <motion.div
+                  initial={{
+                    opacity: 0,
+                    y: 20,
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  viewport={{
+                    once: true,
+                    amount: 0.25,
+                  }}
+                  transition={{
+                    duration: 0.8,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
+                  className="mt-10 lg:mt-16">
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={`programme-details-${i18n.language}`}
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.25 }}>
+                      {/* INCLUDED / NOT INCLUDED */}
+                      <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
+                        {/* INCLUDED */}
+                        <div>
+                          <h3 className="font-sans font-medium text-[24px] sm:text-[28px] lg:text-[32px] leading-[1.2] text-[#2C3654]">
+                            {t(details.includedTitleKey)}
+                          </h3>
+
+                          <ul className="mt-6 space-y-4">
+                            {details.includedKeys.map((key) => (
+                              <li
+                                key={key}
+                                className="flex items-start gap-3 font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
+                                <span className="mt-[9px] h-[4px] w-[4px] shrink-0 rounded-full bg-[#2C3654]" />
+
+                                <span>
+                                  <Trans
+                                    i18nKey={key}
+                                    components={{
+                                      br: <br />,
+                                    }}
+                                  />
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {/* NOT INCLUDED */}
+                        <div>
+                          <h3 className="font-sans font-medium text-[24px] sm:text-[28px] lg:text-[32px] leading-[1.2] text-[#2C3654]">
+                            {t(details.notIncludedTitleKey)}
+                          </h3>
+
+                          <ul className="mt-6 space-y-4">
+                            {details.notIncludedKeys.map((key) => (
+                              <li
+                                key={key}
+                                className="flex items-start gap-3 font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
+                                <span className="mt-[9px] h-[4px] w-[4px] shrink-0 rounded-full bg-[#2C3654]" />
+
+                                <span>
+                                  <Trans
+                                    i18nKey={key}
+                                    components={{
+                                      br: <br />,
+                                    }}
+                                  />
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+
+                      {/* TAILOR-MADE STAYS */}
+                      <div className="mt-10 border-t border-[#2C3654] pt-8 lg:mt-16 lg:pt-10">
+                        <h3 className="font-sans font-medium text-[24px] sm:text-[28px] lg:text-[32px] leading-[1.2] text-[#2C3654]">
+                          {t('staysProgramme.tailorMadeTitle')}
+                        </h3>
+
+                        <div className="mt-6 space-y-4">
+                          {tailorMadeDescriptionKeys.map((key) => (
+                            <p
+                              key={key}
+                              className="w-fit font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
+                              <Trans
+                                i18nKey={key}
+                                components={{
+                                  br: <br />,
+                                  email: (
+                                    <a
+                                      href="mailto:info@scarpa-villas.com"
+                                      className="underline underline-offset-4 transition-opacity duration-300 hover:opacity-60">
+                                      info@scarpa-villas.com
+                                    </a>
+                                  ),
+                                }}
+                              />
+                            </p>
+                          ))}
+                        </div>
+                      </div>
+                    </motion.div>
+                  </AnimatePresence>
+                </motion.div>
+              )}
             </motion.div>
           )}
         </AnimatePresence>

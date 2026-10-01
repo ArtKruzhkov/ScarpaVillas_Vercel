@@ -23,7 +23,7 @@ const stays: Stay[] = [
   {
     title: 'signatureStays',
     description: 'signatureStaysDescription',
-    image: `${baseUrl}/images/stays/signature-stays.webp`,
+    image: `${baseUrl}/images/stays/signature-stays_Large.webp`,
     href: '/stays',
   },
   {
@@ -41,9 +41,9 @@ const stays: Stay[] = [
     subtitle: 'luxRetreatSubtitle',
     description: 'luxRetreatDescription',
     nights: 3,
-    startMonth: 'january',
-    endMonth: 'april',
-    image: `${baseUrl}/images/stays/lux-retreat.webp`,
+    startMonth: 'march',
+    endMonth: 'may',
+    image: `${baseUrl}/images/stays/lux-retreat_Large.webp`,
     href: '/stays#lux-retreat',
   },
   {
@@ -262,7 +262,7 @@ export function SignatureStays() {
         {/* STAYS GRID */}
         <div id="stays" className="bg-[#2C3654] w-full max-w-8xl px-4 lg:px-8 pt-8 lg:pt-16">
           {/* TOP ROW */}
-          <motion.div
+          {/* <motion.div
             className="hidden lg:grid lg:grid-cols-3 gap-5 xl:gap-7"
             variants={cardsContainer}
             initial="hidden"
@@ -330,10 +330,10 @@ export function SignatureStays() {
             <motion.div variants={cardItem}>
               <StayCard stay={stays[2]} imageFirst />
             </motion.div>
-          </motion.div>
+          </motion.div> */}
 
           {/* BOTTOM ROW */}
-          <motion.div
+          {/* <motion.div
             className="hidden lg:grid mt-5 xl:mt-8 lg:grid-cols-2 gap-5 xl:gap-7"
             variants={cardsContainer}
             initial="hidden"
@@ -412,6 +412,231 @@ export function SignatureStays() {
                 </Link>
               </motion.article>
             ))}
+          </motion.div> */}
+
+          {/* MOBILE SWIPER */}
+          {/* <motion.div
+            className="block lg:hidden"
+            initial={{
+              opacity: 0,
+              y: 45,
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+            }}
+            viewport={{
+              once: true,
+              amount: 0.2,
+            }}
+            transition={{
+              duration: 0.9,
+              ease: 'easeOut',
+            }}>
+            <Swiper
+              className="stays-swiper"
+              modules={[Autoplay]}
+              slidesPerView={1}
+              spaceBetween={20}
+              loop
+              speed={1200}
+              autoplay={{
+                delay: 3500,
+                disableOnInteraction: false,
+              }}>
+              
+              <SwiperSlide>
+                <Link to={`${langPrefix}${stays[0].href}`} className="block h-full">
+                  <article className="bg-white border-b-[13px] border-[#C09A60] h-full">
+                    <img
+                      src={stays[0].image}
+                      alt={t(`stays.${stays[0].title}`)}
+                      className="w-full object-cover h-[380px] md:h-[480px]"
+                    />
+
+                    <div className="p-4 sm:p-8 text-center">
+                      <AnimatePresence mode="wait">
+                        <motion.h3
+                          key={`mobile-signature-title-${i18n.language}`}
+                          className="font-serif tracking-[0.05em] text-[#2C3654] text-[24px] leading-[32px]"
+                          initial={{ opacity: 0, y: 6 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -6 }}
+                          transition={{ duration: 0.25 }}>
+                          {t(`stays.${stays[0].title}`)}
+                        </motion.h3>
+                      </AnimatePresence>
+
+                      <AnimatePresence mode="wait">
+                        <motion.p
+                          key={`mobile-signature-desc1-${i18n.language}`}
+                          className="mt-2 font-sans text-[15px] leading-[20px] text-[#2C3654]"
+                          initial={{ opacity: 0, y: 6 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -6 }}
+                          transition={{ duration: 0.25 }}>
+                          {t('stays.signatureStaysDescription1')}
+                        </motion.p>
+                      </AnimatePresence>
+
+                      <AnimatePresence mode="wait">
+                        <motion.p
+                          key={`mobile-signature-desc2-${i18n.language}`}
+                          className="mt-4 font-sans font-medium text-[15px] leading-[20px] text-[#2C3654]"
+                          initial={{ opacity: 0, y: 6 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -6 }}
+                          transition={{ duration: 0.25 }}>
+                          {t('stays.signatureStaysDescription2')}
+                        </motion.p>
+                      </AnimatePresence>
+                    </div>
+                  </article>
+                </Link>
+              </SwiperSlide>
+
+              
+              {stays.slice(1).map((stay) => (
+                <SwiperSlide key={stay.title}>
+                  <StayCard stay={stay} imageFirst />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </motion.div> */}
+
+          {/* NEW STAYS GRID */}
+          {/* DESKTOP */}
+          <motion.div
+            className="hidden lg:grid lg:grid-cols-2 gap-5 xl:gap-7"
+            variants={cardsContainer}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{
+              once: true,
+              amount: 0.15,
+            }}>
+            {/* SIGNATURE STAYS */}
+            <motion.div variants={cardItem}>
+              <Link
+                to={`${langPrefix}${stays[0].href}`}
+                className="group block h-full border-b-[13px] border-[#C09A60] bg-white">
+                <div className="overflow-hidden">
+                  <img
+                    src={stays[0].image}
+                    alt={t(`stays.${stays[0].title}`)}
+                    className="w-full h-auto object-contain xl:h-[430px] 2xl:h-[460px] xl:object-cover scale-[1.005] will-change-transform transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+                  />
+                </div>
+
+                <div className="p-4 sm:p-8 text-center">
+                  <AnimatePresence mode="wait">
+                    <motion.h3
+                      key={`${stays[0].title}-${i18n.language}`}
+                      className="font-serif tracking-[0.05em] text-[#2C3654] text-[24px] leading-[32px] lg:text-[30px] lg:leading-[40px] xl:text-[32px] xl:leading-[40px]"
+                      initial={{ opacity: 0, y: 6 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -6 }}
+                      transition={{ duration: 0.25 }}>
+                      {t(`stays.${stays[0].title}`)}
+                    </motion.h3>
+                  </AnimatePresence>
+
+                  <AnimatePresence mode="wait">
+                    <motion.p
+                      key={`signature1-${i18n.language}`}
+                      className="mt-2 xl:mt-4 font-sans text-[15px] leading-[20px] lg:text-[18px] lg:leading-[26px] text-[#2C3654] xl:px-4"
+                      initial={{ opacity: 0, y: 6 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -6 }}
+                      transition={{ duration: 0.25 }}>
+                      {t('stays.signatureStaysDescription1')}
+                    </motion.p>
+                  </AnimatePresence>
+
+                  <AnimatePresence mode="wait">
+                    <motion.p
+                      key={`signature2-${i18n.language}`}
+                      className="mt-4 xl:mt-8 font-sans font-medium text-[17px] lg:text-[18px] lg:leading-[26px] text-[#2C3654] lg:px-6"
+                      initial={{ opacity: 0, y: 6 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -6 }}
+                      transition={{ duration: 0.25 }}>
+                      {t('stays.signatureStaysDescription2')}
+                    </motion.p>
+                  </AnimatePresence>
+                </div>
+              </Link>
+            </motion.div>
+
+            {/* LUX RETREAT */}
+            <motion.article variants={cardItem}>
+              <Link
+                to={`${langPrefix}${stays[2].href}`}
+                className="group block h-full border-b-[13px] border-[#C09A60] bg-white">
+                <div className="overflow-hidden">
+                  <img
+                    src={stays[2].image}
+                    alt={t(`stays.${stays[2].title}`)}
+                    className="w-full h-auto object-contain xl:h-[430px] 2xl:h-[460px] xl:object-cover will-change-transform transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+                  />
+                </div>
+
+                <div className="p-4 sm:p-8 text-center">
+                  <AnimatePresence mode="wait">
+                    <motion.h3
+                      key={`${stays[2].title}-${i18n.language}`}
+                      className="font-serif tracking-[0.05em] text-[#2C3654] text-[24px] leading-[32px] lg:text-[30px] lg:leading-[40px] xl:text-[32px] xl:leading-[40px]"
+                      initial={{ opacity: 0, y: 6 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -6 }}
+                      transition={{ duration: 0.25 }}>
+                      {t(`stays.${stays[2].title}`)}
+                    </motion.h3>
+                  </AnimatePresence>
+
+                  {stays[2].subtitle && (
+                    <AnimatePresence mode="wait">
+                      <motion.p
+                        key={`${stays[2].subtitle}-${i18n.language}`}
+                        className="mt-3 font-sans font-bold italic text-[15px] leading-[20px] lg:text-[16px] lg:leading-[26px] 2xl:text-[18px] 2xl:leading-[28px] text-[#2C3654]"
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -6 }}
+                        transition={{ duration: 0.25 }}>
+                        {t(`stays.${stays[2].subtitle}`)}
+                      </motion.p>
+                    </AnimatePresence>
+                  )}
+
+                  <AnimatePresence mode="wait">
+                    <motion.p
+                      key={`${stays[2].description}-${i18n.language}`}
+                      className="mt-4 xl:mt-4 font-sans text-[15px] leading-[20px] lg:text-[18px] lg:leading-[26px] text-[#2C3654]"
+                      initial={{ opacity: 0, y: 6 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -6 }}
+                      transition={{ duration: 0.25 }}>
+                      {t(`stays.${stays[2].description}`)}
+                    </motion.p>
+                  </AnimatePresence>
+
+                  {stays[2].nights && (
+                    <AnimatePresence mode="wait">
+                      <motion.p
+                        key={`${stays[2].title}-dates-${i18n.language}`}
+                        className="mt-4 xl:mt-8 font-sans font-bold text-[15px] leading-[20px] lg:text-[16px] lg:leading-[26px] 2xl:text-[18px] 2xl:leading-[28px] text-[#2C3654]"
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -6 }}
+                        transition={{ duration: 0.25 }}>
+                        {stays[2].nights} {t('common.nights')} ·{' '}
+                        {t(`common.${stays[2].startMonth}`)} – {t(`common.${stays[2].endMonth}`)}
+                      </motion.p>
+                    </AnimatePresence>
+                  )}
+                </div>
+              </Link>
+            </motion.article>
           </motion.div>
 
           {/* MOBILE SWIPER */}
@@ -495,12 +720,10 @@ export function SignatureStays() {
                 </Link>
               </SwiperSlide>
 
-              {/* OTHER STAYS */}
-              {stays.slice(1).map((stay) => (
-                <SwiperSlide key={stay.title}>
-                  <StayCard stay={stay} imageFirst />
-                </SwiperSlide>
-              ))}
+              {/* LUX RETREAT */}
+              <SwiperSlide>
+                <StayCard stay={stays[2]} imageFirst />
+              </SwiperSlide>
             </Swiper>
           </motion.div>
         </div>

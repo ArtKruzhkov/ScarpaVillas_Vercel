@@ -45,7 +45,7 @@ export function VillaGallery({ activeVillaId, setActiveVillaId }: VillaGalleryPr
       id: 'tettimorra',
       name: 'Villa Tettimorra',
       description: t('villaGallery.tettimorraDescription'),
-      image: `${baseUrl}/images/gallery/tettimora.webp`,
+      image: `${baseUrl}/images/gallery/tettimorra.webp`,
     },
   ];
 
@@ -54,7 +54,7 @@ export function VillaGallery({ activeVillaId, setActiveVillaId }: VillaGalleryPr
   const galleryRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="bg-white pt-10 pb-16 md:pb-24">
+    <div className="bg-white pt-10 pb-14 xl:pb-16">
       <div
         ref={galleryRef}
         className="lg:scroll-mt-[126px] mx-auto grid w-full max-w-8xl grid-cols-1 lg:grid-cols-[1fr_180px] gap-6 xl:gap-12 px-8 md:px-12 xl:px-16">
