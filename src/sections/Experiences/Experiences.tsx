@@ -257,7 +257,7 @@ export function Experiences() {
                 <img
                   src={experience.image}
                   alt={t(`experienceCards.${experience.title}`)}
-                  className="w-full h-[480px] lg:h-[380px] xl:h-[480px] min-[1720px]:h-[580px] object-cover transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+                  className="w-full h-[480px] lg:h-[380px] xl:h-[480px] min-[1720px]:h-[580px] object-cover will-change-transform transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
                 />
               </div>
 
@@ -381,7 +381,7 @@ export function Experiences() {
                 <img
                   src={experience.image}
                   alt={t(`experienceCards.${experience.title}`)}
-                  className="w-full h-[480px] lg:h-auto object-cover transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+                  className="w-full h-[480px] lg:h-auto object-cover will-change-transform transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
                 />
               </div>
 
@@ -507,7 +507,7 @@ export function Experiences() {
                 <img
                   src={experience.image}
                   alt={t(`experienceCards.${experience.title}`)}
-                  className="w-full object-cover transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
+                  className="w-full object-cover will-change-transform transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
                 />
               </div>
 

@@ -4,7 +4,7 @@ export function smoothScrollToTop() {
   if (start === 0) return;
 
   // Время зависит от расстояния
-  const duration = Math.min(Math.max(start * 0.5, 550), 2200);
+  const duration = Math.min(Math.max(start * 0.5, 550), 2000);
 
   const startTime = performance.now();
   let animationFrameId: number;
