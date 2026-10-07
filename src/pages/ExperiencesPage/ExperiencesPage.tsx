@@ -42,12 +42,12 @@ export function ExperiencesPage() {
     variant: 'gold' as const,
     cards: [
       {
-        translationKey: 'privateWineTastings',
-        image: '/images/ExperiencesPage/experiences_categories/private-wine-tastings.webp',
-      },
-      {
         translationKey: 'scarpaWinery',
         image: '/images/ExperiencesPage/experiences_categories/scarpa-winery.webp',
+      },
+      {
+        translationKey: 'privateWineTastings',
+        image: '/images/ExperiencesPage/experiences_categories/private-wine-tastings.webp',
       },
       {
         translationKey: 'merendaSinoira',
