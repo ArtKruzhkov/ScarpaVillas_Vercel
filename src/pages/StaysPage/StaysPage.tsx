@@ -57,6 +57,7 @@ export function StaysPage() {
       },
       {
         dayKey: 'staysLuxRetreat.days.day2.label',
+        halfDayKey: 'staysLuxRetreat.days.day2.halfDay',
         titleKey: 'staysLuxRetreat.days.day2.title',
         descriptionKeys: [
           'staysLuxRetreat.days.day2.description1',
@@ -66,6 +67,7 @@ export function StaysPage() {
       },
       {
         dayKey: 'staysLuxRetreat.days.day3.label',
+        halfDayKey: 'staysLuxRetreat.days.day3.halfDay',
         titleKey: 'staysLuxRetreat.days.day3.title',
         descriptionKeys: [
           'staysLuxRetreat.days.day3.description1',
@@ -260,7 +262,7 @@ export function StaysPage() {
         <StaysProgramme {...piemonteEscape} /> */}
       </main>
 
-      <ContactUs phone="34620165833" className="fixed bottom-4 right-4 z-50" />
+      <ContactUs phone="393484765176" className="fixed bottom-4 right-4 z-50" />
     </>
   );
 }

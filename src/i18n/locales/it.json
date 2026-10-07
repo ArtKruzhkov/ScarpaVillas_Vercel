@@ -522,8 +522,8 @@
     "viewFullProgramme": "Scopri il programma",
     "closeProgramme": "Chiudi il programma",
     "tailorMadeTitle": "Soggiorni su misura",
-    "tailorMadeDescription1": "Questo pacchetto è un modo semplice e confortevole per vivere al meglio il vostro soggiorno a Scarpa Villas e nelle Langhe.<br />Il nostro team sarà lieto di creare un programma più breve o più lungo in base ai vostri gusti e preferenze.",
-    "tailorMadeDescription2": "Per un preventivo in base alle vostre date e al numero di ospiti, o per altre idee ed esperienze, scriveteci a <email>info@scarpa-villas.com</email>."
+    "tailorMadeDescription1": "Questo pacchetto è un modo semplice e confortevole per vivere al meglio il vostro soggiorno a Scarpa Villas e nelle Langhe. Il nostro team sarà lieto di creare un programma più breve o più lungo in base ai vostri gusti e preferenze.",
+    "tailorMadeDescription2": "Per un preventivo in base alle vostre date e al numero di ospiti, o per altre idee ed esperienze, scriveteci a\u00A0<email>info@scarpa-villas.com</email>."
   },
   "staysLuxRetreat": {
     "title": "Il Lux Retreat",
@@ -541,13 +541,15 @@
       },
       "day2": {
         "label": "Giorno 2",
+        "halfDay": "[ mezza giornata ]",
         "title": "Tartufi e picnic",
         "description1": "Iniziate la giornata con una passeggiata nei boschi delle Langhe per un’affascinante caccia al tartufo. Un cercatore del posto vi svelerà i segreti del tartufo, del suo ecosistema e di come addestra il suo inseparabile cane.",
         "description2": "Al termine, godetevi un picnic all’aperto (o al chiuso, tempo permettendo) con specialità locali: una ricca selezione di antipasti freddi, pane artigianale, un dessert e un meritato bicchiere di vino.",
-        "description3": "Pomeriggio libero per rilassarsi<br/>o esplorare al proprio ritmo."
+        "description3": "Il pomeriggio è libero per esplorare la zona o semplicemente rilassarsi in villa."
       },
       "day3": {
         "label": "Giorno 3",
+        "halfDay": "[ mezza giornata ]",
         "title": "E-bike e cena privata",
         "description1": "Esplorate i dintorni con le nostre e-bike per una giornata più attiva. Pedalare tra le colline UNESCO della zona del Barolo è un modo splendido per immergersi nella tranquillità della natura.",
         "description2": "Per la serata, il nostro chef privato preparerà una tradizionale cena di tre portate nella privacy della vostra villa, accompagnata da una selezione di vini della cantina Scarpa."

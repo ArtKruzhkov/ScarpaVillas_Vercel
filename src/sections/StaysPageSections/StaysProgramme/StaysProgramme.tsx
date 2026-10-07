@@ -4,6 +4,7 @@ import { Trans, useTranslation } from 'react-i18next';
 
 export type StaysProgrammeDay = {
   dayKey: string;
+  halfDayKey?: string;
   titleKey: string;
   descriptionKeys: string[];
 };
@@ -253,15 +254,23 @@ export function StaysProgramme({
                     {/* DAY */}
                     <div className="bg-[#2C3654] px-3 py-2">
                       <AnimatePresence mode="wait">
-                        <motion.span
+                        <motion.div
                           key={`${i18n.language}-${item.dayKey}`}
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           exit={{ opacity: 0 }}
                           transition={{ duration: 0.25 }}
-                          className="block font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] font-semibold uppercase tracking-[0.12em] text-white">
-                          {t(item.dayKey)}
-                        </motion.span>
+                          className="flex items-center justify-between gap-4">
+                          <span className="font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] font-semibold uppercase tracking-[0.12em] text-white">
+                            {t(item.dayKey)}
+                          </span>
+
+                          {item.halfDayKey && (
+                            <span className="shrink-0 font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] font-normal tracking-[0.08em] text-white">
+                              {t(item.halfDayKey)}
+                            </span>
+                          )}
+                        </motion.div>
                       </AnimatePresence>
                     </div>
 
@@ -326,30 +335,32 @@ export function StaysProgramme({
                     duration: 0.8,
                     ease: [0.22, 1, 0.36, 1],
                   }}
-                  className="mt-10 lg:mt-16">
+                  className="mt-4 lg:mt-8">
                   <AnimatePresence mode="wait">
                     <motion.div
                       key={`programme-details-${i18n.language}`}
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
-                      transition={{ duration: 0.25 }}>
+                      transition={{ duration: 0.25 }}
+                      className="grid lg:grid-cols-[2fr_1fr]">
                       {/* INCLUDED / NOT INCLUDED */}
-                      <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
+                      <div className="bg-[#F0E7DA] px-5 py-8 sm:px-8 lg:px-10 lg:py-10 xl:px-12 xl:py-12">
                         {/* INCLUDED */}
                         <div>
-                          <h3 className="font-sans font-medium text-[24px] sm:text-[28px] lg:text-[32px] leading-[1.2] text-[#2C3654]">
+                          <h3 className="font-sans text-[15px] sm:text-[16px] lg:text-[18px] font-semibold uppercase tracking-[0.2em] leading-[1.2] text-[#2C3654]">
                             {t(details.includedTitleKey)}
                           </h3>
 
-                          <ul className="mt-6 space-y-4">
+                          <ul className="mt-6 lg:mt-8">
                             {details.includedKeys.map((key) => (
                               <li
                                 key={key}
-                                className="flex items-start gap-3 font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
-                                <span className="mt-[9px] h-[4px] w-[4px] shrink-0 rounded-full bg-[#2C3654]" />
+                                className="flex items-start gap-4 border-b border-[#C09A60]/30 py-4 first:pt-0 last:border-b-0">
+                                {/* DIAMOND */}
+                                <span className="mt-[8px] h-[8px] w-[8px] shrink-0 rotate-45 bg-[#C09A60]" />
 
-                                <span>
+                                <span className="font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
                                   <Trans
                                     i18nKey={key}
                                     components={{
@@ -363,26 +374,22 @@ export function StaysProgramme({
                         </div>
 
                         {/* NOT INCLUDED */}
-                        <div>
-                          <h3 className="font-sans font-medium text-[24px] sm:text-[28px] lg:text-[32px] leading-[1.2] text-[#2C3654]">
+                        <div className="mt-8 lg:mt-10">
+                          <h3 className="font-sans text-[15px] sm:text-[16px] lg:text-[18px] font-semibold uppercase tracking-[0.2em] leading-[1.2] text-[#2C3654]">
                             {t(details.notIncludedTitleKey)}
                           </h3>
 
-                          <ul className="mt-6 space-y-4">
+                          <ul className="mt-5">
                             {details.notIncludedKeys.map((key) => (
                               <li
                                 key={key}
-                                className="flex items-start gap-3 font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
-                                <span className="mt-[9px] h-[4px] w-[4px] shrink-0 rounded-full bg-[#2C3654]" />
-
-                                <span>
-                                  <Trans
-                                    i18nKey={key}
-                                    components={{
-                                      br: <br />,
-                                    }}
-                                  />
-                                </span>
+                                className="font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
+                                <Trans
+                                  i18nKey={key}
+                                  components={{
+                                    br: <br />,
+                                  }}
+                                />
                               </li>
                             ))}
                           </ul>
@@ -390,31 +397,33 @@ export function StaysProgramme({
                       </div>
 
                       {/* TAILOR-MADE STAYS */}
-                      <div className="mt-10 border-t border-[#2C3654] pt-8 lg:mt-16 lg:pt-10">
-                        <h3 className="font-sans font-medium text-[24px] sm:text-[28px] lg:text-[32px] leading-[1.2] text-[#2C3654]">
-                          {t('staysProgramme.tailorMadeTitle')}
-                        </h3>
+                      <div className="flex bg-[#2C3654] px-5 py-10 sm:px-8 lg:px-9 lg:py-12 xl:px-12">
+                        <div className="my-auto">
+                          <h3 className="font-serif text-[24px] sm:text-[32px] 2xl:text-[38px] leading-[1.1] text-white">
+                            {t('staysProgramme.tailorMadeTitle')}
+                          </h3>
 
-                        <div className="mt-6 space-y-4">
-                          {tailorMadeDescriptionKeys.map((key) => (
-                            <p
-                              key={key}
-                              className="w-fit font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.4] text-[#2C3654]">
-                              <Trans
-                                i18nKey={key}
-                                components={{
-                                  br: <br />,
-                                  email: (
-                                    <a
-                                      href="mailto:info@scarpa-villas.com"
-                                      className="underline underline-offset-4 transition-opacity duration-300 hover:opacity-60">
-                                      info@scarpa-villas.com
-                                    </a>
-                                  ),
-                                }}
-                              />
-                            </p>
-                          ))}
+                          <div className="mt-8 space-y-8 lg:mt-10 lg:space-y-10 lg:max-w-[363px] 2xl:max-w-[382px] min-[1680px]:max-w-[425px]">
+                            {tailorMadeDescriptionKeys.map((key) => (
+                              <p
+                                key={key}
+                                className="font-sans text-[15px] sm:text-[16px] min-[1680px]:text-[18px] leading-[1.45] text-white">
+                                <Trans
+                                  i18nKey={key}
+                                  components={{
+                                    br: <br />,
+                                    email: (
+                                      <a
+                                        href="mailto:info@scarpa-villas.com"
+                                        className="font-semibold underline underline-offset-4 transition-opacity duration-300 hover:opacity-60">
+                                        info@scarpa-villas.com
+                                      </a>
+                                    ),
+                                  }}
+                                />
+                              </p>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     </motion.div>

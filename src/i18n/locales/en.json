@@ -523,8 +523,8 @@
     "viewFullProgramme": "View Full Programme",
     "closeProgramme": "Close Programme",
     "tailorMadeTitle": "Tailor-made stays",
-    "tailorMadeDescription1": "This package is an easy and comfortable way to make the most of your stay at Scarpa Villas and in the Langhe.<br />Our team will be happy to create a shorter or longer programme based on your tastes and preferences.",
-    "tailorMadeDescription2": "For a quote for your dates and group size, or for more ideas and experiences, write to us at <email>info@scarpa-villas.com</email>."
+    "tailorMadeDescription1": "This package is an easy and comfortable way to make the most of your stay at Scarpa Villas and in the Langhe. Our team will be happy to create a shorter or longer programme based on your tastes and preferences.",
+    "tailorMadeDescription2": "For a quote for your dates and group size, or\u00A0for\u00A0more ideas and experiences, write to us at\u00A0<email>info@scarpa-villas.com</email>."
   },
   "staysLuxRetreat": {
     "title": "The Lux Retreat",
@@ -542,13 +542,15 @@
       },
       "day2": {
         "label": "Day 2",
+        "halfDay": "[ half day ]",
         "title": "Truffle & Picnic",
         "description1": "Start your day with a walk through the woods of the Langhe for a fun and fascinating truffle hunt. A local truffle hunter will reveal the secrets of the truffle, its ecosystem and how he trains his inseparable dog.",
         "description2": "Afterwards, enjoy a picnic outdoors (or indoors, weather permitting) with local specialities: a rich selection of cold appetisers, artisan bread, a dessert and a well-deserved glass of wine.",
-        "description3": "Free afternoon to relax<br/>or explore at your own pace."
+        "description3": "The afternoon is yours to explore the area or simply relax at the villa."
       },
       "day3": {
         "label": "Day 3",
+        "halfDay": "[ half day ]",
         "title": "E-bike and private dinner",
         "description1": "Explore the surroundings on our e-bikes for a more active day. Riding through the UNESCO hills of the Barolo area is a wonderful way to breathe in the peace of nature.",
         "description2": "For the evening, our private chef will prepare a traditional three-course dinner in the privacy of your villa, paired with a selection of wines from the Scarpa cellar."

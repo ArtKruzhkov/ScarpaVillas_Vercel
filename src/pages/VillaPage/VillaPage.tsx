@@ -49,7 +49,7 @@ export function VillaPage() {
         <OtherVillas currentVillaId={villa.id} />
       </main>
 
-      <ContactUs phone="34620165833" className="fixed bottom-4 right-4 z-50" />
+      <ContactUs phone="393484765176" className="fixed bottom-4 right-4 z-50" />
     </>
   );
 }
