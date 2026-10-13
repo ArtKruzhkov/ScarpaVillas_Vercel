@@ -142,7 +142,7 @@ export function ExperiencesCategory({
                 </div>
 
                 {/* Image */}
-                <div className="relative min-h-[390px] flex-1 overflow-hidden md:min-h-[440px] lg:min-h-[480px] 2xl:min-h-[560px]">
+                <div className="relative min-h-[450px] flex-1 overflow-hidden md:min-h-[440px] lg:min-h-[480px] 2xl:min-h-[560px]">
                   <motion.img
                     src={`${baseUrl}${card.image}`}
                     alt={cardTitle}
