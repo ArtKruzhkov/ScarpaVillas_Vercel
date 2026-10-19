@@ -8,7 +8,7 @@ import { ContactUs } from '../../components/ui/ContactUs';
 
 export function JournalArticlePage() {
   const { articleId } = useParams<{ articleId: string }>();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const isItalian = i18n.language === 'it';
   const langPrefix = isItalian ? '/it' : '';
@@ -221,7 +221,7 @@ export function JournalArticlePage() {
                               animate={{ opacity: 1 }}
                               exit={{ opacity: 0 }}
                               transition={{ duration: 0.3 }}>
-                              {nextMonth} {article.date.day}, {article.date.year}
+                              {nextMonth} {nextArticle.date.day}, {nextArticle.date.year}
                             </motion.span>
                           </AnimatePresence>
                         </div>
@@ -271,7 +271,20 @@ export function JournalArticlePage() {
             <Link
               to={`${langPrefix}/discover/journal`}
               className="flex h-[44px] items-center justify-center bg-[#2C3654] px-10 font-sans text-[13px] font-bold uppercase tracking-[0.18em] text-white transition-opacity duration-300 hover:opacity-80 md:h-[57px] md:text-[18px] xl:min-w-[330px]">
-              Back to Journal
+              <AnimatePresence mode="wait">
+                <motion.span
+                  key={`back-to-journal-${i18n.language}`}
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{
+                    duration: 0.3,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
+                  className="inline-block">
+                  {t('journalArticles.backToJournal')}
+                </motion.span>
+              </AnimatePresence>
             </Link>
           </motion.div>
         </section>

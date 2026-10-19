@@ -136,7 +136,7 @@ export function StaysProgramme({
               duration: 0.9,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className={`flex items-center px-4 py-6 sm:px-6 lg:px-8 2xl:pr-20 lg:py-14 ${contentBackgroundClass} ${
+            className={`flex select-text items-center px-4 py-6 sm:px-6 lg:px-8 2xl:pr-20 lg:py-14 ${contentBackgroundClass} ${
               isImageLeft ? 'lg:order-2' : 'lg:order-1'
             } `}>
             <div className="w-full">
@@ -403,7 +403,7 @@ export function StaysProgramme({
                             {t('staysProgramme.tailorMadeTitle')}
                           </h3>
 
-                          <div className="mt-8 space-y-8 lg:mt-10 lg:space-y-10 lg:max-w-[363px] 2xl:max-w-[382px] min-[1680px]:max-w-[425px]">
+                          <div className="mt-8 space-y-8 lg:mt-10 lg:space-y-10 lg:max-w-[363px] 2xl:max-w-[382px] min-[1680px]:max-w-[426px]">
                             {tailorMadeDescriptionKeys.map((key) => (
                               <p
                                 key={key}
@@ -415,7 +415,7 @@ export function StaysProgramme({
                                     email: (
                                       <a
                                         href="mailto:info@scarpa-villas.com"
-                                        className="font-semibold underline underline-offset-4 transition-opacity duration-300 hover:opacity-60">
+                                        className="whitespace-nowrap font-semibold underline underline-offset-4 transition-opacity duration-300 hover:opacity-60">
                                         info@scarpa-villas.com
                                       </a>
                                     ),

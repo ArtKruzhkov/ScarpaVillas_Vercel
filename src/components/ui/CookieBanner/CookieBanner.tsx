@@ -37,7 +37,7 @@ export function CookieBanner() {
             duration: 0.5,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="fixed bottom-4 left-4 right-4 z-[9998] mx-auto md:max-w-[440px] lg:max-w-[480px] 2xl:max-w-[600px] bg-white px-5 py-5 text-[#2C3654] shadow-lg md:left-auto md:right-6 md:bottom-6 md:px-6 md:py-6">
+          className="fixed bottom-4 left-4 right-4 z-[9998] mx-auto md:max-w-[440px] lg:max-w-[480px] 2xl:max-w-[604px] bg-white px-5 py-5 text-[#2C3654] shadow-lg md:left-auto md:right-6 md:bottom-6 md:px-6 md:py-6">
           <AnimatePresence mode="wait">
             <motion.div
               key={`cookie-banner-${i18n.language}`}

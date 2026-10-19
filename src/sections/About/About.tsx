@@ -34,7 +34,7 @@ export function About() {
 
           <img
             src={`${process.env.PUBLIC_URL}/images/about/about-hero.webp`}
-            alt="Scarpa Villas Landscape"
+            alt={t('imageAlts.aboutLandscape')}
             className="h-full w-full object-cover"
           />
         </picture>

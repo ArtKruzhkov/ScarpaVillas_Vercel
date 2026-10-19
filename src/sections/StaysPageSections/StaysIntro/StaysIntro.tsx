@@ -38,7 +38,7 @@ export function StaysIntro() {
       </motion.picture>
 
       {/* White center panel */}
-      <div className="relative z-10 mx-auto my-auto lg:my-0 flex w-[86%] max-w-[350px] flex-col items-center justify-center bg-white px-6 py-10 text-center sm:px-8 sm:py-12 lg:px-12 lg:py-12 2xl:px-16 2xl:py-16 md:max-w-[560px] lg:max-w-[710px] 2xl:max-w-[920px]">
+      <div className="relative z-10 mx-auto my-auto lg:my-0 flex w-[86%] max-w-[350px] flex-col items-center justify-center bg-white px-6 py-10 text-center sm:px-8 sm:py-12 lg:px-12 lg:py-12 2xl:px-16 2xl:py-16 md:max-w-[600px] lg:max-w-[710px] 2xl:max-w-[920px]">
         <motion.div
           initial={{
             opacity: 0,
@@ -121,7 +121,7 @@ export function StaysIntro() {
                 duration: 0.35,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              className="mt-4 md:mt-8 max-w-[180px] font-sans text-[13px] md:text-[16px] xl:text-[18px] leading-[18px] text-[#2C3654] md:max-w-[410px] md:text-[16px] md:leading-[21px] xl:max-w-[490px] xl:leading-[26px]">
+              className="mt-4 md:mt-8 max-w-[180px] font-sans text-[13px] md:text-[16px] xl:text-[18px] leading-[18px] text-[#2C3654] md:max-w-[535px] md:text-[16px] md:leading-[21px] xl:max-w-[620px] xl:leading-[26px]">
               <p>
                 {t('staysIntro.text1')}
                 <br />

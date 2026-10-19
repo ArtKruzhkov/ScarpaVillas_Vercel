@@ -233,7 +233,7 @@ export function SignatureStays() {
               <SwiperSlide key={`${image}-${index}`} className="bg-transparent">
                 <img
                   src={image}
-                  alt="moment at scarpa villas"
+                  alt={t('imageAlts.signatureStaysMoment')}
                   className="h-full w-full object-cover block"
                 />
               </SwiperSlide>
@@ -523,7 +523,7 @@ export function SignatureStays() {
                 <div className="overflow-hidden">
                   <img
                     src={stays[0].image}
-                    alt={t(`stays.${stays[0].title}`)}
+                    alt={t('imageAlts.signatureStaysCard')}
                     className="w-full h-auto object-contain xl:h-[430px] 2xl:h-[460px] xl:object-cover scale-[1.005] will-change-transform transition-transform duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-105"
                   />
                 </div>
@@ -675,7 +675,7 @@ export function SignatureStays() {
                   <article className="bg-white border-b-[13px] border-[#C09A60] h-full">
                     <img
                       src={stays[0].image}
-                      alt={t(`stays.${stays[0].title}`)}
+                      alt={t('imageAlts.signatureStaysCard')}
                       className="w-full object-cover h-[380px] md:h-[480px]"
                     />
 

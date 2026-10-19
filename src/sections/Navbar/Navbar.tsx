@@ -201,9 +201,11 @@ export function Navbar() {
     <header className="sticky top-0 z-[200] relative bg-white backdrop-blur">
       <Container className="py-4 2xl:max-w-[1920px] border-b border-[#2c3654]/70">
         {/* Desktop */}
-        <div className="hidden items-center justify-between px-6 lg:grid lg:grid-cols-[1fr_auto_1fr]">
+        <div className="hidden items-center justify-between px-6 min-[1180px]:grid min-[1180px]:grid-cols-[1fr_auto_1fr]">
           {/* LEFT NAV */}
-          <nav className="hidden items-center justify-between lg:flex" aria-label="Primary Left">
+          <nav
+            className="hidden items-center justify-between min-[1180px]:flex"
+            aria-label="Primary Left">
             {nav.slice(0, 4).map((item) => {
               const sectionId = item.href.replace('#', '');
 
@@ -508,20 +510,20 @@ export function Navbar() {
           </nav>
 
           {/* LOGO */}
-          <div className="flex justify-center lg:px-8 xl:px-20">
+          <div className="flex justify-center lg:px-8 xl:px-10 min-[1720px]:px-20">
             <Link
               to={homeUrl}
               className="flex flex-col items-center justify-center text-center leading-none">
               <img
                 src={`${process.env.PUBLIC_URL}/images/nav/logo.png`}
                 alt="Scarpa Villas"
-                className="w-[120px] sm:w-[140px] shrink-0"
+                className="w-[120px] min-[1621px]:w-[140px] shrink-0"
               />
             </Link>
           </div>
 
           {/* RIGHT NAV */}
-          <div className="hidden items-center justify-between lg:flex">
+          <div className="hidden items-center justify-between min-[1180px]:flex">
             {nav.slice(4).map((item) => {
               const sectionId = item.href.replace('#', '');
 
@@ -683,7 +685,7 @@ export function Navbar() {
         </div>
 
         {/* Mobile */}
-        <div className="flex items-center justify-between lg:hidden">
+        <div className="flex items-center justify-between min-[1180px]:hidden">
           {/* Menu */}
           <button
             type="button"
@@ -736,7 +738,7 @@ export function Navbar() {
         </div>
 
         {open && (
-          <div className="absolute left-0 top-full z-50 w-full px-4 lg:hidden">
+          <div className="absolute left-0 top-full z-50 w-full px-4 min-[1180px]:hidden">
             <div className="relative bg-white p-8 pt-10 shadow-soft">
               <button
                 type="button"

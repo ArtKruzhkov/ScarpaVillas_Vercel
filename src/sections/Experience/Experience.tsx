@@ -85,7 +85,7 @@ export function Experience() {
               }}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/experience/experience.webp`}
-                alt="Luxury wine villa interior"
+                alt={t('imageAlts.experienceInterior')}
                 className="h-full min-h-[380px] lg:min-h-[620px] lg:max-h-[675px] w-full object-cover"
               />
             </motion.div>
@@ -159,7 +159,7 @@ export function Experience() {
                 }}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/experience/experience_mob.webp`}
-                  alt="Luxury wine villa interior"
+                  alt={t('imageAlts.experienceInterior')}
                   className="w-full max-h-[585px] object-cover object-[center_65%]"
                 />
               </motion.div>

@@ -68,8 +68,7 @@
   },
   "experiences": {
     "title": "Ways To Experience Barolo",
-    "descriptionLine1": "From private tastings to slow afternoons in the vineyards, each experience is designed to\u00A0immerse",
-    "descriptionLine2": "you in the rhythm of Barolo.",
+    "description": "From private tastings to slow afternoons in the vineyards, each experience is designed to\u00A0immerse you in the rhythm of Barolo.",
     "wineTaste": "Wine & Taste",
     "cultureDiscovery": "Culture & Discovery",
     "natureMovement": "Nature & Movement",
@@ -122,7 +121,7 @@
 
     "luxRetreat": "The Lux Retreat",
     "luxRetreatSubtitle": "A short escape into the rhythm of Barolo.",
-    "luxRetreatDescription": "A three-night stay designed to slow down and reconnect, combining fine dining, vineyard exploration, and private dining in your villa.",
+    "luxRetreatDescription": "Three nights to slow down and reconnect, with truffle hunting, a picnic in the Langhe, e-bike adventures through the vineyards, and a private dinner in your villa.",
 
     "autumnGems": "Autumn Gems",
     "autumnGemsSubtitle": "The most enchanting season in Barolo.",
@@ -176,7 +175,6 @@
     "title": "Stay connected to the Langhe",
     "description": "Occasional stories, seasonal moments, and insights from the region.",
     "emailPlaceholder": "Enter your e-mail",
-    "button": "Stay In Touch",
     "stayInTouch": "Stay in Touch",
     "sending": "Sending...",
     "sent": "Sent",
@@ -306,7 +304,7 @@
   },
   "scarpaWineryEvolution": {
     "title": "Evolution",
-    "leftText": "Over the decades, Scarpa evolved through a succession of visionaries — from Antonio Scarpa to Mario Pesce, Carlo Castino, and Silvio Pinchera.",
+    "leftText": "Over the decades, Scarpa evolved through a succession of visionaries — from Antonio Scarpa to Mario Pesce, Carlo Castino, and Silvio Trinchero.",
     "rightText": "Each brought a deeper understanding of the land, refining a style built on elegance, longevity, and respect for the vineyard."
   },
   "scarpaWineryProcess": {
@@ -354,7 +352,7 @@
         "description": "With immense pride and a strong sense of responsibility, I am lucky to lead this fantastic company that boasts centuries of history and a visionary future."
       },
       {
-        "name": "Paola Barbieri",
+        "name": "Paola Barberi",
         "position": "Hospitality Manager",
         "description": "Together with the Scarpa Villas team, Paola is dedicated to creating memorable experiences for all private and corporate guests who discover the world of Scarpa."
       },
@@ -916,7 +914,8 @@
   "journalArticles": {
     "continueReading": "Read the Story",
     "showMore": "Show More Articles",
-    "showLess": "Show Less Articles"
+    "showLess": "Show Less Articles",
+    "backToJournal": "Back to Journal"
   },
   "villasHero": {
     "title": "Villas",
@@ -1505,5 +1504,21 @@
     "title": "Page Not Found",
     "text": "The page you are looking for does not exist or may have been moved.",
     "button": "Back to Home"
+  },
+  "imageAlts": {
+    "aboutLandscape": "Scarpa Villas among the vineyards of Monvigliero",
+    "experienceInterior": "Interior of one of the Scarpa Villas",
+    "galleryHero": "Aerial view of the four Scarpa Villas surrounded by the Monvigliero vineyards",
+    "borgoHero": "The Borgo at Scarpa Villas with its panoramic swimming pool",
+    "signatureStaysMoment": "A moment at Scarpa Villas",
+    "signatureStaysCard": "Exclusive stays at Scarpa Villas",
+    "discoverVillageMuseum": "Historic village and museum in the Barolo region",
+    "discoverLaMorra": "Panoramic view of the Langhe vineyards from La Morra",
+    "discoverAlbaTruffle": "Alba and the culture of the white truffle",
+    "planStay": "Scarpa Villas in the evening",
+    "contactEmail": "Email",
+    "contactPhone": "Phone",
+    "contactForm": "Contact form",
+    "contactButton": "Contact"
   }
 }

@@ -70,7 +70,6 @@ export function DiscoverLinks() {
 
               {/* CONTENT */}
               <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col px-4 pb-6 text-white sm:px-5 sm:pb-7 2xl:pb-8">
-                {/* TITLE */}
                 <AnimatePresence mode="wait">
                   <motion.h3
                     key={card.title}
@@ -86,7 +85,6 @@ export function DiscoverLinks() {
                   </motion.h3>
                 </AnimatePresence>
 
-                {/* DESCRIPTION */}
                 <AnimatePresence mode="wait">
                   <motion.p
                     key={card.description}
@@ -101,7 +99,6 @@ export function DiscoverLinks() {
                   </motion.p>
                 </AnimatePresence>
 
-                {/* BUTTON */}
                 <div className="mt-4 inline-block lg:mt-8">
                   <Link
                     to={`${langPrefix}${card.href}`}
@@ -122,6 +119,60 @@ export function DiscoverLinks() {
                   </Link>
                 </div>
               </div>
+
+              {/* CONTENT one hight */}
+              {/* <div className="absolute inset-x-0 bottom-0 z-10 flex h-[190px] md:h-[225px] flex-col px-4 pb-6 text-white sm:px-5 sm:pb-7 lg:h-[250px] 2xl:pb-8">
+                
+                <AnimatePresence mode="wait">
+                  <motion.h3
+                    key={card.title}
+                    className="font-serif text-[28px] leading-none sm:text-[32px] 2xl:text-[38px]"
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -12 }}
+                    transition={{
+                      duration: 0.35,
+                      ease: [0.22, 1, 0.36, 1],
+                    }}>
+                    {card.title}
+                  </motion.h3>
+                </AnimatePresence>
+
+                
+                <AnimatePresence mode="wait">
+                  <motion.p
+                    key={card.description}
+                    className="mt-4 max-w-[502px] font-sans text-[15px] leading-[21px] md:text-[16px] md:leading-[22px] 2xl:text-[18px] 2xl:leading-[26px]"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{
+                      duration: 0.25,
+                    }}>
+                    {card.description}
+                  </motion.p>
+                </AnimatePresence>
+
+                <div className="mt-auto pt-4 lg:pt-8">
+                  <Link
+                    to={`${langPrefix}${card.href}`}
+                    className="flex h-[40px] w-fit items-center justify-center border-y border-white font-sans text-[13px] font-semibold uppercase tracking-[0.2em] transition-opacity duration-300 hover:opacity-60 md:h-[50px] 2xl:h-[52px] md:text-[16px] 2xl:text-[18px]">
+                    <AnimatePresence mode="wait">
+                      <motion.span
+                        key={card.button}
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -6 }}
+                        transition={{
+                          duration: 0.25,
+                          ease: [0.22, 1, 0.36, 1],
+                        }}>
+                        {card.button}
+                      </motion.span>
+                    </AnimatePresence>
+                  </Link>
+                </div>
+              </div> */}
             </motion.article>
           ))}
         </div>

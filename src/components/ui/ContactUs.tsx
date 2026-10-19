@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { ContactModal } from './ContactModal/ContactModal';
 
 interface ContactUsProps {
@@ -9,6 +10,7 @@ interface ContactUsProps {
 export function ContactUs({ className = '', phone }: ContactUsProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const { t } = useTranslation();
 
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -46,7 +48,7 @@ export function ContactUs({ className = '', phone }: ContactUsProps) {
               onClick={() => setIsMenuOpen(false)}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/contactBtn/mail.svg`}
-                alt="Email"
+                alt={t('imageAlts.contactEmail')}
                 className="w-[40px] lg:w-[55px] rounded-[10px] transition-transform duration-300 hover:scale-105"
               />
             </a>
@@ -69,7 +71,7 @@ export function ContactUs({ className = '', phone }: ContactUsProps) {
             <a href={`tel:+${phone}`} aria-label="Call" onClick={() => setIsMenuOpen(false)}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/contactBtn/phone.svg`}
-                alt="Phone"
+                alt={t('imageAlts.contactPhone')}
                 className="w-[40px] lg:w-[55px] rounded-[10px] transition-transform duration-300 hover:scale-105"
               />
             </a>
@@ -78,7 +80,7 @@ export function ContactUs({ className = '', phone }: ContactUsProps) {
             <button type="button" aria-label="Contact form" onClick={openModal}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/contactBtn/form.svg`}
-                alt="Form"
+                alt={t('imageAlts.contactForm')}
                 className="w-[40px] lg:w-[55px] rounded-[10px] transition-transform duration-300 hover:scale-105"
               />
             </button>
@@ -91,7 +93,7 @@ export function ContactUs({ className = '', phone }: ContactUsProps) {
             className="focus:outline-none">
             <img
               src={`${process.env.PUBLIC_URL}/images/contactBtn/contact.svg`}
-              alt="Contact"
+              alt={t('imageAlts.contactButton')}
               className={`w-[40px] lg:w-[55px] rounded-[10px] transition-all duration-300 hover:scale-105 hover:opacity-100 ${
                 isMenuOpen ? 'opacity-100' : 'opacity-50'
               }`}

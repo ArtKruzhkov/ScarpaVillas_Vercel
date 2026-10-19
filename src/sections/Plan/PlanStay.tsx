@@ -10,7 +10,7 @@ export function PlanStay() {
       {/* IMAGE */}
       <motion.img
         src={`${process.env.PUBLIC_URL}/images/plan/plan-stay.webp`}
-        alt="Scarpa Villas at night"
+        alt={t('imageAlts.planStay')}
         className="absolute inset-0 h-full w-full object-cover object-[center_5%]"
         initial={{
           scale: 1.08,

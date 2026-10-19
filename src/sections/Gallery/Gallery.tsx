@@ -228,7 +228,7 @@ export function Gallery() {
             }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/gallery/gallery-hero.webp`}
-              alt="Scarpa Villas"
+              alt={t('imageAlts.galleryHero')}
               className="h-full w-full object-cover"
             />
             <AnimatePresence>

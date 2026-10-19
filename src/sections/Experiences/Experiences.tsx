@@ -158,7 +158,7 @@ export function Experiences() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 0.3 }}>
-              {t('experiences.descriptionLine1')} {t('experiences.descriptionLine2')}
+              {t('experiences.description')}
             </motion.p>
           </AnimatePresence>
         </motion.div>

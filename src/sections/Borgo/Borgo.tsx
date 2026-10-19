@@ -40,7 +40,7 @@ export function Borgo() {
 
               <img
                 src={`${process.env.PUBLIC_URL}/images/borgo/borgo-hero.webp`}
-                alt="The Borgo"
+                alt={t('imageAlts.borgoHero')}
                 className="borgo-hero-image"
               />
             </picture>

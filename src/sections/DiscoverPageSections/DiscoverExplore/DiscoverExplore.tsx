@@ -139,7 +139,7 @@ export function DiscoverExplore() {
                     <AnimatePresence mode="wait">
                       <motion.p
                         key={`${card.description}-${i18n.language}`}
-                        className="mt-2 lg:mt-3 max-w-full text-[#2C3654] text-[16px] leading-[24px] lg:text-[18px] lg:leading-[26px] xl:max-w-[406px]"
+                        className="mt-2 lg:mt-3 max-w-full text-[#2C3654] text-[16px] leading-[24px] lg:text-[18px] lg:leading-[26px] xl:max-w-[412px]"
                         initial={{ opacity: 0, y: 12 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -12 }}

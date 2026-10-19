@@ -67,14 +67,8 @@ export function Hero() {
 
           {/* HERO TEXT */}
           <div className="mt-5 sm:mt-6 max-w-[900px]">
-            {/* <h2 className="hero-title">
-              Stay among the
-              <span className="italic"> vineyards of Monvigliero</span>,
-              <span className="mt-2 block">in your own private villa</span>
-            </h2> */}
-
             <AnimatePresence mode="wait">
-              <motion.h2
+              <motion.h1
                 key={t('hero.titlePart1')}
                 className="hero-title"
                 initial={{ opacity: 0, y: 12 }}
@@ -87,7 +81,7 @@ export function Hero() {
                 {t('hero.titlePart1')}
                 <span className="italic"> {t('hero.titleItalic')}</span>,
                 <span className="mt-2 block">{t('hero.titlePart2')}</span>
-              </motion.h2>
+              </motion.h1>
             </AnimatePresence>
           </div>
         </div>

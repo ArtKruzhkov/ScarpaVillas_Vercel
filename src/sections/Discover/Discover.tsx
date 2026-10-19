@@ -12,6 +12,7 @@ export type LangheSlide = {
   subtitle: string;
   description: string;
   image: string;
+  altKey: string;
 };
 
 const baseUrl = process.env.PUBLIC_URL;
@@ -22,18 +23,21 @@ const langheSlides: LangheSlide[] = [
     subtitle: 'villageMuseumSubtitle',
     description: 'villageMuseumDescription',
     image: `${baseUrl}/images/discover/village-museum.webp`,
+    altKey: 'discoverVillageMuseum',
   },
   {
     title: 'laMorraBelvedere',
     subtitle: 'laMorraBelvedereSubtitle',
     description: 'laMorraBelvedereDescription',
     image: `${baseUrl}/images/discover/la-morra.webp`,
+    altKey: 'discoverLaMorra',
   },
   {
     title: 'albaTruffleCulture',
     subtitle: 'albaTruffleCultureSubtitle',
     description: 'albaTruffleCultureDescription',
     image: `${baseUrl}/images/discover/truffle.webp`,
+    altKey: 'discoverAlbaTruffle',
   },
 
   {
@@ -41,18 +45,21 @@ const langheSlides: LangheSlide[] = [
     subtitle: 'villageMuseumSubtitle',
     description: 'villageMuseumDescription',
     image: `${baseUrl}/images/discover/village-museum.webp`,
+    altKey: 'discoverVillageMuseum',
   },
   {
     title: 'laMorraBelvedere',
     subtitle: 'laMorraBelvedereSubtitle',
     description: 'laMorraBelvedereDescription',
     image: `${baseUrl}/images/discover/la-morra.webp`,
+    altKey: 'discoverLaMorra',
   },
   {
     title: 'albaTruffleCulture',
     subtitle: 'albaTruffleCultureSubtitle',
     description: 'albaTruffleCultureDescription',
     image: `${baseUrl}/images/discover/truffle.webp`,
+    altKey: 'discoverAlbaTruffle',
   },
 ];
 
@@ -161,7 +168,7 @@ export function DiscoverLanghe() {
                   }}>
                   <img
                     src={slide.image}
-                    alt={t(`langheSlides.${slide.title}`)}
+                    alt={t(`imageAlts.${slide.altKey}`)}
                     className="mx-auto w-full h-[520px] object-cover lg:h-[560px]"
                   />
 
