@@ -38,7 +38,7 @@ export function OriginsMedieval() {
       </motion.picture>
 
       {/* White center panel */}
-      <div className="relative z-10 mx-auto lg:min-h-[720px] flex w-[86%] max-w-[370px] md:max-w-[560px] lg:max-w-[710px] 2xl:max-w-[960px] flex-col items-center justify-center bg-white px-6 py-12 text-center sm:px-8 sm:py-12 lg:px-12 lg:py-16 2xl:px-20">
+      <div className="relative z-10 mx-auto lg:min-h-[720px] flex w-[86%] max-w-[370px] md:max-w-[560px] lg:max-w-[750px] 2xl:max-w-[960px] flex-col items-center justify-center bg-white px-6 py-12 text-center sm:px-8 sm:py-12 lg:px-12 lg:py-16 2xl:px-16">
         <motion.div
           initial={{
             opacity: 0,

@@ -110,12 +110,6 @@ export function VillasAdviceCTA() {
               ease: [0.22, 1, 0.36, 1],
             }}>
             <div className="flex h-[57px]">
-              {/* <input
-                key={t('villasAdviceCTA.placeholder')}
-                type="email"
-                placeholder={t('villasAdviceCTA.placeholder')}
-                className="h-full flex-1 border-2 border-[#2C3654] bg-white px-6 text-center font-sans text-[18px] text-[#2C3654] outline-none placeholder:text-[#A8ABB8] xl:min-w-[850.6px]"
-              /> */}
               <input
                 type="email"
                 name="email"
@@ -123,27 +117,13 @@ export function VillasAdviceCTA() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={t('villasAdviceCTA.placeholder')}
-                className="h-full flex-1 border-2 border-[#2C3654] bg-white px-6 text-center font-sans text-[18px] text-[#2C3654] outline-none placeholder:text-[#A8ABB8] xl:min-w-[850.6px]"
+                className="h-full flex-1 border-2 border-[#2C3654] bg-white px-6 text-center font-sans text-[18px] text-[#2C3654] outline-none placeholder:text-[#A8ABB8] xl:min-w-[760px]"
               />
 
-              {/* <button
-                type="submit"
-                className="h-full xl:min-w-[382px] bg-[#2C3654] px-8 font-sans text-[18px] font-bold uppercase tracking-[0.18em] text-white transition-opacity duration-300 hover:opacity-80">
-                <AnimatePresence mode="wait">
-                  <motion.span
-                    key={t('villasAdviceCTA.button')}
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    transition={{ duration: 0.25 }}>
-                    {t('villasAdviceCTA.button')}
-                  </motion.span>
-                </AnimatePresence>
-              </button> */}
               <button
                 type="submit"
                 disabled={isSending || status === 'success'}
-                className="h-full xl:min-w-[382px] bg-[#2C3654] px-8 font-sans text-[18px] font-bold uppercase tracking-[0.18em] text-white transition-colors duration-300 hover:bg-[#404B73] disabled:bg-[#404B73] disabled:cursor-default">
+                className="h-full xl:min-w-[410px] bg-[#2C3654] px-8 font-sans text-[18px] font-bold uppercase tracking-[0.18em] text-white transition-colors duration-300 hover:bg-[#404B73] disabled:bg-[#404B73] disabled:cursor-default">
                 <AnimatePresence mode="wait">
                   <motion.span
                     key={`villa-advice-submit-${i18n.language}-${status}-${isSending}`}

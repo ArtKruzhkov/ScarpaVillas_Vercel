@@ -1,4 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import { useParams } from 'react-router-dom';
 import type { Villa } from '../../../data/villas';
 import { Trans, useTranslation } from 'react-i18next';
 
@@ -13,6 +14,7 @@ const transComponents = {
 
 export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
   const { t, i18n } = useTranslation();
+  const { villaId } = useParams();
   return (
     <section className="bg-white">
       {/* TOP */}
@@ -68,7 +70,7 @@ export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
                           duration: 0.35,
                           ease: [0.22, 1, 0.36, 1],
                         }}>
-                        <p className="mt-5 max-w-[145px] font-sans text-[12px] leading-[1.45] text-[#2C3654] lg:text-[11px] xl:text-[12px] 2xl:max-w-[210px] 2xl:text-[16px]">
+                        <p className="mt-5 max-w-[145px] font-sans text-[12px] leading-[1.45] text-[#2C3654] lg:text-[11px] xl:text-[12px] 2xl:max-w-[212px] 2xl:text-[16px]">
                           {t(item.text)}
                         </p>
                       </motion.div>
@@ -189,7 +191,12 @@ export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/5 to-transparent" />
 
         {/* Text */}
-        <div className="absolute bottom-6 lg:bottom-10 2xl:bottom-12 left-1/2 w-full md:max-w-[768px] lg:max-w-[1020px] -translate-x-1/2 px-6 text-center text-white">
+        <div
+          className={`absolute bottom-6 lg:bottom-10 2xl:bottom-12 left-1/2 w-full md:max-w-[768px] -translate-x-1/2 px-6 text-center text-white ${
+            i18n.language === 'it' && villaId !== 'tettimorra'
+              ? 'lg:max-w-[934px]'
+              : 'lg:max-w-[1020px]'
+          }`}>
           <AnimatePresence mode="wait">
             <motion.div
               key={`${amenities.bottom.title}-${i18n.language}`}

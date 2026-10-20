@@ -24,7 +24,7 @@ export const pressArticles: PressArticle[] = [
 
     text: 'Just over two and a half hours from Monaco, the rolling vineyards of Italy’s Langhe unfold across the hills of Piedmont, home to some of the world’s most celebrated wines and one of the country’s great gastronomic regions.',
     text_ital:
-      'A poco più di due ore e mezza da Monaco, i vigneti ondulati delle Langhe italiane si estendono sulle colline del Piemonte, patria di alcuni dei vini più rinomati al mondo e una delle grandi regioni gastronomiche del Paese.',
+      'A poco più di due ore e mezza da Monaco, i vigneti ondulati delle Langhe si estendono sulle colline del Piemonte, patria di alcuni dei vini più rinomati al mondo e una delle grandi regioni gastronomiche del Paese.',
   },
   {
     id: 'article-2',
@@ -38,7 +38,7 @@ export const pressArticles: PressArticle[] = [
 
     text: 'Life moves at a gentler pace among these vineyards, where every sunrise over the hills, every carefully prepared meal, every glass of Barolo, and every quiet evening overlooking the landscape contributes to an experience that feels both deeply authentic and wonderfully restorative.',
     text_ital:
-      'La vita scorre a un ritmo più tranquillo tra questi vigneti, dove ogni alba sulle colline, ogni pasto preparato con cura, ogni bicchiere di Barolo e ogni serata trascorsa ammirando il paesaggio contribuiscono a creare un’esperienza profondamente autentica e meravigliosamente rigenerante.',
+      'Tra questi vigneti la vita scorre a un ritmo più tranquillo: ogni alba sulle colline, ogni pasto preparato con cura, ogni calice di Barolo e ogni serata trascorsa ad ammirare il paesaggio contribuiscono a creare un’esperienza profondamente autentica e meravigliosamente rigenerante.',
   },
   {
     id: 'article-3',
@@ -66,7 +66,7 @@ export const pressArticles: PressArticle[] = [
 
     text: 'Scarpa Villas are not simply a luxury destination. They are an invitation to experience Piedmont at its very best through its landscapes, its people, its traditions, and its wines.',
     text_ital:
-      'Scarpa Villas non è semplicemente una destinazione di lusso. È un invito a vivere il Piemonte al meglio attraverso i suoi paesaggi, la sua gente, le sue tradizioni e i suoi vini.',
+      'Le Scarpa Villas non sono semplicemente una destinazione di lusso: sono un invito a vivere il Piemonte al meglio, attraverso i suoi paesaggi, la sua gente, le sue tradizioni e i suoi vini.',
   },
   {
     id: 'article-5',
@@ -80,6 +80,6 @@ export const pressArticles: PressArticle[] = [
 
     text: 'Ideal for those seeking a private setting for family gatherings or discreet celebrations, away from prying eyes and the hustle of the world.',
     text_ital:
-      'Ideale per chi è alla ricerca di un ambiente riservato per riunioni di famiglia o feste intime, lontano da sguardi indiscreti e dal trambusto del mondo.',
+      'Ideali per chi cerca un ambiente riservato per riunioni di famiglia o feste intime, lontano da sguardi indiscreti e dal trambusto del mondo.',
   },
 ];

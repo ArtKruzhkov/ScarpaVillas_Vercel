@@ -249,10 +249,10 @@
     "subtitle": "A landscape shaped over centuries"
   },
   "originsIntro": {
-    "titleLine1": "In the hills of the Langhe,",
-    "titleLine2": "time is not measured in years,",
-    "titleLine3": "but in generations",
-    "textLine1": "What exists today is the result of centuries of quiet transformation —",
+    "titleLine1": "In the hills of the Langhe, ",
+    "titleLine2": "time is not measured in years, ",
+    "titleLine3": "but in generations.",
+    "textLine1": "What exists today is the result of centuries of quiet transformation — ",
     "textLine2": "a landscape shaped slowly, almost imperceptibly, over time."
   },
   "originsHistory": {
@@ -292,7 +292,7 @@
     "subtitle": "We know how to wait"
   },
   "scarpaWineryIntro": {
-    "title": "For over a century, <brMobile/><italic>Scarpa has been sharing wines</italic><br/>that reflect time, place, and patience",
+    "title": "For over a century, <brMobile/><italic>Scarpa has been sharing wines</italic><br/>that reflect time, place, and patience.",
     "textLine1": "Rooted in Piedmont, its philosophy goes beyond production —",
     "textLine2": "it is a way of understanding wine."
   },
@@ -968,7 +968,7 @@
   "villasPlanStayCTA": {
     "title": "Planning a Larger Gathering or Event?",
     "text1": "The Borgo allows you to reserve",
-    "textItalic": "all four villas together",
+    "textItalic": "all four villas together —",
     "text1End": "creating a private estate for groups, celebrations, or retreats.",
     "text2": "Reserve the entire estate and enjoy Barolo together, with complete privacy.",
     "button": "Explore The Borgo"

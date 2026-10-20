@@ -125,7 +125,7 @@ export function BorgoEstate() {
                   duration: 0.35,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="text-white sm:max-w-[450px] md:max-w-[690px] lg:max-w-[590px] text-center font-serif text-[14px] sm:text-[16px] md:text-[17px] lg:text-[16px] xl:text-[18px] 2xl:text-[22px] leading-[1.15] xl:leading-[22px] 2xl:leading-[26px]">
+                className="text-white sm:max-w-[451px] md:max-w-[691px] lg:max-w-[591px] text-center font-serif text-[14px] sm:text-[16px] md:text-[17px] lg:text-[16px] xl:text-[18px] 2xl:text-[22px] leading-[1.15] xl:leading-[22px] 2xl:leading-[26px]">
                 {t('borgoEstate2.text')}
               </motion.p>
             </AnimatePresence>

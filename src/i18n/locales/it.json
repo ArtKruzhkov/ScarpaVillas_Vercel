@@ -198,26 +198,26 @@
     "subtitle": "Un luogo plasmato dal tempo, dal vino e dalle persone"
   },
   "storyChapters": {
-    "heading": "Scarpa Villas fa parte di una storia più ampia — una storia che nasce tra i <italic1>vigneti del Piemonte</italic1> e continua attraverso il vino, le persone e uno stile di vita modellato nel corso di <italic2>generazioni</italic2>.",
+    "heading": "Le Scarpa Villas fanno parte di una storia più ampia, che nasce tra i <italic1>vigneti del Piemonte</italic1> e continua attraverso il vino, le persone e uno stile di vita modellato nel corso delle <italic2>generazioni</italic2>.",
     "origins": {
       "title": "Origini",
-      "description": "Un paesaggio modellato lentamente nel corso dei secoli, dove vigneti, borghi e tradizioni si sono evoluti insieme nel tempo.",
+      "description": "Un paesaggio modellato lentamente nel corso dei secoli, in cui vigneti, borghi e tradizioni si sono evoluti insieme.",
       "button": "Scopri le Origini"
     },
     "winery": {
       "title": "Cantina Scarpa",
-      "description": "Dal 1900, Scarpa crea vini definiti dal tempo, dalla pazienza e da un profondo rispetto per il territorio.",
+      "description": "Dal 1900 Scarpa crea vini definiti dal tempo, dalla pazienza e da un profondo rispetto per il territorio.",
       "button": "Esplora la Cantina"
     },
     "people": {
       "title": "Persone",
-      "description": "Dietro ogni esperienza c'è un gruppo di persone la cui cura e attenzione danno forma a ogni momento del soggiorno.",
-      "button": "Incontra le Persone"
+      "description": "Dietro ogni esperienza c’è un gruppo di persone la cui cura e attenzione danno forma a ogni momento del soggiorno.",
+      "button": "Conosci le Persone"
     },
     "press": {
       "title": "Stampa",
-      "description": "Una selezione di articoli e menzioni che raccontano Scarpa Villas e il suo posto nelle Langhe.",
-      "button": "Visualizza la Rassegna"
+      "description": "Una selezione di articoli e citazioni che raccontano le Scarpa Villas e il loro posto nelle Langhe.",
+      "button": "Leggi la Rassegna"
     }
   },
   "storyVillasCTA": {
@@ -229,21 +229,21 @@
     "subtitle": "Un paesaggio plasmato nel corso dei secoli"
   },
   "originsIntro": {
-    "titleLine1": "Sulle colline delle Langhe,",
-    "titleLine2": "il tempo non si misura in anni,",
-    "titleLine3": "ma in generazioni",
-    "textLine1": "Ciò che esiste oggi è il risultato di secoli di silenziosa trasformazione —",
+    "titleLine1": "Sulle colline delle Langhe ",
+    "titleLine2": "il tempo non si misura in anni, ",
+    "titleLine3": "ma in generazioni.",
+    "textLine1": "Ciò che esiste oggi è il risultato di secoli di silenziosa trasformazione — ",
     "textLine2": "un paesaggio modellato lentamente, quasi impercettibilmente, nel tempo."
   },
   "originsHistory": {
     "topText": "Molto prima che il Barolo diventasse una delle zone vinicole più celebrate al mondo, queste colline erano già abitate e coltivate.",
-    "bottomText": "Nel corso dei secoli, le Langhe si sono evolute attraverso stratificazioni storiche — dagli insediamenti preistorici e dalla prima agricoltura in Piemonte fino alla presenza romana, che contribuì a modellare ulteriormente il territorio con strade, coltivazioni e viticoltura."
+    "bottomText": "Nel corso dei secoli le Langhe si sono evolute per stratificazioni successive: dagli insediamenti preistorici e dalla prima agricoltura in Piemonte fino alla presenza romana, che contribuì a plasmare il territorio con strade, coltivazioni e viticoltura."
   },
   "originsMedieval": {
-    "titleLine1": "Nel Medioevo, i borghi che oggi definiscono",
-    "titleLine2": " questo territorio iniziarono a prendere forma e il",
+    "titleLine1": "Nel Medioevo i borghi che oggi definiscono",
+    "titleLine2": " questo territorio iniziarono a prendere forma, e il",
     "titleLine3": " paesaggio vitato continuò a evolversi fino a diventare",
-    "titleLine4": " quello che oggi riconosciamo come Barolo.",
+    "titleLine4": " quello che oggi riconosciamo come la terra\u00A0del\u00A0Barolo.",
     "text": "Ciò che vediamo oggi non è un luogo nato in un solo momento, ma modellato nel tempo da generazioni che hanno vissuto, lavorato e coltivato questa terra."
   },
   "originsMonvigliero": {
@@ -251,17 +251,17 @@
     "titleLine2": "paesaggio si trova Monvigliero.",
     "text1": "Situati sopra il borgo di Verduno, sul margine settentrionale della denominazione Barolo, questi vigneti sono da sempre conosciuti per il loro carattere distintivo: raffinato, espressivo e profondamente legato all’identità del territorio.",
     "text2Start": "Oggi Monvigliero è considerato",
-    "text2Bold": "uno dei cru più distintivi del Barolo",
-    "text2End": ", modellato dall'altitudine, dall'esposizione e dal delicato equilibrio tra sole e aria che caratterizza queste colline.",
+    "text2Bold": "uno dei cru più riconoscibili del Barolo",
+    "text2End": ", plasmato dall’altitudine, dall’esposizione e dal delicato equilibrio tra sole e aria che caratterizza queste colline.",
     "text3Start": "Qui",
     "text3Bold": "Nebbiolo e Pelaverga",
-    "text3End": " crescono fianco a fianco, continuando una tradizione che riflette la profondità e l'eleganza di questo luogo"
+    "text3End": " crescono fianco a fianco, portando avanti una tradizione che riflette la profondità e l’eleganza di questo luogo."
   },
   "originsCTA": {
-    "title": "SCARPA VILLAS CONTINUANO STORIA",
+    "title": "LE SCARPA VILLAS PORTANO AVANTI QUESTA STORIA",
     "textLine1": "CONTEMPORANEE NEL COMFORT, MA RADICATE IN UN PAESAGGIO",
     "textLine2": "MODELLATO NEL CORSO DEI SECOLI, OFFRONO UN MODO DI VIVERE IL BAROLO",
-    "textLine3": "NON COME VISITATORI, MA COME PARTE DEL SUO RITMO.",
+    "textLine3": "NON DA VISITATORI, MA COME PARTE DEL SUO RITMO.",
     "button": "Scopri le Ville"
   },
   "scarpaWineryHero": {
@@ -269,15 +269,15 @@
     "subtitle": "Sappiamo aspettare"
   },
   "scarpaWineryIntro": {
-    "title": "Da oltre un secolo, <brMobile/><italic>Scarpa racconta il vino</italic><br/>attraverso il tempo, il territorio e l'attesa",
+    "title": "Da oltre un secolo <brMobile/><italic>Scarpa racconta il vino</italic><br/>attraverso il tempo, il territorio e l’attesa.",
     "textLine1": "Radicata in Piemonte, la sua filosofia va oltre la produzione —",
     "textLine2": "è un modo di intendere il vino."
   },
   "scarpaWineryLove": {
-    "title": "Vino per Amore",
-    "paragraph1": "<strong>Scarpa nasce nel 1900</strong> grazie ad Antonio Scarpa, che lasciò Venezia per Nizza Monferrato in cerca di opportunità — trovando molto di più.",
-    "paragraph2": "<strong>Due legami lo convinsero a restare:</strong> il potenziale ancora inesplorato di questa terra e l'amore per Ernestina Ottavia Deantonio, che sposò nel 1908.",
-    "paragraph3": "Insieme diedero vita a una cantina con un obiettivo preciso: rivelare il vero potenziale dei vini piemontesi, <strong>partendo dalla Barbera</strong>, quando era ancora poco valorizzata."
+    "title": "Vino per amore",
+    "paragraph1": "<strong>Scarpa nasce nel 1900</strong> grazie ad Antonio Scarpa, che lasciò Venezia per Nizza Monferrato in cerca di opportunità e trovò molto di più.",
+    "paragraph2": "<strong>Due legami lo convinsero a restare:</strong> il potenziale ancora inesplorato di questa terra e l’amore per Ernestina Ottavia Deantonio, che sposò nel 1908.",
+    "paragraph3": "Insieme diedero vita a una cantina con un obiettivo preciso: rivelare il vero potenziale dei vini piemontesi, <strong>a partire dalla Barbera</strong>, quando era ancora poco valorizzata."
   },
   "scarpaWineryEvolution": {
     "title": "Evoluzione",
@@ -285,9 +285,9 @@
     "rightText": "Ognuno ha contribuito ad approfondire la conoscenza del territorio, affinando uno stile fondato su eleganza, longevità e rispetto per la vigna."
   },
   "scarpaWineryProcess": {
-    "title": "Tempo, Purezza e Pazienza",
-    "paragraph1": "<strong>I vini Scarpa non vengono forzati</strong> — sono lasciati evolvere naturalmente.",
-    "paragraph2": "Lungo affinamento, <strong>intervento minimo</strong> e profondo rispetto per i vitigni autoctoni definiscono uno stile fondato su purezza ed espressione.",
+    "title": "Tempo, purezza e pazienza",
+    "paragraph1": "<strong>I vini Scarpa non vengono forzati:</strong> sono lasciati evolvere naturalmente.",
+    "paragraph2": "Lunghi affinamenti, <strong>interventi minimi</strong> e un profondo rispetto per i vitigni autoctoni definiscono uno stile fondato su purezza ed espressione.",
     "paragraph3": "Ogni scelta, dalla vigna alla cantina, è guidata da una convinzione semplice: <strong>i grandi vini si rivelano con il tempo.</strong>"
   },
   "scarpaWineryVineyards": {
@@ -302,22 +302,22 @@
   },
   "scarpaWineryVillas": {
     "title": "Ville",
-    "paragraph1": "Scarpa Villas porta questa filosofia oltre il calice.",
+    "paragraph1": "Le Scarpa Villas portano questa filosofia oltre il calice.",
     "paragraph2": "Immerse tra i vigneti, offrono un modo di vivere gli stessi valori — tempo, spazio e legame con la terra — attraverso il soggiorno, non solo la degustazione.",
-    "button": "Scopri l'esperienza Scarpa"
+    "button": "Scopri l’esperienza Scarpa"
   },
   "scarpaWineryCTA": {
-    "titleLine1": "Continua il tuo viaggio nel mondo Scarpa",
-    "titleLine2": "e scopri i nostri vini.",
+    "titleLine1": "Continuate il vostro viaggio nel mondo Scarpa",
+    "titleLine2": "e scoprite i nostri vini.",
     "button": "Scopri Scarpa Wine"
   },
   "peopleHero": {
     "title": "Persone",
-    "subtitle": "Le persone dietro l'esperienza Scarpa"
+    "subtitle": "Le persone dietro l’esperienza Scarpa"
   },
   "peopleIntro": {
-    "titleLine1": "DIETRO OGNI ESPERIENZA SCARPA C'È UN GRUPPO DI PERSONE CHE CONDIVIDE GLI STESSI VALORI – CURA,",
-    "titleHighlight": "ATTENZIONE AI DETTAGLI,",
+    "titleLine1": "DIETRO OGNI ESPERIENZA SCARPA C’È UN GRUPPO DI PERSONE CHE CONDIVIDE GLI STESSI VALORI: CURA,",
+    "titleHighlight": "ATTENZIONE AI DETTAGLI",
     "titleLine3": "E UN PROFONDO LEGAME CON CIÒ CHE FA.",
     "paragraph": "Dal vigneto alle ville, ognuno contribuisce a creare un’esperienza personale, destinata a lasciare il segno."
   },
@@ -360,11 +360,11 @@
     "subtitle": "Articoli e citazioni selezionati"
   },
   "pressIntro": {
-    "textLine1": "Scarpa Villas",
-    "textItalic": "è stata raccontata",
-    "textLine2": "in una selezione",
+    "textLine1": "Le Scarpa Villas",
+    "textItalic": "sono state citate",
+    "textLine2": "da una selezione",
     "textLine3": "di riviste di viaggi e lifestyle",
-    "textLine4": "che raccontano la sua posizione",
+    "textLine4": "che ne raccontano la posizione",
     "textLine5": "tra i vigneti del Barolo."
   },
   "pressArticles": {
@@ -403,11 +403,11 @@
   },
   "experiencesHero": {
     "title": "Esperienze",
-    "subtitle": "Modi per vivere il Barolo oltre il soggiorno"
+    "subtitle": "Modi di vivere il Barolo oltre il soggiorno"
   },
   "experiencesIntro": {
-    "titleLine1": "Ogni esperienza è pensata",
-    "titleLine2": "per metterti in contatto con il paesaggio, la cultura,",
+    "titleLine1": "Ogni esperienza è pensata per mettervi",
+    "titleLine2": "in contatto con il paesaggio, la cultura",
     "titleLine3": "e il ritmo delle Langhe.",
     "text1": "Alle Scarpa Villas il vostro soggiorno può essere modellato su ciò che vi sta più a cuore: dal vino e dalla gastronomia alla natura e alla scoperta.",
     "text2": "Ogni esperienza è curata per farvi sentire a vostro agio, senza fretta e in profonda sintonia con il luogo."
@@ -422,16 +422,16 @@
           "description": "Degustazioni guidate dei vini Scarpa, dalle etichette iconiche alle annate rare."
         },
         "scarpaWinery": {
-          "title": "Cantina Scarpa",
-          "description": "Entra nelle cantine Scarpa ed esplora l’arte dietro ogni bottiglia."
+          "title": "Visite in cantina",
+          "description": "Entrate nelle cantine Scarpa e scoprite l’arte che si cela dietro ogni bottiglia."
         },
         "merendaSinoira": {
           "title": "Merenda Sinoira",
-          "description": "Un tradizionale aperitivo piemontese di fine pomeriggio con piatti e vini locali."
+          "description": "Il tradizionale rito piemontese di fine pomeriggio, con piatti e vini del territorio."
         },
         "cookingClasses": {
           "title": "Corsi di cucina",
-          "description": "Scoprite le tradizioni della cucina piemontese attraverso esperienze pratiche."
+          "description": "Scoprite le tradizioni della cucina piemontese con un’esperienza pratica."
         }
       }
     },
@@ -441,15 +441,15 @@
       "cards": {
         "langheBaroloTours": {
           "title": "Tour delle Langhe e del Barolo",
-          "description": "Visita borghi storici, mercati locali e angoli nascosti delle Langhe."
+          "description": "Visitate borghi storici, mercati locali e angoli nascosti delle Langhe."
         },
         "localProducers": {
           "title": "Produttori locali e degustazioni",
-          "description": "Scopri i piccoli produttori artigianali — dai formaggi alle nocciole — nelle zone meno conosciute del Piemonte."
+          "description": "Scoprite i piccoli produttori artigianali, dai formaggi alle nocciole, nelle zone meno conosciute del Piemonte."
         },
         "turinExperiences": {
           "title": "Esperienze a Torino",
-          "description": "Scopri l’eleganza del capoluogo piemontese, dai caffè ai monumenti storici."
+          "description": "Scoprite l’eleganza del capoluogo piemontese, dai caffè storici ai grandi monumenti."
         }
       }
     },
@@ -459,28 +459,28 @@
       "cards": {
         "truffleHunting": {
           "title": "Caccia al tartufo",
-          "description": "Passeggia nei boschi con un trifolau e scopri una delle tradizioni più uniche della regione."
+          "description": "Passeggiate nei boschi con un trifolau e scoprite una delle tradizioni più autentiche della regione."
         },
         "hotAirBalloon": {
           "title": "Voli in mongolfiera",
-          "description": "Ammira le Langhe dall’alto all’alba, in completo silenzio."
+          "description": "Ammirate le Langhe dall’alto all’alba, nel silenzio più completo."
         },
         "vineyardPicnics": {
           "title": "Picnic tra i vigneti",
-          "description": "Una tavola semplice apparecchiata tra i vigneti, dove il tempo rallenta."
+          "description": "Una tavola semplice apparecchiata tra i filari, dove il tempo rallenta."
         },
         "vespaEbike": {
           "title": "Tour in Vespa ed e-bike",
-          "description": "Muovetevi liberamente tra borghi e vigneti al vostro ritmo."
+          "description": "Muovetevi liberamente tra borghi e vigneti, al vostro ritmo."
         }
       }
     }
   },
   "experiencesPlanStay": {
-    "titleLine1": "Tutte le esperienze si possono organizzare prima o durante",
-    "titleLine2": " il soggiorno e adattare alle tue preferenze.",
-    "subtitle": "Dicci cosa vorresti vivere — al resto pensiamo noi.",
-    "button": "Pianifica soggiorno"
+    "titleLine1": "Tutte le esperienze possono essere organizzate prima o durante",
+    "titleLine2": " il soggiorno e adattate alle vostre preferenze.",
+    "subtitle": "Diteci che cosa vorreste vivere: al resto pensiamo noi.",
+    "button": "Pianifica il soggiorno"
   },
   "staysHero": {
     "title": "Soggiorni esclusivi",
@@ -889,32 +889,32 @@
     "subtitle": "Quattro modi diversi di vivere il Barolo"
   },
   "villasShare": {
-    "title": "Ogni villa offre un'atmosfera diversa — da ampia e conviviale a intima e riservata — pur condividendo la stessa cornice",
-    "titleItalic": "tra i vigneti di Monvigliero.",
+    "title": "Ogni villa ha un’atmosfera propria, ampia e conviviale oppure intima e riservata, ma tutte condividono la stessa cornice:",
+    "titleItalic": "i vigneti di Monvigliero.",
     "heading": "Ciò che tutte le ville condividono",
     "features": {
       "privateSpaces": "Spazi privati tra\ni vigneti di\nMonvigliero",
       "pool": "Accesso alla\npiscina panoramica",
       "kitchen": "Cucine completamente\nattrezzate e spazi\nall'aperto",
-      "hospitality": "L'ospitalità Scarpa\ne le esperienze\nselezionate"
+      "hospitality": "L’ospitalità Scarpa\ne una selezione\ndi esperienze"
     }
   },
   "villasGrid": {
     "discover": "Scopri la villa",
     "tettineive": {
       "title": "Tettineive",
-      "text1": "La villa più spaziosa per condividere momenti insieme.",
+      "text1": "La villa più spaziosa, per condividere momenti insieme.",
       "text2": "Ideale per famiglie, gruppi e occasioni speciali."
     },
     "bogliona": {
       "title": "La Bogliona",
-      "text1": "La villa più intima per coppie e soggiorni tranquilli.",
+      "text1": "La villa più intima, per coppie e soggiorni tranquilli.",
       "text2": "Ideale per coppie e piccoli gruppi in cerca di privacy."
     },
     "bricchi": {
       "title": "I Bricchi",
-      "text1": "Una villa contemporanea luminosa con vista panoramica.",
-      "text2": "Ideale per chi ama luce, spazi aperti e design moderno."
+      "text1": "Una villa contemporanea e luminosa, con vista panoramica.",
+      "text2": "Ideale per chi ama la luce, gli spazi aperti e il design moderno."
     },
     "tettimorra": {
       "title": "Tettimorra",
@@ -925,18 +925,18 @@
   "villasAdviceCTA": {
     "title": "Non siete ancora sicuri di quale villa faccia per voi?",
     "subtitle": "Il nostro team può aiutarvi a scegliere la soluzione più adatta ai vostri programmi e al vostro gruppo.",
-    "placeholder": "Inserisci la tua e-mail",
+    "placeholder": "Indirizzo e-mail",
     "button": "Richiedi una consulenza",
     "sending": "Invio...",
     "success": "Richiesta inviata",
     "error": "Riprova",
-    "privacy": "Accetto l'informativa sulla privacy"
+    "privacy": "Accetto l’informativa sulla privacy"
   },
   "villasPlanStayCTA": {
     "title": "State organizzando un evento o un soggiorno per un gruppo numeroso?",
-    "text1": "Il Borgo ti permette di riservare",
+    "text1": "Con il Borgo potete riservare",
     "textItalic": "tutte e quattro le ville insieme",
-    "text1End": "creando una tenuta privata per gruppi, celebrazioni o ritiri.",
+    "text1End": "e disporre di una tenuta privata per gruppi, celebrazioni o ritiri.",
     "text2": "Prenotate l’intera tenuta e vivete il Barolo in compagnia, in totale privacy.",
     "button": "Scopri il Borgo"
   },
@@ -945,14 +945,14 @@
       "hero": {
         "title": "Tettineive",
         "subtitle": {
-          "part1": "Un luogo di ritrovo, ",
-          "italic": "spazio e momenti di tranquillità ",
+          "part1": "Un luogo per ritrovarsi, ",
+          "italic": "tra spazi ampi e momenti di quiete ",
           "part2": "nelle Langhe."
         }
       },
       "overview": {
         "title": "Tettineive è la più spaziosa delle Scarpa Villas: pensata per famiglie, ritrovi e momenti da trascorrere insieme, senza rinunciare alla privacy.",
-        "description": "<strong>Cinque camere da letto</strong>, ampi <strong>spazi comuni</strong> e un <strong>grande giardino privato</strong> creano un ambiente in cui ogni momento si svolge in modo naturale, tra esperienze condivise e tranquilli momenti personali."
+        "description": "<strong>Cinque camere da letto</strong>, ampi <strong>spazi comuni</strong> e un <strong>grande giardino privato</strong> creano un ambiente in cui ogni momento scorre in modo naturale, tra esperienze condivise e attimi di tranquillità personale."
       },
       "features": {
         "items": [
@@ -970,9 +970,9 @@
             "text": "Vista panoramica"
           }
         ],
-        "intro": "A Tettineive, lo spazio diventa parte integrante dell'esperienza.",
-        "paragraph1": "Le mattine iniziano nella <strong>tranquillità del giardino</strong>, con la luce che si diffonde sulle colline. I pomeriggi si snodano lentamente — tra <strong>conversazioni, riposo e momenti all’aria aperta.</strong>",
-        "paragraph2": "La sera, la <strong>villa riunisce di nuovo tutti</strong> — attorno al tavolo, all’aria aperta, o semplicemente osservando il paesaggio che cambia con la luce."
+        "intro": "A Tettineive lo spazio diventa parte dell’esperienza.",
+        "paragraph1": "Le mattine iniziano nella <strong>quiete del giardino</strong>, con la luce che si diffonde sulle colline. I pomeriggi scorrono lentamente, tra <strong>conversazioni, riposo e momenti all’aria aperta.</strong>",
+        "paragraph2": "La sera <strong>la villa riunisce di nuovo tutti:</strong> attorno al tavolo, all’aperto o semplicemente a osservare il paesaggio che cambia con la luce."
       },
       "amenities": {
         "top": {
@@ -980,10 +980,10 @@
             "title": "La villa comprende:",
             "items": [
               {
-                "text": "Due camere da letto matrimoniali con bagno privato"
+                "text": "Due camere matrimoniali con bagno privato"
               },
               {
-                "text": "Due camere matrimoniali con letti king-size"
+                "text": "Due camere matrimoniali con letto king-size"
               },
               {
                 "text": "Una camera con due letti singoli"
@@ -1003,7 +1003,7 @@
                 "text": "Aria condizionata"
               },
               {
-                "text": "Accappatoio, asciugamani e biancheria da letto"
+                "text": "Accappatoi, asciugamani e biancheria da letto"
               },
               {
                 "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
@@ -1021,7 +1021,7 @@
           }
         },
         "bottom": {
-          "title": "All'esterno, <strong>un ampio giardino privato</strong> si affaccia sui vigneti, offrendo <strong>spazio per rilassarsi</strong>, stare in compagnia o semplicemente ammirare il panorama.",
+          "title": "All’esterno, <strong>un ampio giardino privato</strong> si affaccia sui vigneti: <strong>lo spazio ideale per rilassarsi</strong>, stare in compagnia o semplicemente ammirare il panorama.",
           "description": "Che sia per la colazione alla luce del mattino<br/> o per un momento di tranquillità al tramonto, gli spazi all'aperto diventano una parte essenziale del soggiorno."
         }
       },
@@ -1029,27 +1029,27 @@
         "title": {
           "bold": "Villa Tettineive:",
           "italic": "ideale per famiglie,",
-          "text": " soggiorni di gruppo e eventi privati."
+          "text": " soggiorni di gruppo ed eventi privati."
         },
-        "button": "Verifica disponibilità"
+        "button": "Verifica la disponibilità"
       },
       "card": {
         "title": "Tettineive",
-        "description": "La villa più spaziosa per ritrovi e momenti insieme."
+        "description": "La villa più spaziosa, per condividere momenti insieme."
       }
     },
     "bogliona": {
       "hero": {
         "title": "La Bogliona",
         "subtitle": {
-          "part1": "Un rifugio tranquillo per ",
-          "italic": "il calore e le serate tranquille ",
+          "part1": "Un rifugio caldo e raccolto per ",
+          "italic": "serate tranquille ",
           "part2": "nelle Langhe."
         }
       },
       "overview": {
         "title": "La Bogliona è la più intima delle Scarpa Villas: uno spazio pensato per coppie e piccoli gruppi che apprezzano la privacy, l’accoglienza e un ritmo di vita più lento.",
-        "description": "Con la sua <strong>vista diretta sulla piscina a sfioro</strong> e sui <strong>vigneti circostanti,</strong> la villa offre un ambiente in cui il paesaggio diventa parte integrante di ogni momento."
+        "description": "Con la <strong>vista diretta sulla piscina a sfioro</strong> e sui <strong>vigneti circostanti,</strong> la villa offre un ambiente in cui il paesaggio diventa parte di ogni momento."
       },
       "features": {
         "items": [
@@ -1067,9 +1067,9 @@
             "text": "Vista diretta sulla piscina a sfioro"
           }
         ],
-        "intro": "A La Bogliona, tutto sembra più vicino.",
-        "paragraph1": "La luce entra dalle ampie finestre, aprendo la villa al paesaggio circostante, mentre all’interno <strong>l’atmosfera rimane calda e intima.</strong>",
-        "paragraph2": "Le serate si svolgono lentamente <strong>— davanti al camino, in giardino o attorno al tavolo —</strong> dove il tempo sembra rallentare e protrarsi oltre l’attimo."
+        "intro": "Alla Bogliona tutto sembra più vicino.",
+        "paragraph1": "La luce entra dalle ampie finestre e apre la villa al paesaggio, mentre all’interno <strong>l’atmosfera resta calda e intima.</strong>",
+        "paragraph2": "Le serate scorrono lentamente <strong>— davanti al camino, in giardino o attorno al tavolo —</strong> e il tempo sembra rallentare."
       },
       "amenities": {
         "top": {
@@ -1077,7 +1077,7 @@
             "title": "La villa comprende:",
             "items": [
               {
-                "text": "Due camere da letto matrimoniali con bagno privato"
+                "text": "Due camere matrimoniali con bagno privato"
               },
               {
                 "text": "Una camera matrimoniale con letto king-size"
@@ -1086,7 +1086,7 @@
                 "text": "Una camera singola"
               },
               {
-                "text": "Un monolocale con divano letto"
+                "text": "Uno studio con divano letto"
               }
             ]
           },
@@ -1100,7 +1100,7 @@
                 "text": "Aria condizionata"
               },
               {
-                "text": "Accappatoio, asciugamani e biancheria da letto"
+                "text": "Accappatoi, asciugamani e biancheria da letto"
               },
               {
                 "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
@@ -1118,7 +1118,7 @@
           }
         },
         "bottom": {
-          "title": "All'esterno, <strong>un giardino privato e un focolare</strong><br/> creano uno <strong>spazio per serate tranquille</strong> sotto il cielo aperto",
+          "title": "All’esterno, <strong>un giardino privato e un braciere</strong><br/> creano <strong>lo spazio per serate tranquille</strong> a cielo aperto.",
           "description": "Circondata dai vigneti, la villa offre una rara sensazione<br/> di quiete — dove il mondo sembra lontano e il momento è tutto ciò che conta."
         }
       },
@@ -1128,11 +1128,11 @@
           "italic": "ideale per coppie",
           "text": " e piccoli gruppi in cerca di privacy."
         },
-        "button": "Verifica disponibilità"
+        "button": "Verifica la disponibilità"
       },
       "card": {
         "title": "La Bogliona",
-        "description": "La villa più intima per coppie e soggiorni tranquilli."
+        "description": "La villa più intima, per coppie e soggiorni tranquilli."
       }
     },
     "bricchi": {
@@ -1140,13 +1140,13 @@
         "title": "I Bricchi",
         "subtitle": {
           "part1": "Luce, apertura e uno ",
-          "italic": "stile di vita moderno ",
+          "italic": "stile di vita contemporaneo ",
           "part2": "nelle Langhe."
         }
       },
       "overview": {
-        "title": "I Bricchi è una villa caratterizzata dalla luce e dall'apertura, dove ampie finestre e viste panoramiche fanno entrare il paesaggio in ogni stanza.",
-        "description": "Progettata sia per <strong>momenti condivisi</strong> che per <strong>tranquilli momenti di riflessione</strong>, offre uno spazio contemporaneo che risulta al tempo stesso ampio e intimo."
+        "title": "I Bricchi è una villa fatta di luce e apertura: ampie finestre e viste panoramiche portano il paesaggio in ogni stanza.",
+        "description": "Pensata sia per <strong>stare insieme</strong> sia per <strong>momenti di quiete</strong>, offre uno spazio contemporaneo al tempo stesso ampio e raccolto."
       },
       "features": {
         "items": [
@@ -1164,9 +1164,9 @@
             "text": "Spazio esterno con pergolato"
           }
         ],
-        "intro": "Da I Bricchi, <strong>la luce diventa parte integrante dell'esperienza.</strong>",
-        "paragraph1": "Durante il giorno, la luce si muove attraverso la villa, trasformando l'atmosfera dalla limpidezza del mattino alle morbide tonalità della sera.",
-        "paragraph2": "Gli spazi sono pensati sia per <strong>ritrovarsi che per isolarsi —</strong> dalle lunghe conversazioni sotto il pergolato ai <strong>momenti di tranquillità davanti al caminetto.</strong>"
+        "intro": "Ai Bricchi <strong>la luce diventa parte dell’esperienza.</strong>",
+        "paragraph1": "Durante il giorno la luce attraversa la villa e ne trasforma l’atmosfera, dalla limpidezza del mattino alle tonalità morbide della sera.",
+        "paragraph2": "Gli spazi sono pensati per <strong>ritrovarsi o per stare in disparte:</strong> dalle lunghe conversazioni sotto il pergolato ai <strong>momenti tranquilli davanti al camino.</strong>"
       },
       "amenities": {
         "top": {
@@ -1174,10 +1174,10 @@
             "title": "La villa comprende:",
             "items": [
               {
-                "text": "Una camera da letto principale con bagno privato"
+                "text": "Una camera principale con bagno privato"
               },
               {
-                "text": "Due camere da letto matrimoniali con letti king-size"
+                "text": "Due camere matrimoniali con letto king-size"
               },
               {
                 "text": "Una suite con bagno privato e divano letto"
@@ -1197,7 +1197,7 @@
                 "text": "Aria condizionata"
               },
               {
-                "text": "Accappatoio, asciugamani e biancheria da letto"
+                "text": "Accappatoi, asciugamani e biancheria da letto"
               },
               {
                 "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
@@ -1212,35 +1212,35 @@
           }
         },
         "bottom": {
-          "title": "All'esterno, <strong>uno spazio coperto da un pergolato</strong> costituisce un'estensione naturale della villa — <strong>un luogo dove gustare pasti senza fretta,</strong> conversare e trascorrere del tempo all'aria aperta a qualsiasi ora del giorno.",
-          "description": "Circondato dai vigneti, l'ambiente invita sia al movimento che alla tranquillità."
+          "title": "All’esterno, <strong>uno spazio coperto da un pergolato</strong> è la naturale estensione della villa: <strong>il luogo ideale per pasti senza fretta,</strong> conversazioni e momenti all’aria aperta a ogni ora del giorno.",
+          "description": "Circondato dai vigneti, l'ambiente invita sia al movimento sia alla tranquillità."
         }
       },
       "bookingCTA": {
         "title": {
           "bold": "Villa I Bricchi:",
-          "italic": "ideale per gruppi che apprezzano la luce,",
-          "text": " l'ampiezza degli spazi e il design contemporaneo."
+          "italic": "ideale per gruppi che amano la luce,",
+          "text": " gli spazi ampi e il design contemporaneo."
         },
-        "button": "Verifica disponibilità"
+        "button": "Verifica la disponibilità"
       },
       "card": {
         "title": "I Bricchi",
-        "description": "Una villa contemporanea inondata di luce con vista panoramica."
+        "description": "Una villa contemporanea e luminosa, con vista panoramica."
       }
     },
     "tettimorra": {
       "hero": {
         "title": "Tettimorra",
         "subtitle": {
-          "part1": "Un rifugio senza tempo affacciato su ",
-          "italic": "i vigneti di Monvigliero.",
+          "part1": "Un rifugio senza tempo affacciato sui ",
+          "italic": "vigneti di Monvigliero.",
           "part2": ""
         }
       },
       "overview": {
         "title": "Tettimorra è una villa radicata nella tradizione piemontese, in cui l’atmosfera di una storica dimora di campagna è stata accuratamente preservata e reinterpretata.",
-        "description": "Con le sue travi in legno restaurate, <strong>gli interni tranquilli,</strong> e la <strong>vista diretta sul vigneto di Monvigliero,</strong> offre un soggiorno all'insegna dell'intimità, dell'autenticità e di un profondo legame con il territorio."
+        "description": "Con le travi in legno restaurate, <strong>gli interni tranquilli</strong> e <strong>la vista diretta sul vigneto di Monvigliero,</strong> offre un soggiorno all’insegna dell’intimità, dell’autenticità e di un profondo legame con il territorio."
       },
       "features": {
         "items": [
@@ -1258,9 +1258,9 @@
             "text": "Dettagli architettonici tradizionali"
           }
         ],
-        "intro": "A Tettimorra, il tempo scorre in modo diverso: più lento, più dolce, seguendo il <strong>ritmo dei vigneti.</strong>",
-        "paragraph1": "Dalla terrazza, <strong>il paesaggio di Monvigliero</strong> si dispiega come un orizzonte continuo di vigneti, che cambia con la luce nel corso della giornata.",
-        "paragraph2": "Le mattine iniziano in silenzio, con un caffè davanti alla vista sulle colline. Le serate si conclusono in una quiete tranquilla, dove la <strong>presenza del paesaggio</strong> diventa parte dell’esperienza."
+        "intro": "A Tettimorra il tempo scorre in modo diverso: più lento, più dolce, al <strong>ritmo dei vigneti.</strong>",
+        "paragraph1": "Dalla terrazza, <strong>il paesaggio di Monvigliero</strong> si apre come un orizzonte continuo di vigneti, che cambia con la luce nel corso della giornata.",
+        "paragraph2": "Le mattine iniziano in silenzio, con un caffè davanti alle colline. Le serate si concludono nella quiete, e <strong>il paesaggio</strong> diventa parte dell’esperienza."
       },
       "amenities": {
         "top": {
@@ -1268,16 +1268,16 @@
             "title": "La villa comprende:",
             "items": [
               {
-                "text": "Una camera da letto principale con bagno privato"
+                "text": "Una camera principale con bagno privato"
               },
               {
-                "text": "Due camere da letto matrimoniali con letti king-size"
+                "text": "Due camere matrimoniali con letto king-size"
               },
               {
                 "text": "Una camera singola"
               },
               {
-                "text": "Una camera con due letti singoli e divano letto con bagno privato"
+                "text": "Una camera con due letti singoli e divano letto, con bagno privato"
               }
             ]
           },
@@ -1291,7 +1291,7 @@
                 "text": "Aria condizionata"
               },
               {
-                "text": "Accappatoio, asciugamani e biancheria da letto"
+                "text": "Accappatoi, asciugamani e biancheria da letto"
               },
               {
                 "text": "Set di cortesia (shampoo, bagnoschiuma, sapone per le mani, pantofole)"
@@ -1307,16 +1307,16 @@
         },
         "bottom": {
           "title": "Un patio coperto si affaccia direttamente sul <strong>vigneto di Monvigliero,</strong> creando una rara continuità tra la <strong>villa e il paesaggio.</strong>",
-          "description": "Qui la vista rimane ininterrotta: una semplice composizione di terra, vite e cielo."
+          "description": "Qui la vista si estende senza interruzioni: una semplice composizione di terra, vite e cielo."
         }
       },
       "bookingCTA": {
         "title": {
           "bold": "Villa Tettimorra:",
-          "italic": "ideale per chi cerca l'autenticità",
-          "text": " e un legame più stretto con il territorio."
+          "italic": "ideale per chi cerca autenticità",
+          "text": " e un legame più profondo con il territorio."
         },
-        "button": "Verifica disponibilità"
+        "button": "Verifica la disponibilità"
       },
       "card": {
         "title": "Tettimorra",
@@ -1325,8 +1325,8 @@
     }
   },
   "otherVillas": {
-    "title": "Non è la villa giusta per te?",
-    "subtitle": "Scopri altre ville:"
+    "title": "Non è la villa giusta per voi?",
+    "subtitle": "Scoprite le altre ville:"
   },
   "scarpaLeadership": {
     "owner": {
@@ -1353,57 +1353,57 @@
   },
   "borgoEstate2": {
     "titleLine1": "QUATTRO VILLE, UN SOLO BORGO —",
-    "titleLine2": "TUTTA PER VOI",
-    "text": "Il Borgo può essere prenotato nella sua interezza — garantendovi l'accesso esclusivo a tutte e quattro le ville, alla piscina panoramica e alla tenuta circostante. Nessuno spazio in comune, nessun altro ospite — solo il vostro gruppo, in completa privacy."
+    "titleLine2": "TUTTO PER VOI",
+    "text": "Il Borgo può essere prenotato per intero, con accesso esclusivo a tutte e quattro le ville, alla piscina panoramica e alla tenuta circostante. Nessuno spazio condiviso, nessun altro ospite: solo il vostro gruppo, in completa privacy."
   },
   "borgoAbout": {
     "idealFor": "Ideale per:",
     "includesTitle": "Il Borgo comprende:",
     "cards": {
       "corporate": "Soggiorni aziendali",
-      "weddings": "Matrimoni in località esclusive",
+      "weddings": "Matrimoni esclusivi",
       "celebrations": "Feste e incontri privati",
       "family": "Soggiorni per più famiglie"
     },
     "includes": {
       "villas": "Quattro ville indipendenti",
       "spaces": "Uso privato di tutti gli spazi interni ed esterni",
-      "pool": "Piscina panoramica riservata esclusivamente al vostro gruppo",
-      "garden": "Giardini privati e aree comuni all'aperto",
+      "pool": "Piscina panoramica riservata al vostro gruppo",
+      "garden": "Giardini privati e aree comuni all’aperto",
       "kitchen": "Cucine completamente attrezzate in ogni villa"
     }
   },
   "borgoMoments": {
-    "title": "AL BORGO, IL TEMPO SI VIVE INSIEME",
+    "title": "AL BORGO IL TEMPO SI VIVE INSIEME",
     "text1Line1": "Le mattine iniziano lentamente, mentre il paesaggio si apre sulle colline.",
     "text1Line2": " Le giornate scorrono tra momenti condivisi e attimi di quiete, lasciando a ciascuno il proprio ritmo.",
-    "text2Line1": "La sera riunisce tutti ancora una volta —",
-    "text2Line2": " attorno a lunghe tavolate, sotto il cielo aperto o nel calore delle ville."
+    "text2Line1": "La sera riunisce tutti ancora una volta:",
+    "text2Line2": " attorno a lunghe tavolate, sotto il cielo stellato o nel calore delle ville."
   },
   "borgoExperiences": {
-    "title": "IL VOSTRO SOGGIORNO PUÒ ESSERE PERSONALIZZATO CON UN'AMPIA SCELTA DI ESPERIENZE:",
+    "title": "IL VOSTRO SOGGIORNO PUÒ ESSERE PERSONALIZZATO CON UN’AMPIA SCELTA DI ESPERIENZE:",
     "titleLine1": "IL VOSTRO SOGGIORNO PUÒ ESSERE PERSONALIZZATO",
-    "titleLine2": "CON UN'AMPIA SCELTA DI ESPERIENZE:",
+    "titleLine2": "CON UN’AMPIA SCELTA DI ESPERIENZE:",
     "button": "SCOPRI TUTTE LE ESPERIENZE",
     "items": {
       "chef": "Chef privato e cene in villa",
       "wine": "Degustazioni e visite in cantina",
-      "truffle": "Ricerca del tartufo e attività all'aperto",
+      "truffle": "Caccia al tartufo e attività all’aperto",
       "concierge": "Servizi di concierge e housekeeping"
     }
   },
   "borgoPhilosophy": {
     "titleLine1": "Il Borgo non è solo",
-    "titleLine2": "un soggiorno più grande —",
+    "titleLine2": "un soggiorno più grande:",
     "titleLine3": "è un modo diverso",
     "titleLine4": "di vivere le ville.",
     "subtitleLine1": "Offre la libertà di una tenuta privata,",
-    "subtitleLine2": "dove l'intero ambiente si adatta al vostro gruppo."
+    "subtitleLine2": "in cui ogni spazio si adatta al vostro gruppo."
   },
   "borgoCTA": {
-    "titleLine1": "Raccontaci i tuoi progetti —",
-    "titleLine2": "prepareremo una proposta su misura per il tuo soggiorno.",
-    "button": "RICHIEDI DISPONIBILITÀ"
+    "titleLine1": "Raccontateci i vostri progetti:",
+    "titleLine2": "prepareremo una proposta su misura per il vostro soggiorno.",
+    "button": "RICHIEDI LA DISPONIBILITÀ"
   },
   "cookiePolicyContent": {
     "title": "Cookie Policy",

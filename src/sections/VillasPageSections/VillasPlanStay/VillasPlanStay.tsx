@@ -76,7 +76,7 @@ export function VillasPlanStayCTA() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}>
-              {t('villasPlanStayCTA.text1')} <em>{t('villasPlanStayCTA.textItalic')}</em> —{' '}
+              {t('villasPlanStayCTA.text1')} <em>{t('villasPlanStayCTA.textItalic')}</em>{' '}
               {t('villasPlanStayCTA.text1End')}
             </motion.p>
           </AnimatePresence>

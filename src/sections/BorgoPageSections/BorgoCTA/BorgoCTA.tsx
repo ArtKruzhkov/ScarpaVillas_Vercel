@@ -23,7 +23,7 @@ export function BorgoCTA() {
             duration: 0.8,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="flex max-w-[920px] flex-col items-center text-center">
+          className="flex max-w-[950px] flex-col items-center text-center">
           <AnimatePresence mode="wait">
             <motion.h2
               key={t('borgoCTA.titleLine1')}
@@ -45,7 +45,7 @@ export function BorgoCTA() {
             href="https://www.simplebooking.it/ibe2/hotel/9131"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 flex h-[44px] md:h-[57px] w-full max-w-[320px] md:max-w-[360px] items-center justify-center bg-white px-8 font-sans font-semibold uppercase tracking-[0.18em] text-[#2C3654] text-[13px] lg:text-[16px] transition-opacity duration-300 hover:opacity-80">
+            className="mt-6 flex h-[44px] md:h-[57px] w-full max-w-[320px] md:max-w-[368px] items-center justify-center bg-white px-8 font-sans font-semibold uppercase tracking-[0.18em] text-[#2C3654] text-[13px] lg:text-[16px] transition-opacity duration-300 hover:opacity-80">
             <AnimatePresence mode="wait">
               <motion.span
                 key={t('borgoCTA.button')}

@@ -91,10 +91,8 @@ export function ExperiencesIntro() {
                 ease: [0.22, 1, 0.36, 1],
               }}
               className="mt-4 md:mt-8 2xl:mt-12 max-w-[275px] md:max-w-none font-serif text-[18px] leading-[22px] text-[#2C3654] md:text-[22px] md:leading-[26px] lg:text-[26px] lg:leading-[32px] 2xl:text-[32px] 2xl:leading-[38px]">
-              {t('experiencesIntro.titleLine1')}
-              <br />
-              {t('experiencesIntro.titleLine2')}
-              <br />
+              {t('experiencesIntro.titleLine1')} <br className="hidden lg:block" />
+              {t('experiencesIntro.titleLine2')} <br className="hidden lg:block" />
               {t('experiencesIntro.titleLine3')}
             </motion.h2>
           </AnimatePresence>

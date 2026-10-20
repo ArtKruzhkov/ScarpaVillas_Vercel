@@ -48,7 +48,9 @@ export function StoryChapters() {
       <div className="mx-auto max-w-8xl px-8">
         {/* Heading */}
         <motion.div
-          className="mx-auto mb-10 lg:mb-20 md:max-w-[704px] lg:max-w-[580px] xl:max-w-[932px] text-center"
+          className={`mx-auto mb-10 lg:mb-20 md:max-w-[704px] lg:max-w-[580px] text-center ${
+            i18n.language === 'it' ? 'xl:max-w-[965px]' : 'xl:max-w-[932px]'
+          }`}
           initial={{
             opacity: 0,
             y: 40,

@@ -59,7 +59,12 @@ export function StoryVillasCTA() {
                   ease: [0.22, 1, 0.36, 1],
                 }}
                 className="flex flex-col items-center">
-                <p className="max-w-[343px] sm:max-w-[440px] md:max-w-[560px] lg:max-w-[620px] font-sans text-[11px] sm:text-[14px] md:text-[15px] lg:text-[16px] font-semibold uppercase leading-[1.5] tracking-[0.06em] md:tracking-[0.2em] text-white">
+                <p
+                  className={`font-sans text-[11px] sm:text-[14px] md:text-[15px] lg:text-[16px] font-semibold uppercase leading-[1.5] tracking-[0.06em] md:tracking-[0.2em] text-white ${
+                    i18n.language === 'it'
+                      ? 'max-w-[360px] sm:max-w-[460px] md:max-w-[590px] lg:max-w-[630px]'
+                      : 'max-w-[343px] sm:max-w-[440px] md:max-w-[560px] lg:max-w-[620px]'
+                  }`}>
                   {t('storyVillasCTA.text')}
                 </p>
 

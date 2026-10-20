@@ -141,27 +141,6 @@ export function VillaFeatures({ features }: VillaFeaturesProps) {
           </div>
         </div>
 
-        {/* LARGE IMAGE */}
-        {/* <motion.div
-          viewport={{ once: true, amount: 0.2 }}
-          initial={{ opacity: 0, y: 35 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 1,
-            ease: [0.22, 1, 0.36, 1],
-          }}
-          className="p-0 lg:p-6">
-          <div className="overflow-hidden">
-            <img
-              src={features.images.bottom}
-              alt="Villa interior"
-              className={`min-h-[360px] h-full w-full object-cover lg:max-h-[720px] ${
-                features.images.bottomObjectPosition ?? ''
-              } lg:object-center`}
-            />
-          </div>
-        </motion.div> */}
-
         {/* LARGE IMAGE SLIDER */}
         <motion.div
           viewport={{ once: true, amount: 0.2 }}
