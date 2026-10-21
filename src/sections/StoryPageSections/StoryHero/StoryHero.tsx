@@ -14,7 +14,7 @@ export function StoryHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/StoryPage/story_hero/story_hero.webp`}
-          alt="The Story"
+          alt={t('imageAlts.storyHero')}
           className="h-full w-full object-cover"
         />
       </div>

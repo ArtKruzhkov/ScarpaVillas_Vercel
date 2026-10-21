@@ -4,9 +4,10 @@ import { useTranslation, Trans } from 'react-i18next';
 
 type VillaOverviewProps = {
   overview: Villa['overview'];
+  hero: Villa['hero'];
 };
 
-export function VillaOverview({ overview }: VillaOverviewProps) {
+export function VillaOverview({ overview, hero }: VillaOverviewProps) {
   const { t, i18n } = useTranslation();
   return (
     <section className="bg-white py-8 lg:pb-8 lg:pt-16">
@@ -61,7 +62,7 @@ export function VillaOverview({ overview }: VillaOverviewProps) {
           <div className="h-[280px] max-h-[620px] overflow-hidden sm:h-[500px] lg:h-auto">
             <img
               src={overview.images.left}
-              alt={`${overview.title} exterior`}
+              alt={`Villa ${t(hero.title)} ${t('imageAlts.villaExterior')}`}
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
             />
           </div>
@@ -70,7 +71,7 @@ export function VillaOverview({ overview }: VillaOverviewProps) {
           <div className="h-[280px] max-h-[620px] overflow-hidden sm:h-[500px] lg:h-auto">
             <img
               src={overview.images.center}
-              alt={`${overview.title} interior`}
+              alt={`Villa ${t(hero.title)} ${t('imageAlts.villaInterior')}`}
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
             />
           </div>
@@ -79,7 +80,7 @@ export function VillaOverview({ overview }: VillaOverviewProps) {
           <div className="h-[280px] max-h-[620px] overflow-hidden sm:h-[500px] lg:h-auto">
             <img
               src={overview.images.right}
-              alt={`${overview.title} view`}
+              alt={`Villa ${t(hero.title)} ${t('imageAlts.villaView')}`}
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
             />
           </div>

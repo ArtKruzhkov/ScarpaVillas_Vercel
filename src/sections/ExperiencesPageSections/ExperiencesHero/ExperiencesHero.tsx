@@ -13,7 +13,7 @@ export function ExperiencesHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/ExperiencesPage/experiences_hero/experiences_hero.webp`}
-          alt={t('experiencesHero.title')}
+          alt={t('imageAlts.experiencesHero')}
           className="h-full w-full object-cover"
         />
       </div>

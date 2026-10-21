@@ -27,7 +27,7 @@ export function BorgoEstate() {
           className="relative overflow-hidden">
           <img
             src={`${process.env.PUBLIC_URL}/images/BorgoPage/borgo_estate/estate_left.webp`}
-            alt="Four Villas"
+            alt={t('imageAlts.borgoEstateLeft')}
             className="h-[430px] w-full object-cover md:h-[560px] lg:h-full"
           />
 
@@ -90,7 +90,7 @@ export function BorgoEstate() {
           className="relative overflow-hidden border-[20px] xl:border-[25px] 2xl:border-[35px] border-white">
           <img
             src={`${process.env.PUBLIC_URL}/images/BorgoPage/borgo_estate/estate_right.webp`}
-            alt="Private Estate"
+            alt={t('imageAlts.borgoEstateRight')}
             className="h-[400px] md:h-[520px] lg:h-full w-full object-cover sm:object-[center_70%] lg:object-center"
           />
 

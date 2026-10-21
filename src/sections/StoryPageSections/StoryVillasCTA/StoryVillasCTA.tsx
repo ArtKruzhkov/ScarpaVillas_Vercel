@@ -17,7 +17,7 @@ export function StoryVillasCTA() {
           {/* Background image */}
           <motion.img
             src={`${baseUrl}/images/StoryPage/story_cta/storyCTA.webp`}
-            alt="Scarpa Villas"
+            alt={t('imageAlts.storyVillasCTA')}
             className="storyVillasCTA_image-height w-full object-cover"
             initial={{
               opacity: 0,

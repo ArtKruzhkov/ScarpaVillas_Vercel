@@ -14,7 +14,7 @@ export function BorgoHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/BorgoPage/borgo_hero/borgo_hero.webp`}
-          alt="The Borgo"
+          alt={t('imageAlts.borgoHeroTitle')}
           className="h-full w-full object-cover object-[center_bottom]"
         />
       </div>

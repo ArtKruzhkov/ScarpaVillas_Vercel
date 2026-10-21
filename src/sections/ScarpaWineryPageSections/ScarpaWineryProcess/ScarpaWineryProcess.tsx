@@ -22,7 +22,7 @@ export function ScarpaWineryProcess() {
           className="relative min-h-[440px] overflow-hidden lg:min-h-[740px] order-2 lg:order-1">
           <motion.img
             src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_process/process.webp`}
-            alt="Scarpa Winery"
+            alt={t('imageAlts.scarpaWineryProcess')}
             className="absolute inset-0 h-full w-full object-cover"
             initial={{ scale: 1.08 }}
             whileInView={{ scale: 1 }}

@@ -60,7 +60,11 @@ export function VillasGrid() {
               }}>
               <div className="relative h-full p-4">
                 <div className="relative h-full overflow-hidden">
-                  <img src={villa.image} alt={villa.title} className="h-full w-full object-cover" />
+                  <img
+                    src={villa.image}
+                    alt={`Villa ${villa.title}`}
+                    className="h-full w-full object-cover"
+                  />
 
                   <div className="absolute inset-x-0 bottom-0 z-10 px-4 pb-6 lg:p-7 text-white">
                     <AnimatePresence mode="wait">

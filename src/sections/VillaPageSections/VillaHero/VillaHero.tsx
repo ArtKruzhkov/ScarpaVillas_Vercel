@@ -13,7 +13,7 @@ export function VillaHero({ hero }: VillaHeroProps) {
       {/* Background */}
       <img
         src={hero.image}
-        alt={`Villa ${hero.title}`}
+        alt={`Villa ${t(hero.title)}`}
         className="absolute inset-0 h-full w-full object-cover"
       />
 

@@ -32,7 +32,7 @@ export function OriginsMedieval() {
 
         <img
           src={`${baseUrl}/images/OriginsPage/origins_medieval/background.webp`}
-          alt="Barolo vineyards"
+          alt={t('imageAlts.originsMedieval')}
           className="h-full w-full object-cover"
         />
       </motion.picture>

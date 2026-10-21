@@ -34,9 +34,9 @@ export function RegionPlanStay() {
           }}>
           {/* IMAGE */}
           <motion.img
-            src={`${baseUrl}/images/RegionPage/region_planStay/experiences.png`}
-            alt="Langhe countryside"
-            className="absolute inset-0 h-full w-full object-cover"
+            src={`${baseUrl}/images/RegionPage/region_planStay/experiences.webp`}
+            alt={t('imageAlts.regionPlanStayExperiences')}
+            className="absolute inset-0 h-full w-full object-cover will-change-transform"
             initial={{
               scale: 1.08,
             }}
@@ -136,9 +136,9 @@ export function RegionPlanStay() {
           }}>
           {/* IMAGE */}
           <motion.img
-            src={`${baseUrl}/images/RegionPage/region_planStay/stay.png`}
-            alt="Scarpa Villas"
-            className="absolute inset-0 h-full w-full object-cover"
+            src={`${baseUrl}/images/RegionPage/region_planStay/stay.webp`}
+            alt={t('imageAlts.regionPlanStayVillas')}
+            className="absolute inset-0 h-full w-full object-cover will-change-transform"
             initial={{
               scale: 1.08,
             }}

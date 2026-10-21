@@ -32,7 +32,7 @@ export function DiscoverIntro() {
 
         <img
           src={`${baseUrl}/images/DiscoverPage/discover_intro/background.webp`}
-          alt="Scarpa Villas Stays"
+          alt={t('imageAlts.discoverIntro')}
           className="h-full w-full object-cover"
         />
       </motion.picture>

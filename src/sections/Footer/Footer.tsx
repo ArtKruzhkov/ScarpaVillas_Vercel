@@ -166,7 +166,7 @@ export function Footer() {
               }}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/footer/stay-connected.webp`}
-                alt="Scarpa Villas"
+                alt={t('imageAlts.footerStayConnected')}
                 className="w-full object-cover min-h-[400px] max-h-[460px] md:max-h-[540px]"
               />
             </motion.div>
@@ -271,7 +271,7 @@ export function Footer() {
                 }}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/footer/stay-connected.webp`}
-                  alt="Scarpa Villas"
+                  alt={t('imageAlts.footerStayConnected')}
                   className="w-full max-h-[460px] object-cover"
                 />
               </motion.div>
@@ -438,7 +438,7 @@ export function Footer() {
                 }}>
                 <img
                   src={`${process.env.PUBLIC_URL}/images/footer/logo_footer.svg`}
-                  alt="Scarpa Villas"
+                  alt="Scarpa Villas logo"
                   className="w-[152px] lg:w-[172px]"
                 />
 

@@ -42,9 +42,9 @@ export function VillaPage() {
     <>
       <main key={villa.id} className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <VillaHero hero={villa.hero} />
-        <VillaOverview overview={villa.overview} />
-        <VillaFeatures features={villa.features} />
-        <VillaAmenities amenities={villa.amenities} />
+        <VillaOverview overview={villa.overview} hero={villa.hero} />
+        <VillaFeatures features={villa.features} hero={villa.hero} />
+        <VillaAmenities amenities={villa.amenities} hero={villa.hero} />
         <VillaBookingCTA bookingCTA={villa.bookingCTA} />
         <OtherVillas currentVillaId={villa.id} />
       </main>

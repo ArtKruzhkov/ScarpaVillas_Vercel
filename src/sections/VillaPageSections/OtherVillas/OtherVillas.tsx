@@ -78,7 +78,7 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
                 <div className="relative overflow-hidden">
                   <img
                     src={villa.card.image}
-                    alt={villa.card.title}
+                    alt={`Villa ${t(villa.card.title)}`}
                     className="h-[400px] md:h-[650px] lg:h-[400px] xl:h-[500px] w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
 

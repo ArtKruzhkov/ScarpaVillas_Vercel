@@ -20,7 +20,7 @@ export function ScarpaWineryCellar() {
         {/* BACKGROUND */}
         <motion.img
           src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_cellar/background.webp`}
-          alt="Scarpa Cellar"
+          alt={t('imageAlts.scarpaWineryCellarBackground')}
           className="h-[480px] w-full object-cover md:h-[660px] lg:h-full lg:min-h-[730px]"
           initial={{
             scale: 1.08,
@@ -61,8 +61,8 @@ export function ScarpaWineryCellar() {
           <div className="w-full max-w-[720px] bg-white p-5 md:p-7 lg:p-8">
             <motion.img
               src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_cellar/card.webp`}
-              alt="Historic bottle"
-              className="w-full object-cover h-[260px] sm:h-[300px] md:h-[450px] min-[1820px]:h-[540px]"
+              alt={t('imageAlts.scarpaWineryCellarBottle')}
+              className="w-full will-change-transform object-cover h-[260px] sm:h-[300px] md:h-[450px] min-[1820px]:h-[540px]"
               initial={{
                 scale: 1.08,
               }}

@@ -102,7 +102,7 @@ export function StaysProgramme({
             className={`overflow-hidden ${isImageLeft ? 'lg:order-1' : 'lg:order-2'}`}>
             <motion.img
               src={image}
-              alt={imageAlt}
+              alt={t(imageAlt)}
               className="h-[360px] w-full object-cover sm:h-[450px] lg:h-full lg:min-h-[520px]"
               initial={{
                 scale: 1.08,

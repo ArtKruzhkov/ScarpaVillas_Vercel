@@ -12,8 +12,8 @@ export function JournalHero() {
       {/* BACKGROUND */}
       <div className="absolute inset-0">
         <img
-          src={`${process.env.PUBLIC_URL}/images/JournalPage/journal_hero/journal_hero.png`}
-          alt={t('journalHero.title')}
+          src={`${process.env.PUBLIC_URL}/images/JournalPage/journal_hero/journal_hero.webp`}
+          alt={t('imageAlts.journalHero')}
           className="h-full w-full object-cover"
         />
       </div>
@@ -23,7 +23,7 @@ export function JournalHero() {
         <div className="flex flex-col items-center text-center">
           <AnimatePresence mode="wait">
             <motion.div
-              key={t('journalHero.title')}
+              key={t('journalHero.subtitle')}
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -12 }}

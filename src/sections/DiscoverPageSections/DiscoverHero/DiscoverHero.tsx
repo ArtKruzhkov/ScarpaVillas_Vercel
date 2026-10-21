@@ -13,7 +13,7 @@ export function DiscoverHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/DiscoverPage/discover_hero/discover_hero.webp`}
-          alt={t('discoverHero.title')}
+          alt={t('imageAlts.discoverHero')}
           className="h-full w-full object-cover"
         />
       </div>

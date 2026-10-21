@@ -7,9 +7,10 @@ import 'swiper/css';
 
 type VillaFeaturesProps = {
   features: Villa['features'];
+  hero: Villa['hero'];
 };
 
-export function VillaFeatures({ features }: VillaFeaturesProps) {
+export function VillaFeatures({ features, hero }: VillaFeaturesProps) {
   const { t, i18n } = useTranslation();
   return (
     <section className="bg-white">
@@ -82,7 +83,7 @@ export function VillaFeatures({ features }: VillaFeaturesProps) {
               className="min-h-[280px] sm:h-[500px] overflow-hidden lg:min-h-[520px]">
               <img
                 src={features.images.left}
-                alt="Villa interior and outdoor living space"
+                alt={`Villa ${t(hero.title)} ${t('imageAlts.villaLivingSpace')}`}
                 className="h-full w-full object-cover"
               />
             </motion.div>
@@ -166,7 +167,7 @@ export function VillaFeatures({ features }: VillaFeaturesProps) {
                 <SwiperSlide key={image}>
                   <img
                     src={image}
-                    alt={`Villa interior ${index + 1}`}
+                    alt={`Villa ${t(hero.title)} ${t('imageAlts.villaSliderInterior')} ${index + 1}`}
                     className={`min-h-[280px] sm:h-[500px] lg:h-full w-full object-cover lg:max-h-[720px]`}
                   />
                 </SwiperSlide>

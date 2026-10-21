@@ -13,7 +13,7 @@ export function ScarpaWineryHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/ScarpaWineryPage/scarpa_winery_hero/scarpa_winery_hero.webp`}
-          alt={t('scarpaWineryHero.title')}
+          alt={t('imageAlts.scarpaWineryHero')}
           className="h-full w-full object-cover"
         />
       </div>

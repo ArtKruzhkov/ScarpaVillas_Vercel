@@ -1,186 +1,3 @@
-// import React from 'react';
-// import { motion } from 'framer-motion';
-
-// export function RegionExperience() {
-//   const baseUrl = process.env.PUBLIC_URL;
-
-//   return (
-//     <section className="overflow-hidden">
-//       {/* TOP */}
-//       <div className="relative min-h-[600px] overflow-hidden lg:min-h-[660px]">
-//         {/* BACKGROUND */}
-//         <motion.img
-//           src={`${baseUrl}/images/RegionPage/region_experience/background.png`}
-//           alt="Langhe landscape"
-//           className="absolute inset-0 h-full w-full object-cover"
-//           initial={{ scale: 1.08 }}
-//           whileInView={{ scale: 1 }}
-//           viewport={{ once: true, amount: 0.25 }}
-//           transition={{
-//             duration: 1.8,
-//             ease: [0.22, 1, 0.36, 1],
-//           }}
-//         />
-
-//         {/* OVERLAY */}
-//         <div className="absolute inset-0 bg-black/10" />
-
-//         {/* CONTENT */}
-//         <div className="relative z-10 flex min-h-[600px] flex-col items-center justify-between px-6 py-14 text-white sm:px-10 sm:py-16 lg:min-h-[660px] lg:px-16 lg:py-16">
-//           {/* TITLE */}
-//           <motion.h2
-//             className="font-serif text-[#2C3654] text-center uppercase text-[18px] leading-[22px] tracking-[0.1em] sm:text-[28px] sm:leading-[32px] md:text-[32px] md:leading-[36px] xl:text-[38px] xl:leading-[42px]"
-//             initial={{ opacity: 0, y: 25 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             viewport={{ once: true, amount: 0.4 }}
-//             transition={{
-//               duration: 0.9,
-//               ease: [0.22, 1, 0.36, 1],
-//             }}>
-//             The Langhe is not organised around
-//             <br className="hidden sm:block" />
-//             landmarks, but around rhythm
-//           </motion.h2>
-
-//           {/* BOTTOM TEXT */}
-//           <motion.div
-//             className="max-w-[850px] space-y-5 text-center font-sans text-[13px] leading-[1.4] sm:text-[15px] lg:text-[18px]"
-//             initial={{ opacity: 0, y: 20 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             viewport={{ once: true, amount: 0.4 }}
-//             transition={{
-//               duration: 0.9,
-//               delay: 0.15,
-//               ease: [0.22, 1, 0.36, 1],
-//             }}>
-//             <p className="max-w-[800px] mx-auto">
-//               Distances are short, but the experience unfolds slowly — through winding roads,
-//               changing light, and places that reveal themselves gradually.
-//             </p>
-
-//             <p>
-//               To understand the Langhe is not to see everything, but to move through it in the right
-//               way.
-//             </p>
-//           </motion.div>
-//         </div>
-//       </div>
-
-//       {/* BOTTOM */}
-//       <div className="bg-[#F0E7DA] py-8">
-//         <div className="mx-auto grid max-w-8xl lg:grid-cols-2">
-//           {/* LEFT */}
-//           <motion.div
-//             className="relative min-h-[500px] overflow-hidden sm:min-h-[620px] lg:min-h-[760px]"
-//             initial={{ opacity: 0, x: -30 }}
-//             whileInView={{ opacity: 1, x: 0 }}
-//             viewport={{ once: true, amount: 0.25 }}
-//             transition={{
-//               duration: 0.9,
-//               ease: [0.22, 1, 0.36, 1],
-//             }}>
-//             <motion.img
-//               src={`${baseUrl}/images/RegionPage/region_experience/experience-region.png`}
-//               alt="Langhe vineyards"
-//               className="absolute inset-0 h-full w-full object-cover"
-//               initial={{ scale: 1.08 }}
-//               whileInView={{ scale: 1 }}
-//               viewport={{ once: true, amount: 0.25 }}
-//               transition={{
-//                 duration: 1.8,
-//                 ease: [0.22, 1, 0.36, 1],
-//               }}
-//             />
-
-//             <div className="absolute inset-0 bg-black/10" />
-
-//             <motion.h3
-//               className="absolute inset-0 z-10 flex items-center justify-center px-6 text-center font-serif text-[32px] uppercase leading-[1.15] tracking-[0.06em] text-white sm:text-[38px] lg:text-[42px]"
-//               initial={{ opacity: 0, y: 20 }}
-//               whileInView={{ opacity: 1, y: 0 }}
-//               viewport={{ once: true, amount: 0.4 }}
-//               transition={{
-//                 duration: 0.9,
-//                 delay: 0.15,
-//                 ease: [0.22, 1, 0.36, 1],
-//               }}>
-//               How to experience
-//               <br />
-//               the region
-//             </motion.h3>
-//           </motion.div>
-
-//           {/* RIGHT */}
-//           <motion.div
-//             className="flex flex-col justify-center px-6 py-14 sm:px-10 sm:py-16 lg:px-8 lg:py-12"
-//             initial={{ opacity: 0, x: 30 }}
-//             whileInView={{ opacity: 1, x: 0 }}
-//             viewport={{ once: true, amount: 0.25 }}
-//             transition={{
-//               duration: 0.9,
-//               ease: [0.22, 1, 0.36, 1],
-//             }}>
-//             {/* TITLE */}
-//             <motion.h3
-//               className="mb-8 text-center font-sans text-[18px] font-semibold uppercase leading-[1.4] tracking-[0.2em] text-[#2C3654] sm:text-[20px]"
-//               initial={{ opacity: 0, y: 15 }}
-//               whileInView={{ opacity: 1, y: 0 }}
-//               viewport={{ once: true, amount: 0.4 }}
-//               transition={{
-//                 duration: 0.8,
-//                 delay: 0.1,
-//                 ease: [0.22, 1, 0.36, 1],
-//               }}>
-//               There is no single
-//               <br />
-//               way to explore the Langhe
-//             </motion.h3>
-
-//             {/* IMAGE */}
-//             <div className="overflow-hidden">
-//               <motion.img
-//                 src={`${baseUrl}/images/RegionPage/region_experience/wine.png`}
-//                 alt="Wine experience in the Langhe"
-//                 className="h-[280px] w-full object-cover sm:h-[340px] lg:h-[390px]"
-//                 initial={{ scale: 1.08 }}
-//                 whileInView={{ scale: 1 }}
-//                 viewport={{ once: true, amount: 0.3 }}
-//                 transition={{
-//                   duration: 1.8,
-//                   ease: [0.22, 1, 0.36, 1],
-//                 }}
-//               />
-//             </div>
-
-//             {/* TEXT */}
-//             <motion.div
-//               className="mx-auto text-[#2C3654] mt-8 max-w-[600px] space-y-6 text-center font-sans text-[13px] leading-[1.4] sm:text-[15px] lg:text-[18px]"
-//               initial={{ opacity: 0, y: 20 }}
-//               whileInView={{ opacity: 1, y: 0 }}
-//               viewport={{ once: true, amount: 0.4 }}
-//               transition={{
-//                 duration: 0.8,
-//                 delay: 0.15,
-//                 ease: [0.22, 1, 0.36, 1],
-//               }}>
-//               <p>
-//                 Some follow the villages and their history, others the vineyards and their
-//                 landscapes, others the traditions of food and local life.
-//               </p>
-
-//               <p>
-//                 What defines the experience is not the destination,
-//                 <br className="hidden sm:block" />
-//                 but the way these elements come together.
-//               </p>
-//             </motion.div>
-//           </motion.div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
 import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
@@ -195,8 +12,8 @@ export function RegionExperience() {
       <div className="relative min-h-[540px] overflow-hidden lg:min-h-[660px]">
         {/* BACKGROUND */}
         <motion.img
-          src={`${baseUrl}/images/RegionPage/region_experience/background.png`}
-          alt="Langhe landscape"
+          src={`${baseUrl}/images/RegionPage/region_experience/background.webp`}
+          alt={t('imageAlts.regionExperienceBackground')}
           className="absolute inset-0 h-full w-full object-cover"
           initial={{ scale: 1.08 }}
           whileInView={{ scale: 1 }}
@@ -281,9 +98,9 @@ export function RegionExperience() {
               ease: [0.22, 1, 0.36, 1],
             }}>
             <motion.img
-              src={`${baseUrl}/images/RegionPage/region_experience/experience-region.png`}
-              alt="Langhe vineyards"
-              className="absolute inset-0 h-full w-full object-cover"
+              src={`${baseUrl}/images/RegionPage/region_experience/experience-region.webp`}
+              alt={t('imageAlts.regionExperienceLandscape')}
+              className="absolute inset-0 h-full w-full object-cover will-change-transform"
               initial={{ scale: 1.08 }}
               whileInView={{ scale: 1 }}
               viewport={{ once: true, amount: 0.25 }}
@@ -365,9 +182,9 @@ export function RegionExperience() {
             {/* IMAGE */}
             <div className="overflow-hidden">
               <motion.img
-                src={`${baseUrl}/images/RegionPage/region_experience/wine.png`}
-                alt="Wine experience in the Langhe"
-                className="h-[280px] w-full object-cover sm:h-[340px] lg:h-[360px] 2xl:h-[390px]"
+                src={`${baseUrl}/images/RegionPage/region_experience/wine.webp`}
+                alt={t('imageAlts.regionExperienceWine')}
+                className="h-[280px] w-full object-cover sm:h-[340px] lg:h-[360px] 2xl:h-[390px] will-change-transform"
                 initial={{ scale: 1.08 }}
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true, amount: 0.3 }}

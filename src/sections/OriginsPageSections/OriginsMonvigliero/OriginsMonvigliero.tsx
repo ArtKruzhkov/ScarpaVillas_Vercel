@@ -12,7 +12,7 @@ export function OriginsMonvigliero() {
       <div className="relative overflow-hidden">
         <motion.img
           src={`${baseUrl}/images/OriginsPage/origins_monvigliero/top.webp`}
-          alt="Monvigliero vineyard"
+          alt={t('imageAlts.originsMonvigliero')}
           className="h-[440px] w-full object-cover sm:h-[460px] lg:h-full"
           initial={{
             opacity: 0,
@@ -105,35 +105,10 @@ export function OriginsMonvigliero() {
 
             <img
               src={`${baseUrl}/images/OriginsPage/origins_monvigliero/monvigliero.webp`}
-              alt="Monvigliero"
+              alt={t('imageAlts.originsMonviglieroGrapes')}
               className="h-full w-full object-cover"
             />
           </motion.picture>
-
-          {/* TITLE */}
-          {/* <div className="hidden lg:flex pointer-events-none absolute inset-0 flex items-center justify-center">
-            <motion.h2
-              initial={{
-                opacity: 0,
-                y: 20,
-              }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-              }}
-              viewport={{
-                once: true,
-                amount: 0.4,
-              }}
-              transition={{
-                duration: 0.8,
-                delay: 0.1,
-                ease: [0.22, 1, 0.36, 1],
-              }}
-              className="font-serif text-[42px] uppercase tracking-[0.2em] text-white sm:text-[56px] lg:text-[62px]">
-              MONVIGLIERO
-            </motion.h2>
-          </div> */}
         </motion.div>
 
         {/* RIGHT CONTENT */}

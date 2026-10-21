@@ -42,7 +42,7 @@ export function StaysPage() {
     descriptionKeys: ['staysLuxRetreat.description1', 'staysLuxRetreat.description2'],
     durationKey: 'staysLuxRetreat.duration',
     image: `${baseUrl}/images/StaysPage/stays_programmes/lux-retreat.webp`,
-    imageAlt: 'The Lux Retreat at Scarpa Villas',
+    imageAlt: 'imageAlts.staysLuxRetreat',
     imagePosition: 'left',
     background: 'white',
 

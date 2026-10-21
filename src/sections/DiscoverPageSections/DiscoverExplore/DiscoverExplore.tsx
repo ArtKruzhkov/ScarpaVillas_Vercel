@@ -15,7 +15,7 @@ export function DiscoverExplore() {
       description: t('discoverExplore.wine.description'),
       button: t('discoverExplore.wine.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_explore/wine.webp`,
-      // href: '/experiences#wine-taste',
+      imageAlt: 'imageAlts.discoverExploreWine',
       href: '/discover/region#wine',
     },
     {
@@ -24,6 +24,7 @@ export function DiscoverExplore() {
       description: t('discoverExplore.food.description'),
       button: t('discoverExplore.food.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_explore/food.webp`,
+      imageAlt: 'imageAlts.discoverExploreFood',
       href: '/discover/region#food',
     },
     {
@@ -32,6 +33,7 @@ export function DiscoverExplore() {
       description: t('discoverExplore.nature.description'),
       button: t('discoverExplore.nature.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_explore/nature.webp`,
+      imageAlt: 'imageAlts.discoverExploreNature',
       href: '/discover/region#routes',
     },
     {
@@ -40,6 +42,7 @@ export function DiscoverExplore() {
       description: t('discoverExplore.culture.description'),
       button: t('discoverExplore.culture.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_explore/culture.webp`,
+      imageAlt: 'imageAlts.discoverExploreCulture',
       href: '/discover/region#villages',
     },
   ];
@@ -175,7 +178,7 @@ export function DiscoverExplore() {
                   <div className={`order-1 ${imageOrder} w-full lg:w-[62%]`}>
                     <img
                       src={card.image}
-                      alt={card.title}
+                      alt={t(card.imageAlt)}
                       className="h-[260px] w-full object-cover sm:h-[380px] lg:h-[425px] xl:h-[540px] 2xl:h-[620px]"
                     />
                   </div>

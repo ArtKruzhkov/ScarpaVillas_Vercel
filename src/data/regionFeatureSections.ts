@@ -2,7 +2,8 @@ import type { RegionFeatureProps } from '../sections/RegionPageSection/RegionFea
 
 export const wineLandscapeSection: RegionFeatureProps = {
   id: 'wine',
-  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/wine/wine.png`,
+  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/wine/wine.webp`,
+  backgroundImageAlt: 'imageAlts.regionFeatureWine',
 
   titleKey: 'regionWineLandscape.title',
 
@@ -60,7 +61,8 @@ export const wineLandscapeSection: RegionFeatureProps = {
 
 export const villagesHistorySection: RegionFeatureProps = {
   id: 'villages',
-  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/villages/villages.png`,
+  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/villages/villages.webp`,
+  backgroundImageAlt: 'imageAlts.regionFeatureVillages',
 
   titleKey: 'regionVillagesHistory.title',
 
@@ -132,7 +134,8 @@ export const villagesHistorySection: RegionFeatureProps = {
 export const foodTraditionsSection: RegionFeatureProps = {
   id: 'food',
 
-  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/food/food.png`,
+  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/food/food.webp`,
+  backgroundImageAlt: 'imageAlts.regionFeatureFood',
 
   titleKey: 'regionFoodTraditions.title',
 
@@ -193,7 +196,8 @@ export const foodTraditionsSection: RegionFeatureProps = {
 export const beyondRoutesSection: RegionFeatureProps = {
   id: 'routes',
 
-  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/routes/routes.png`,
+  backgroundImage: `${process.env.PUBLIC_URL}/images/RegionPage/region_feature/routes/routes.webp`,
+  backgroundImageAlt: 'imageAlts.regionFeatureRoutes',
 
   titleKey: 'regionBeyondRoutes.title',
 

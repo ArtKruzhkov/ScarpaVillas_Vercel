@@ -5,6 +5,7 @@ import { Trans, useTranslation } from 'react-i18next';
 
 type VillaAmenitiesProps = {
   amenities: Villa['amenities'];
+  hero: Villa['hero'];
 };
 
 const transComponents = {
@@ -12,7 +13,7 @@ const transComponents = {
   br: <br className="hidden lg:block" />,
 };
 
-export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
+export function VillaAmenities({ amenities, hero }: VillaAmenitiesProps) {
   const { t, i18n } = useTranslation();
   const { villaId } = useParams();
   return (
@@ -93,7 +94,7 @@ export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
               <div className="overflow-hidden">
                 <img
                   src={amenities.top.images.left}
-                  alt="Tettineive bedroom"
+                  alt={`Villa ${t(hero.title)} ${t('imageAlts.villaBedroom')}`}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -101,7 +102,7 @@ export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
               <div className="overflow-hidden bg-[#C09A60] p-3 sm:p-4 lg:p-3 2xl:p-5">
                 <img
                   src={amenities.top.images.right}
-                  alt="Tettineive bathroom"
+                  alt={`Villa ${t(hero.title)} ${t('imageAlts.villaBathroom')}`}
                   className="h-full w-full object-cover"
                 />
               </div>
@@ -183,7 +184,7 @@ export function VillaAmenities({ amenities }: VillaAmenitiesProps) {
         className="relative">
         <img
           src={amenities.bottom.image}
-          alt="outdoor-image"
+          alt={`Villa ${t(hero.title)} ${t('imageAlts.villaOutdoor')}`}
           className="w-full object-cover max-h-[850px] min-h-[360px] md:min-h-[460px]"
         />
 

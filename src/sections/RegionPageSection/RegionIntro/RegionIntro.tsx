@@ -21,8 +21,8 @@ export function RegionIntro() {
               ease: [0.22, 1, 0.36, 1],
             }}>
             <motion.img
-              src={`${baseUrl}/images/RegionPage/region_intro/region_intro.png`}
-              alt="Piedmont vineyards and villages"
+              src={`${baseUrl}/images/RegionPage/region_intro/region_intro.webp`}
+              alt={t('imageAlts.regionIntro')}
               className="h-[380px] w-full object-cover sm:h-[460px] lg:h-full"
               initial={{ scale: 1.08 }}
               whileInView={{ scale: 1 }}

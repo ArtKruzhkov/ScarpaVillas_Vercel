@@ -74,8 +74,8 @@ export function ScarpaWineryVillas() {
           <div className="overflow-hidden">
             <motion.img
               src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_villas/villas.webp`}
-              alt="Scarpa Villas"
-              className="h-full w-full object-cover min-h-[240px] lg:min-h-[520px]"
+              alt={t('imageAlts.scarpaWineryVillas')}
+              className="h-full w-full will-change-transform object-cover min-h-[240px] lg:min-h-[520px]"
               initial={{
                 scale: 1.08,
               }}

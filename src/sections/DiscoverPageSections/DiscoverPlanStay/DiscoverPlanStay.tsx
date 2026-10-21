@@ -11,7 +11,7 @@ export function DiscoverPlanStay() {
       {/* BACKGROUND */}
       <motion.img
         src={`${baseUrl}/images/DiscoverPage/discover_planStay/background.webp`}
-        alt="The Langhe"
+        alt={t('imageAlts.discoverPlanStay')}
         className="block object-cover h-auto w-full min-h-[480px] md:min-h-[645px]"
         initial={{
           scale: 1.08,

@@ -15,7 +15,7 @@ export function VillasPlanStayCTA() {
       <div className="absolute inset-0">
         <motion.img
           src={`${process.env.PUBLIC_URL}/images/VillasPage/villas_planStay/villas-plan-stay.webp`}
-          alt="Scarpa Villas"
+          alt={t('imageAlts.villasPlanStay')}
           className="h-full w-full object-cover"
           initial={{
             scale: 1.08,

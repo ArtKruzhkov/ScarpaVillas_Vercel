@@ -66,7 +66,7 @@ export function BorgoExperiences() {
                 <div key={item.id} className="flex items-center gap-6">
                   <img
                     src={`${process.env.PUBLIC_URL}/images/BorgoPage/borgo_experiences/${item.icon}`}
-                    alt=""
+                    alt="icon"
                     aria-hidden="true"
                     className="h-12 w-12 shrink-0"
                   />
@@ -121,7 +121,7 @@ export function BorgoExperiences() {
             className="overflow-hidden">
             <img
               src={`${process.env.PUBLIC_URL}/images/BorgoPage/borgo_experiences/experience.webp`}
-              alt="Experiences at The Borgo"
+              alt={t('imageAlts.borgoExperiences')}
               className="h-full w-full object-cover"
             />
           </motion.div>

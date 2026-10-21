@@ -32,7 +32,7 @@ export function ExperiencesIntro() {
 
         <img
           src={`${baseUrl}/images/ExperiencesPage/experiences_intro/background.webp`}
-          alt="Scarpa Villas experiences"
+          alt={t('imageAlts.experiencesIntro')}
           className="h-full w-full object-cover object-[center_bottom] lg:object-center"
         />
       </motion.picture>

@@ -33,9 +33,9 @@ export function PressIntro() {
               srcSet={`${baseUrl}/images/PressPage/press_intro/left_mob.webp`}
             />
 
-            <motion.img
+            <img
               src={`${baseUrl}/images/PressPage/press_intro/left.webp`}
-              alt="Wine glass"
+              alt={t('imageAlts.pressIntro')}
               className="h-full w-full object-cover max-h-[380px] md:max-h-[620px] lg:max-h-full min-[1440px]:min-h-[440px]"
             />
           </motion.picture>
@@ -58,7 +58,7 @@ export function PressIntro() {
 
               <img
                 src={`${baseUrl}/images/PressPage/press_intro/logo.svg`}
-                alt="Scarpa Villas"
+                alt="Scarpa Villas logo"
                 className="h-[54px] xl:h-[74px] w-auto shrink-0"
               />
 
@@ -105,7 +105,7 @@ export function PressIntro() {
           className="overflow-hidden hidden lg:block order-3 min-[1440px]:min-h-[440px]">
           <motion.img
             src={`${baseUrl}/images/PressPage/press_intro/right.webp`}
-            alt="Scarpa Villas"
+            alt=""
             className="h-full w-full object-cover"
             initial={{ scale: 1.08 }}
             whileInView={{ scale: 1 }}

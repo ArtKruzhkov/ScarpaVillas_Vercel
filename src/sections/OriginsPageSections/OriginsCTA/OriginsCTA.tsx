@@ -37,12 +37,12 @@ export function OriginsCTA() {
 
         <img
           src={`${baseUrl}/images/OriginsPage/origins_cta/background.webp`}
-          alt="Scarpa Villas"
+          alt={t('imageAlts.originsCTA')}
           className="h-full w-full object-cover"
         />
       </motion.picture>
 
-      {/* Optional overlay */}
+      {/* Overlay */}
       <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/45 via-black/5 to-transparent" />
 
       {/* Content */}

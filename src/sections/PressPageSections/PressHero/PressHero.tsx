@@ -13,7 +13,7 @@ export function PressHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/PressPage/press_hero/press_hero.webp`}
-          alt={t('pressHero.title')}
+          alt={t('imageAlts.pressHero')}
           className="h-full w-full object-cover"
         />
       </div>

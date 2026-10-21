@@ -27,7 +27,7 @@ export function BorgoPhilosophy() {
           className="overflow-hidden order-2 lg:order-1">
           <img
             src={`${process.env.PUBLIC_URL}/images/BorgoPage/borgo_philosophy/philosophy.webp`}
-            alt="The Borgo"
+            alt={t('imageAlts.borgoPhilosophy')}
             className="max-h-[520px] md:max-h-[580px] lg:max-h-none h-full w-full object-cover"
           />
         </motion.div>

@@ -18,6 +18,7 @@ export type RegionFeatureSlide = {
 export type RegionFeatureProps = {
   id: string;
   backgroundImage: string;
+  backgroundImageAlt: string;
   titleKey: string;
   paragraphKeys: string[];
   slides: RegionFeatureSlide[];
@@ -27,6 +28,7 @@ export type RegionFeatureProps = {
 export function RegionFeature({
   id,
   backgroundImage,
+  backgroundImageAlt,
   titleKey,
   paragraphKeys,
   slides,
@@ -45,8 +47,8 @@ export function RegionFeature({
         {/* BACKGROUND */}
         <motion.img
           src={backgroundImage}
-          alt="background-image"
-          className="absolute inset-0 h-full w-full object-cover"
+          alt={t(backgroundImageAlt)}
+          className="absolute inset-0 h-full w-full object-cover will-change-transform"
           initial={{ scale: 1.08 }}
           whileInView={{ scale: 1 }}
           viewport={{
@@ -85,7 +87,7 @@ export function RegionFeature({
 
               <img
                 src={`${process.env.PUBLIC_URL}/images/RegionPage/region_feature/logo.svg`}
-                alt=""
+                alt="Scarpa Villas logo"
                 className="h-[54px] w-auto shrink-0 xl:h-[74px]"
               />
 

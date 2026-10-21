@@ -39,7 +39,7 @@ export function JournalArticles() {
   return (
     <section
       ref={sectionRef}
-      className="scroll-mt-[73px] bg-white px-4 py-8 lg:scroll-mt-[86px] lg:px-8 2xl:py-16">
+      className="scroll-mt-[73px] bg-white px-4 py-8 lg:scroll-mt-[86px] lg:px-8 2xl:py-12">
       <div className="mx-auto">
         <div>
           {visibleArticles.map((article) => {

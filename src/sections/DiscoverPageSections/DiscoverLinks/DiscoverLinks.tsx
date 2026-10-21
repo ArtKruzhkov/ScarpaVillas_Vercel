@@ -16,6 +16,7 @@ export function DiscoverLinks() {
       description: t('discoverLinks.region.description'),
       button: t('discoverLinks.region.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_links/region.webp`,
+      imageAlt: 'imageAlts.discoverLinksRegion',
       href: '/discover/region',
     },
     {
@@ -24,6 +25,7 @@ export function DiscoverLinks() {
       description: t('discoverLinks.experiences.description'),
       button: t('discoverLinks.experiences.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_links/experiences.webp`,
+      imageAlt: 'imageAlts.discoverLinksExperiences',
       href: '/experiences',
     },
     {
@@ -32,6 +34,7 @@ export function DiscoverLinks() {
       description: t('discoverLinks.journal.description'),
       button: t('discoverLinks.journal.button'),
       image: `${baseUrl}/images/DiscoverPage/discover_links/journal.webp`,
+      imageAlt: 'imageAlts.discoverLinksJournal',
       href: '/discover/journal',
     },
   ];
@@ -64,7 +67,7 @@ export function DiscoverLinks() {
               {/* IMAGE */}
               <img
                 src={card.image}
-                alt={card.title}
+                alt={t(card.imageAlt)}
                 className="block h-auto max-h-[600px] w-full object-cover md:max-h-[680px] xl:max-h-[800px]"
               />
 

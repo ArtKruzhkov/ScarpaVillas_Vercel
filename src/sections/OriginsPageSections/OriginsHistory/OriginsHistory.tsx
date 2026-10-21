@@ -30,7 +30,7 @@ export function OriginsHistory() {
           }}>
           <motion.img
             src={`${baseUrl}/images/OriginsPage/origins_history/origins_history_left.webp`}
-            alt="Historic village in the Langhe"
+            alt={t('imageAlts.originsHistoryLeft')}
             className="absolute inset-0 h-full w-full object-cover"
             initial={{
               scale: 1.08,
@@ -95,45 +95,30 @@ export function OriginsHistory() {
             </AnimatePresence>
 
             {/* IMAGE */}
-            <motion.div
-              className="overflow-hidden"
-              initial={{
-                opacity: 0,
-                y: 30,
-              }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-              }}
-              viewport={{
-                once: true,
-                amount: 0.25,
-              }}
-              transition={{
-                duration: 0.9,
-                delay: 0.25,
-                ease: [0.22, 1, 0.36, 1],
-              }}>
+            <div className="overflow-hidden">
               <motion.img
                 src={`${baseUrl}/images/OriginsPage/origins_history/origins_history_right.webp`}
-                alt="Historic vineyards of the Langhe"
-                className="aspect-[2.3/1] min-h-[220px] w-full object-cover"
+                alt={t('imageAlts.originsHistoryRight')}
+                className="aspect-[2.2/1] min-h-[220px] w-full object-cover"
                 initial={{
-                  scale: 1.06,
+                  opacity: 0,
+                  y: 30,
                 }}
                 whileInView={{
-                  scale: 1,
+                  opacity: 1,
+                  y: 0,
                 }}
                 viewport={{
                   once: true,
-                  amount: 0.3,
+                  amount: 0.25,
                 }}
                 transition={{
-                  duration: 1.6,
+                  duration: 0.9,
+                  delay: 0.25,
                   ease: [0.22, 1, 0.36, 1],
                 }}
               />
-            </motion.div>
+            </div>
 
             {/* BOTTOM TEXT */}
             <AnimatePresence mode="wait">

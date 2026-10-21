@@ -12,7 +12,7 @@ export function ExperiencesPlanStay() {
         {/* Background */}
         <motion.img
           src={`${baseUrl}/images/ExperiencesPage/experiences_planStay/background.webp`}
-          alt="Experiences in the Langhe"
+          alt={t('imageAlts.experiencesPlanStay')}
           className="block h-auto w-full object-cover min-h-[460px] md:min-h-[620px]"
           initial={{
             scale: 1.08,

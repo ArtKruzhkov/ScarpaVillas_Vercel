@@ -94,8 +94,8 @@ export function ScarpaWineryLove() {
           className="relative min-h-[440px] overflow-hidden lg:min-h-[740px]">
           <motion.img
             src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_love/right.webp`}
-            alt="Scarpa Winery"
-            className="absolute inset-0 h-full w-full object-cover object-[25%_center] lg:object-center"
+            alt={t('imageAlts.scarpaWineryLove')}
+            className="absolute will-change-transform inset-0 h-full w-full object-cover object-[25%_center] lg:object-center"
             initial={{
               scale: 1.08,
             }}

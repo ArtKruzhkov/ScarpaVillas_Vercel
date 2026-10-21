@@ -32,7 +32,7 @@ export function StaysIntro() {
 
         <img
           src={`${baseUrl}/images/StaysPage/stays_intro/background.webp`}
-          alt="Scarpa Villas Stays"
+          alt={t('imageAlts.staysIntro')}
           className="h-full w-full object-cover"
         />
       </motion.picture>

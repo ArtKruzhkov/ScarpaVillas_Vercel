@@ -13,7 +13,7 @@ export function PeopleHero() {
       <div className="absolute inset-0">
         <img
           src={`${process.env.PUBLIC_URL}/images/PeoplePage/people_hero/people_hero.webp`}
-          alt={t('peopleHero.title')}
+          alt={t('imageAlts.peopleHero')}
           className="h-full w-full object-cover"
         />
 

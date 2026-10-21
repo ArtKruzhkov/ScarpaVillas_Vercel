@@ -53,8 +53,8 @@ export function ScarpaWineryEvolution() {
 
           <motion.img
             src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_evolution/postcard_left.webp`}
-            alt="Historic postcard"
-            className="mt-6 lg:mt-10 w-full"
+            alt={t('imageAlts.scarpaWineryPostcardLeft')}
+            className="mt-6 lg:mt-10 w-full will-change-transform"
             initial={{ scale: 1.08 }}
             whileInView={{ scale: 1 }}
             viewport={{ once: true, amount: 0.3 }}
@@ -77,8 +77,8 @@ export function ScarpaWineryEvolution() {
           }}>
           <motion.img
             src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_evolution/center.webp`}
-            alt="Scarpa Winery"
-            className="h-full w-full object-cover min-h-[220px] xl:min-h-[620px]"
+            alt={t('imageAlts.scarpaWineryEvolution')}
+            className="h-full w-full object-cover min-h-[220px] xl:min-h-[620px] will-change-transform"
             initial={{
               scale: 1.08,
             }}
@@ -108,8 +108,8 @@ export function ScarpaWineryEvolution() {
           }}>
           <motion.img
             src={`${baseUrl}/images/ScarpaWineryPage/scarpa_winery_evolution/postcard_right.webp`}
-            alt="Historic letter"
-            className="w-full self-end"
+            alt={t('imageAlts.scarpaWineryPostcardRight')}
+            className="w-full self-end will-change-transform"
             initial={{ scale: 1.08 }}
             whileInView={{ scale: 1 }}
             viewport={{ once: true, amount: 0.3 }}
