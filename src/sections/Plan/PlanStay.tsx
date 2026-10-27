@@ -4,6 +4,7 @@ import './planstay.css';
 
 export function PlanStay() {
   const { t, i18n } = useTranslation();
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
 
   return (
     <section id="plan" className="relative section-height w-full overflow-hidden">
@@ -79,11 +80,7 @@ export function PlanStay() {
           </motion.p>
         </AnimatePresence>
 
-        <a
-          href={'https://www.simplebooking.it/ibe2/hotel/9131'}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="plan-stay-btn">
+        <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="plan-stay-btn">
           <AnimatePresence mode="wait">
             <motion.span
               key={`plan-btn-${i18n.language}`}

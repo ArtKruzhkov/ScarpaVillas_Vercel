@@ -25,6 +25,8 @@ import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage';
 
 export default function App() {
   const location = useLocation();
+  const footerKey = location.pathname.replace(/^\/it(?=\/|$)/, '') || '/';
+
   return (
     <div className="min-h-dvh bg-white text-ink-900">
       <Navbar />
@@ -78,7 +80,7 @@ export default function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
 
-      <Footer key={location.pathname} />
+      <Footer key={footerKey} />
 
       <CookieBanner />
     </div>

@@ -11,6 +11,7 @@ type OtherVillasProps = {
 export function OtherVillas({ currentVillaId }: OtherVillasProps) {
   const otherVillas = villas.filter((villa) => villa.id !== currentVillaId);
   const { t, i18n } = useTranslation();
+  const langPrefix = i18n.language === 'en' ? '' : `/${i18n.language}`;
 
   return (
     <section className="bg-white pt-14 pb-4 lg:pt-20 lg:pb-6">
@@ -74,7 +75,7 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
                 duration: 0.8,
                 ease: [0.22, 1, 0.36, 1],
               }}>
-              <Link to={`/villas/${villa.id}`} className="group block overflow-hidden">
+              <Link to={`${langPrefix}/villas/${villa.id}`} className="group block overflow-hidden">
                 <div className="relative overflow-hidden">
                   <img
                     src={villa.card.image}
@@ -87,7 +88,7 @@ export function OtherVillas({ currentVillaId }: OtherVillasProps) {
 
                   {/* Content */}
                   <div className="absolute inset-x-0 bottom-0 p-6 text-white">
-                    <h3 className="font-serif text-[24px] md:text-[28px] lg:text-[32px] 2xl:text-[34px] leading-none]">
+                    <h3 className="font-serif text-[24px] md:text-[28px] lg:text-[32px] 2xl:text-[34px] leading-none">
                       {t(villa.card.title)}
                     </h3>
 

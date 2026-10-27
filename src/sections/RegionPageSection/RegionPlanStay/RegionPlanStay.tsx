@@ -9,6 +9,7 @@ export function RegionPlanStay() {
   const { t, i18n } = useTranslation();
 
   const langPrefix = i18n.language === 'en' ? '' : `/${i18n.language}`;
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
 
   return (
     <section className="overflow-hidden bg-white px-6 py-6 lg:px-8 lg:py-10">
@@ -199,7 +200,7 @@ export function RegionPlanStay() {
             {/* BUTTON */}
             <div className="mt-4 inline-block lg:mt-6">
               <a
-                href="https://www.simplebooking.it/ibe2/hotel/9131"
+                href={bookingUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-[40px] w-fit items-center justify-center overflow-hidden border-y border-white font-sans text-[13px] font-semibold uppercase tracking-[0.2em] transition-opacity duration-300 hover:opacity-60 md:h-[50px] 2xl:h-[52px] md:text-[16px] 2xl:text-[18px]">

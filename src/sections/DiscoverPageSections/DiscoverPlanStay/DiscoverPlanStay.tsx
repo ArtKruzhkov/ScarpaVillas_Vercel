@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next';
 const baseUrl = process.env.PUBLIC_URL;
 
 export function DiscoverPlanStay() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
 
   return (
     <section className="relative overflow-hidden">
@@ -101,7 +102,7 @@ export function DiscoverPlanStay() {
 
           {/* BUTTON */}
           <motion.a
-            href={`https://www.simplebooking.it/ibe2/hotel/9131`}
+            href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 md:mt-12 2xl:mt-14 flex h-[44px] md:h-[57px] w-full items-center justify-center bg-white px-8 font-sans text-[13px] md:text-[18px] font-bold uppercase tracking-[0.22em] text-[#2C3654] transition-colors duration-300 hover:bg-[#2C3654] hover:text-white lg:w-[475px]"

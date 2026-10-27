@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 export function ExperiencesPlanStay() {
   const baseUrl = process.env.PUBLIC_URL;
   const { t, i18n } = useTranslation();
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
 
   return (
     <section className="bg-[#2C3654] mt-4 lg:mt-0 p-4 md:p-6 lg:p-8 2xl:p-10">
@@ -86,7 +87,7 @@ export function ExperiencesPlanStay() {
 
           {/* Button */}
           <a
-            href="https://www.simplebooking.it/ibe2/hotel/9131"
+            href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-7 flex h-[44px] min-w-[280px] items-center justify-center overflow-hidden border-2 border-[#2C3654] px-8 font-sans text-[13px] font-semibold uppercase tracking-[0.22em] text-[#2C3654] transition-colors duration-300 hover:bg-[#2C3654] hover:text-white md:h-[57px] md:min-w-[320px] lg:mt-8 lg:min-w-[460px] md:text-[16px] lg:text-[18px]">

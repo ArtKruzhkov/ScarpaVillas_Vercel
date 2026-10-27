@@ -15,6 +15,7 @@ export function Navbar() {
   const [activeSection, setActiveSection] = React.useState<string | null>(null);
   const location = useLocation();
   const langPrefix = i18n.language === 'en' ? '' : `/${i18n.language}`;
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
 
   const [mobileVillasOpen, setMobileVillasOpen] = React.useState(false);
   const [mobileExperiencesOpen, setMobileExperiencesOpen] = React.useState(false);
@@ -43,7 +44,6 @@ export function Navbar() {
   };
 
   const homeUrl = i18n.language === 'en' ? '/' : `/${i18n.language}`;
-
   const storyUrl = i18n.language === 'en' ? '/story' : `/${i18n.language}/story`;
   const villasUrl = i18n.language === 'en' ? '/villas' : `/${i18n.language}/villas`;
   const discoverUrl = i18n.language === 'en' ? '/discover' : `/${i18n.language}/discover`;
@@ -662,7 +662,7 @@ export function Navbar() {
             })}
 
             <LinkButton
-              href="https://www.simplebooking.it/ibe2/hotel/9131"
+              href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               variant="outline"
@@ -718,7 +718,7 @@ export function Navbar() {
 
           {/* Plan Stay */}
           <LinkButton
-            href="https://www.simplebooking.it/ibe2/hotel/9131"
+            href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             variant="outline"

@@ -8,6 +8,8 @@ type VillaBookingCTAProps = {
 
 export function VillaBookingCTA({ bookingCTA }: VillaBookingCTAProps) {
   const { t, i18n } = useTranslation();
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
+
   return (
     <section className="bg-[#2C3654] px-4 py-10 text-white md:py-12 lg:py-16">
       <motion.div
@@ -38,7 +40,7 @@ export function VillaBookingCTA({ bookingCTA }: VillaBookingCTAProps) {
         </AnimatePresence>
 
         <a
-          href="https://www.simplebooking.it/ibe2/hotel/9131"
+          href={bookingUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex h-[44px] min-w-[280px] items-center justify-center bg-white px-8 font-sans text-[13px] font-semibold uppercase tracking-[0.18em] text-[#2C3654] transition-colors duration-300 hover:bg-white/80 md:mt-8 md:h-[57px] lg:min-w-[400px] lg:text-[16px]">

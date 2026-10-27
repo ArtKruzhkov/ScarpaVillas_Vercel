@@ -2,7 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export function BorgoCTA() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const bookingUrl = `https://www.simplebooking.it/ibe2/hotel/9131?lang=${i18n.language.toUpperCase()}&cur=EUR`;
+
   return (
     <section className="bg-[#2C3654]">
       <div className="mx-auto overflow-hidden flex max-w-8xl items-center justify-center px-5 py-10 md:px-8 md:py-12 lg:py-16">
@@ -42,7 +44,7 @@ export function BorgoCTA() {
           </AnimatePresence>
 
           <a
-            href="https://www.simplebooking.it/ibe2/hotel/9131"
+            href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 flex h-[44px] md:h-[57px] w-full max-w-[320px] md:max-w-[368px] items-center justify-center bg-white px-8 font-sans font-semibold uppercase tracking-[0.18em] text-[#2C3654] text-[13px] lg:text-[16px] transition-opacity duration-300 hover:opacity-80">

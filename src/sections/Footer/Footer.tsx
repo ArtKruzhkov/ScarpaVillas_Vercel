@@ -510,7 +510,20 @@ export function Footer() {
                   }}>
                   <div className="border-b-2 border-white/30 py-3">CASCINA MONVIGLIERO 28,</div>
 
-                  <div className="border-b-2 border-white/30 py-3">12060 VERDUNO (CN) ITALY</div>
+                  <div className="border-b-2 border-white/30 py-3">
+                    12060 VERDUNO (CN){' '}
+                    <AnimatePresence mode="wait">
+                      <motion.span
+                        key={`footer-country-${i18n.language}`}
+                        className="inline-block"
+                        initial={{ opacity: 0, y: 6 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -6 }}
+                        transition={{ duration: 0.25 }}>
+                        {t('footer.country')}
+                      </motion.span>
+                    </AnimatePresence>
+                  </div>
 
                   <a
                     href="tel:+393484765176"

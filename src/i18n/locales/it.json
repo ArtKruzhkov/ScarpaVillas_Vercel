@@ -168,19 +168,21 @@
     "logoTextItalic": "ville private tra i vigneti",
     "logoText2": "di Monvigliero, a Verduno.",
     "contact": "Contatti",
+    "country": "ITALIA",
     "cookiePolicy": "Informativa sui cookie",
     "privacyPolicy": "Informativa sulla privacy"
   },
+
   "contact": {
-    "title1": "Raccontaci i tuoi programmi e creeremo",
-    "title2": "l'esperienza italiana perfetta per te.",
-    "interests": "Cosa ti interessa?",
-    "details": "I tuoi dati",
+    "title1": "Raccontateci i vostri programmi e creeremo",
+    "title2": "l'esperienza italiana perfetta per voi.",
+    "interests": "Cosa vi interessa?",
+    "details": "I vostri dati",
     "message": "Messaggio",
     "name": "Nome",
     "email": "Email",
     "phone": "Numero di telefono",
-    "messagePlaceholder": "Condividi qualche dettaglio sulle date del viaggio, il numero di ospiti o eventuali richieste speciali.",
+    "messagePlaceholder": "Condividete qualche dettaglio sulle date del viaggio, il numero di ospiti o eventuali richieste speciali.",
     "interestsList": {
       "villaRental": "Affitto villa",
       "borgoExperience": "Esperienza Borgo",
