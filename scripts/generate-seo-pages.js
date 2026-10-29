@@ -254,7 +254,7 @@ const staticRoutes = [
   {
     path: '/story/scarpa-winery',
     key: 'scarpaWinery',
-    image: '/images/seo/OG-imagine-Story-Winery.jpg',
+    image: '/images/seo/OG-imagine-Story-SWinery.jpg',
   },
   {
     path: '/story/people',

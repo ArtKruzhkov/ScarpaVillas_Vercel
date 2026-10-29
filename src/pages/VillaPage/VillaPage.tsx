@@ -35,7 +35,7 @@ export function VillaPage() {
   }
 
   const seoKey = `seo.villa.${villa.id}`;
-  const seoImage = `/images/seo/OG-image-Villas-${villa.id.charAt(0).toUpperCase() + villa.id.slice(1)}.jpg`;
+  const seoImage = `/images/seo/OG-imagine-Villas-${villa.id.charAt(0).toUpperCase() + villa.id.slice(1)}.jpg`;
 
   return (
     <>

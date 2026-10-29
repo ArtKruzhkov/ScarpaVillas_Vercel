@@ -9,10 +9,10 @@ import { SEO } from '../../components/SEO/SEO';
 import { NotFoundPage } from '../NotFoundPage/NotFoundPage';
 
 const articleSeoImages: Record<string, string> = {
-  'viticultural-identity': '/images/seo/OG-image-Discover-Journal-1.jpg',
-  'la-bogliona-125-years': '/images/seo/OG-image-Discover-Journal-2.jpg',
-  'scarpa-villas-part-2': '/images/seo/OG-image-Discover-Journal-3.jpg',
-  'davide-champion-scarpa-journey': '/images/seo/OG-image-Discover-Journal-4.jpg',
+  'viticultural-identity': '/images/seo/OG-imagine-Discover-Journal-1.jpg',
+  'la-bogliona-125-years': '/images/seo/OG-imagine-Discover-Journal-2.jpg',
+  'scarpa-villas-part-2': '/images/seo/OG-imagine-Discover-Journal-3.jpg',
+  'davide-champion-scarpa-journey': '/images/seo/OG-imagine-Discover-Journal-4.jpg',
 };
 
 export function JournalArticlePage() {

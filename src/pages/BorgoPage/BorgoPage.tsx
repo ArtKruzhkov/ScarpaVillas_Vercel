@@ -27,7 +27,7 @@ export function BorgoPage() {
       <SEO
         title={t('seo.borgo.title')}
         description={t('seo.borgo.description')}
-        image="/images/seo/OG-image-Borgo.jpg"
+        image="/images/seo/OG-imagine-Borgo.jpg"
       />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
