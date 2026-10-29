@@ -11,11 +11,18 @@ export function PeopleHero() {
       className="relative flex section-height items-end justify-center overflow-hidden">
       {/* BACKGROUND */}
       <div className="absolute inset-0">
-        <img
-          src={`${process.env.PUBLIC_URL}/images/PeoplePage/people_hero/people_hero.webp`}
-          alt={t('imageAlts.peopleHero')}
-          className="h-full w-full object-cover"
-        />
+        <picture className="block h-full w-full">
+          <source
+            media="(max-width: 640px)"
+            srcSet={`${process.env.PUBLIC_URL}/images/PeoplePage/people_hero/people_hero_mob.webp`}
+          />
+
+          <img
+            src={`${process.env.PUBLIC_URL}/images/PeoplePage/people_hero/people_hero.webp`}
+            alt={t('imageAlts.peopleHero')}
+            className="h-full w-full object-cover"
+          />
+        </picture>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/5 to-transparent" />
