@@ -185,7 +185,10 @@ const generate = () => {
     const notFoundHtml = template
       .replace(/<html lang="[^"]*">/i, `<html lang="${language}">`)
       .replace(/<title>[\s\S]*?<\/title>/i, `<title>${seo.title}</title>`)
-      .replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i, '')
+      .replace(
+        /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
+        `<meta name="description" content="${seo.description}" />`,
+      )
       .replace('</head>', '    <meta name="robots" content="noindex, nofollow" />\n</head>');
 
     const outputPath =
