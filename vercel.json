@@ -4,12 +4,172 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/it",
+      "destination": "/it/index.html"
+    },
+    {
+      "source": "/villas",
+      "destination": "/villas/index.html"
+    },
+    {
+      "source": "/it/villas",
+      "destination": "/it/villas/index.html"
+    },
+    {
+      "source": "/villas/tettineive",
+      "destination": "/villas/tettineive/index.html"
+    },
+    {
+      "source": "/it/villas/tettineive",
+      "destination": "/it/villas/tettineive/index.html"
+    },
+    {
       "source": "/villas/bogliona",
       "destination": "/villas/bogliona/index.html"
     },
     {
       "source": "/it/villas/bogliona",
       "destination": "/it/villas/bogliona/index.html"
+    },
+    {
+      "source": "/villas/bricchi",
+      "destination": "/villas/bricchi/index.html"
+    },
+    {
+      "source": "/it/villas/bricchi",
+      "destination": "/it/villas/bricchi/index.html"
+    },
+    {
+      "source": "/villas/tettimorra",
+      "destination": "/villas/tettimorra/index.html"
+    },
+    {
+      "source": "/it/villas/tettimorra",
+      "destination": "/it/villas/tettimorra/index.html"
+    },
+    {
+      "source": "/borgo",
+      "destination": "/borgo/index.html"
+    },
+    {
+      "source": "/it/borgo",
+      "destination": "/it/borgo/index.html"
+    },
+    {
+      "source": "/experiences",
+      "destination": "/experiences/index.html"
+    },
+    {
+      "source": "/it/experiences",
+      "destination": "/it/experiences/index.html"
+    },
+    {
+      "source": "/story",
+      "destination": "/story/index.html"
+    },
+    {
+      "source": "/it/story",
+      "destination": "/it/story/index.html"
+    },
+    {
+      "source": "/story/origins",
+      "destination": "/story/origins/index.html"
+    },
+    {
+      "source": "/it/story/origins",
+      "destination": "/it/story/origins/index.html"
+    },
+    {
+      "source": "/story/scarpa-winery",
+      "destination": "/story/scarpa-winery/index.html"
+    },
+    {
+      "source": "/it/story/scarpa-winery",
+      "destination": "/it/story/scarpa-winery/index.html"
+    },
+    {
+      "source": "/story/people",
+      "destination": "/story/people/index.html"
+    },
+    {
+      "source": "/it/story/people",
+      "destination": "/it/story/people/index.html"
+    },
+    {
+      "source": "/story/press",
+      "destination": "/story/press/index.html"
+    },
+    {
+      "source": "/it/story/press",
+      "destination": "/it/story/press/index.html"
+    },
+    {
+      "source": "/stays",
+      "destination": "/stays/index.html"
+    },
+    {
+      "source": "/it/stays",
+      "destination": "/it/stays/index.html"
+    },
+    {
+      "source": "/discover",
+      "destination": "/discover/index.html"
+    },
+    {
+      "source": "/it/discover",
+      "destination": "/it/discover/index.html"
+    },
+    {
+      "source": "/discover/region",
+      "destination": "/discover/region/index.html"
+    },
+    {
+      "source": "/it/discover/region",
+      "destination": "/it/discover/region/index.html"
+    },
+    {
+      "source": "/discover/journal",
+      "destination": "/discover/journal/index.html"
+    },
+    {
+      "source": "/it/discover/journal",
+      "destination": "/it/discover/journal/index.html"
+    },
+    {
+      "source": "/discover/journal/viticultural-identity",
+      "destination": "/discover/journal/viticultural-identity/index.html"
+    },
+    {
+      "source": "/it/discover/journal/viticultural-identity",
+      "destination": "/it/discover/journal/viticultural-identity/index.html"
+    },
+    {
+      "source": "/discover/journal/la-bogliona-125-years",
+      "destination": "/discover/journal/la-bogliona-125-years/index.html"
+    },
+    {
+      "source": "/it/discover/journal/la-bogliona-125-years",
+      "destination": "/it/discover/journal/la-bogliona-125-years/index.html"
+    },
+    {
+      "source": "/discover/journal/scarpa-villas-part-2",
+      "destination": "/discover/journal/scarpa-villas-part-2/index.html"
+    },
+    {
+      "source": "/it/discover/journal/scarpa-villas-part-2",
+      "destination": "/it/discover/journal/scarpa-villas-part-2/index.html"
+    },
+    {
+      "source": "/discover/journal/davide-champion-scarpa-journey",
+      "destination": "/discover/journal/davide-champion-scarpa-journey/index.html"
+    },
+    {
+      "source": "/it/discover/journal/davide-champion-scarpa-journey",
+      "destination": "/it/discover/journal/davide-champion-scarpa-journey/index.html"
     },
     {
       "source": "/(.*)",
