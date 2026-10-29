@@ -1,175 +1,187 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "build",
-  "trailingSlash": false,
-  "rewrites": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "/index.html"
+      "src": "^/$",
+      "dest": "/index.html"
     },
     {
-      "source": "/it",
-      "destination": "/it/index.html"
+      "src": "^/it$",
+      "dest": "/it/index.html"
     },
     {
-      "source": "/villas",
-      "destination": "/villas/index.html"
+      "src": "^/villas$",
+      "dest": "/villas/index.html"
     },
     {
-      "source": "/it/villas",
-      "destination": "/it/villas/index.html"
+      "src": "^/it/villas$",
+      "dest": "/it/villas/index.html"
     },
     {
-      "source": "/villas/tettineive",
-      "destination": "/villas/tettineive/index.html"
+      "src": "^/villas/tettineive$",
+      "dest": "/villas/tettineive/index.html"
     },
     {
-      "source": "/it/villas/tettineive",
-      "destination": "/it/villas/tettineive/index.html"
+      "src": "^/it/villas/tettineive$",
+      "dest": "/it/villas/tettineive/index.html"
     },
     {
-      "source": "/villas/bogliona",
-      "destination": "/villas/bogliona/index.html"
+      "src": "^/villas/bogliona$",
+      "dest": "/villas/bogliona/index.html"
     },
     {
-      "source": "/it/villas/bogliona",
-      "destination": "/it/villas/bogliona/index.html"
+      "src": "^/it/villas/bogliona$",
+      "dest": "/it/villas/bogliona/index.html"
     },
     {
-      "source": "/villas/bricchi",
-      "destination": "/villas/bricchi/index.html"
+      "src": "^/villas/bricchi$",
+      "dest": "/villas/bricchi/index.html"
     },
     {
-      "source": "/it/villas/bricchi",
-      "destination": "/it/villas/bricchi/index.html"
+      "src": "^/it/villas/bricchi$",
+      "dest": "/it/villas/bricchi/index.html"
     },
     {
-      "source": "/villas/tettimorra",
-      "destination": "/villas/tettimorra/index.html"
+      "src": "^/villas/tettimorra$",
+      "dest": "/villas/tettimorra/index.html"
     },
     {
-      "source": "/it/villas/tettimorra",
-      "destination": "/it/villas/tettimorra/index.html"
+      "src": "^/it/villas/tettimorra$",
+      "dest": "/it/villas/tettimorra/index.html"
     },
     {
-      "source": "/borgo",
-      "destination": "/borgo/index.html"
+      "src": "^/borgo$",
+      "dest": "/borgo/index.html"
     },
     {
-      "source": "/it/borgo",
-      "destination": "/it/borgo/index.html"
+      "src": "^/it/borgo$",
+      "dest": "/it/borgo/index.html"
     },
     {
-      "source": "/experiences",
-      "destination": "/experiences/index.html"
+      "src": "^/experiences$",
+      "dest": "/experiences/index.html"
     },
     {
-      "source": "/it/experiences",
-      "destination": "/it/experiences/index.html"
+      "src": "^/it/experiences$",
+      "dest": "/it/experiences/index.html"
     },
     {
-      "source": "/story",
-      "destination": "/story/index.html"
+      "src": "^/story$",
+      "dest": "/story/index.html"
     },
     {
-      "source": "/it/story",
-      "destination": "/it/story/index.html"
+      "src": "^/it/story$",
+      "dest": "/it/story/index.html"
     },
     {
-      "source": "/story/origins",
-      "destination": "/story/origins/index.html"
+      "src": "^/story/origins$",
+      "dest": "/story/origins/index.html"
     },
     {
-      "source": "/it/story/origins",
-      "destination": "/it/story/origins/index.html"
+      "src": "^/it/story/origins$",
+      "dest": "/it/story/origins/index.html"
     },
     {
-      "source": "/story/scarpa-winery",
-      "destination": "/story/scarpa-winery/index.html"
+      "src": "^/story/scarpa-winery$",
+      "dest": "/story/scarpa-winery/index.html"
     },
     {
-      "source": "/it/story/scarpa-winery",
-      "destination": "/it/story/scarpa-winery/index.html"
+      "src": "^/it/story/scarpa-winery$",
+      "dest": "/it/story/scarpa-winery/index.html"
     },
     {
-      "source": "/story/people",
-      "destination": "/story/people/index.html"
+      "src": "^/story/people$",
+      "dest": "/story/people/index.html"
     },
     {
-      "source": "/it/story/people",
-      "destination": "/it/story/people/index.html"
+      "src": "^/it/story/people$",
+      "dest": "/it/story/people/index.html"
     },
     {
-      "source": "/story/press",
-      "destination": "/story/press/index.html"
+      "src": "^/story/press$",
+      "dest": "/story/press/index.html"
     },
     {
-      "source": "/it/story/press",
-      "destination": "/it/story/press/index.html"
+      "src": "^/it/story/press$",
+      "dest": "/it/story/press/index.html"
     },
     {
-      "source": "/stays",
-      "destination": "/stays/index.html"
+      "src": "^/stays$",
+      "dest": "/stays/index.html"
     },
     {
-      "source": "/it/stays",
-      "destination": "/it/stays/index.html"
+      "src": "^/it/stays$",
+      "dest": "/it/stays/index.html"
     },
     {
-      "source": "/discover",
-      "destination": "/discover/index.html"
+      "src": "^/discover$",
+      "dest": "/discover/index.html"
     },
     {
-      "source": "/it/discover",
-      "destination": "/it/discover/index.html"
+      "src": "^/it/discover$",
+      "dest": "/it/discover/index.html"
     },
     {
-      "source": "/discover/region",
-      "destination": "/discover/region/index.html"
+      "src": "^/discover/region$",
+      "dest": "/discover/region/index.html"
     },
     {
-      "source": "/it/discover/region",
-      "destination": "/it/discover/region/index.html"
+      "src": "^/it/discover/region$",
+      "dest": "/it/discover/region/index.html"
     },
     {
-      "source": "/discover/journal",
-      "destination": "/discover/journal/index.html"
+      "src": "^/discover/journal$",
+      "dest": "/discover/journal/index.html"
     },
     {
-      "source": "/it/discover/journal",
-      "destination": "/it/discover/journal/index.html"
+      "src": "^/it/discover/journal$",
+      "dest": "/it/discover/journal/index.html"
     },
     {
-      "source": "/discover/journal/viticultural-identity",
-      "destination": "/discover/journal/viticultural-identity/index.html"
+      "src": "^/discover/journal/viticultural-identity$",
+      "dest": "/discover/journal/viticultural-identity/index.html"
     },
     {
-      "source": "/it/discover/journal/viticultural-identity",
-      "destination": "/it/discover/journal/viticultural-identity/index.html"
+      "src": "^/it/discover/journal/viticultural-identity$",
+      "dest": "/it/discover/journal/viticultural-identity/index.html"
     },
     {
-      "source": "/discover/journal/la-bogliona-125-years",
-      "destination": "/discover/journal/la-bogliona-125-years/index.html"
+      "src": "^/discover/journal/la-bogliona-125-years$",
+      "dest": "/discover/journal/la-bogliona-125-years/index.html"
     },
     {
-      "source": "/it/discover/journal/la-bogliona-125-years",
-      "destination": "/it/discover/journal/la-bogliona-125-years/index.html"
+      "src": "^/it/discover/journal/la-bogliona-125-years$",
+      "dest": "/it/discover/journal/la-bogliona-125-years/index.html"
     },
     {
-      "source": "/discover/journal/scarpa-villas-part-2",
-      "destination": "/discover/journal/scarpa-villas-part-2/index.html"
+      "src": "^/discover/journal/scarpa-villas-part-2$",
+      "dest": "/discover/journal/scarpa-villas-part-2/index.html"
     },
     {
-      "source": "/it/discover/journal/scarpa-villas-part-2",
-      "destination": "/it/discover/journal/scarpa-villas-part-2/index.html"
+      "src": "^/it/discover/journal/scarpa-villas-part-2$",
+      "dest": "/it/discover/journal/scarpa-villas-part-2/index.html"
     },
     {
-      "source": "/discover/journal/davide-champion-scarpa-journey",
-      "destination": "/discover/journal/davide-champion-scarpa-journey/index.html"
+      "src": "^/discover/journal/davide-champion-scarpa-journey$",
+      "dest": "/discover/journal/davide-champion-scarpa-journey/index.html"
     },
     {
-      "source": "/it/discover/journal/davide-champion-scarpa-journey",
-      "destination": "/it/discover/journal/davide-champion-scarpa-journey/index.html"
+      "src": "^/it/discover/journal/davide-champion-scarpa-journey$",
+      "dest": "/it/discover/journal/davide-champion-scarpa-journey/index.html"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "^/it(?:/.*)?$",
+      "dest": "/it/404.html",
+      "status": 404
+    },
+    {
+      "src": "^/.*$",
+      "dest": "/404.html",
+      "status": 404
     }
   ]
 }
