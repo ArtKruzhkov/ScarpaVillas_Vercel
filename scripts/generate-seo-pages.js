@@ -177,6 +177,27 @@ const generate = () => {
     }
   }
 
+  // Generate localized 404 HTML pages
+  for (const language of ['en', 'it']) {
+    const translations = language === 'it' ? it : en;
+    const seo = getSeo(translations, 'notFound');
+
+    const notFoundHtml = template
+      .replace(/<html lang="[^"]*">/i, `<html lang="${language}">`)
+      .replace(/<title>[\s\S]*?<\/title>/i, `<title>${seo.title}</title>`)
+      .replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i, '')
+      .replace('</head>', '    <meta name="robots" content="noindex, nofollow" />\n</head>');
+
+    const outputPath =
+      language === 'it' ? path.join(BUILD_DIR, 'it', '404.html') : path.join(BUILD_DIR, '404.html');
+
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+
+    fs.writeFileSync(outputPath, notFoundHtml, 'utf8');
+
+    console.log(`Generated: ${language === 'it' ? '/it/404.html' : '/404.html'}`);
+  }
+
   console.log(`\nSEO generation complete: ${count} pages.`);
 };
 

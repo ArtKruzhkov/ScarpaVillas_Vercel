@@ -170,10 +170,6 @@
     {
       "source": "/it/discover/journal/davide-champion-scarpa-journey",
       "destination": "/it/discover/journal/davide-champion-scarpa-journey/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ]
 }
