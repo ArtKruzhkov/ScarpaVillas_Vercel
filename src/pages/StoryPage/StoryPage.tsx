@@ -19,7 +19,11 @@ export function StoryPage() {
 
   return (
     <>
-      <SEO title={t('seo.story.title')} description={t('seo.story.description')} />
+      <SEO
+        title={t('seo.story.title')}
+        description={t('seo.story.description')}
+        image="/images/seo/OG-imagine-Story.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <StoryHero />

@@ -22,7 +22,11 @@ export function DiscoverPage() {
 
   return (
     <>
-      <SEO title={t('seo.discover.title')} description={t('seo.discover.description')} />
+      <SEO
+        title={t('seo.discover.title')}
+        description={t('seo.discover.description')}
+        image="/images/seo/OG-imagine-Discover.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <DiscoverHero />

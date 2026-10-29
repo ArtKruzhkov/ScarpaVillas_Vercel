@@ -44,7 +44,11 @@ export function RegionPage() {
 
   return (
     <>
-      <SEO title={t('seo.region.title')} description={t('seo.region.description')} />
+      <SEO
+        title={t('seo.region.title')}
+        description={t('seo.region.description')}
+        image="/images/seo/OG-imagine-Discover-Region.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <RegionHero />

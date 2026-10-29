@@ -28,7 +28,11 @@ export function HomePage() {
 
   return (
     <>
-      <SEO title={t('seo.home.title')} description={t('seo.home.description')} />
+      <SEO
+        title={t('seo.home.title')}
+        description={t('seo.home.description')}
+        image="/images/seo/OG-imagine-Main.jpg"
+      />
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <Hero />
         <About />

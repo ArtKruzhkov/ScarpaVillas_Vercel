@@ -19,7 +19,11 @@ export function JournalPage() {
 
   return (
     <>
-      <SEO title={t('seo.journal.title')} description={t('seo.journal.description')} />
+      <SEO
+        title={t('seo.journal.title')}
+        description={t('seo.journal.description')}
+        image="/images/seo/OG-imagine-Discover-Journal.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <JournalHero />

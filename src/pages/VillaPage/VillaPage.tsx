@@ -35,10 +35,11 @@ export function VillaPage() {
   }
 
   const seoKey = `seo.villa.${villa.id}`;
+  const seoImage = `/images/seo/OG-image-Villas-${villa.id.charAt(0).toUpperCase() + villa.id.slice(1)}.jpg`;
 
   return (
     <>
-      <SEO title={t(`${seoKey}.title`)} description={t(`${seoKey}.description`)} />
+      <SEO title={t(`${seoKey}.title`)} description={t(`${seoKey}.description`)} image={seoImage} />
 
       <main key={villa.id} className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <VillaHero hero={villa.hero} />

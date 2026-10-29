@@ -256,7 +256,11 @@ export function StaysPage() {
 
   return (
     <>
-      <SEO title={t('seo.stays.title')} description={t('seo.stays.description')} />
+      <SEO
+        title={t('seo.stays.title')}
+        description={t('seo.stays.description')}
+        image="/images/seo/OG-imagine-Stays.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <StaysHero />

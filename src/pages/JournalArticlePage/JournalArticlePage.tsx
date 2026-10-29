@@ -8,6 +8,13 @@ import { ContactUs } from '../../components/ui/ContactUs';
 import { SEO } from '../../components/SEO/SEO';
 import { NotFoundPage } from '../NotFoundPage/NotFoundPage';
 
+const articleSeoImages: Record<string, string> = {
+  'viticultural-identity': '/images/seo/OG-image-Discover-Journal-1.jpg',
+  'la-bogliona-125-years': '/images/seo/OG-image-Discover-Journal-2.jpg',
+  'scarpa-villas-part-2': '/images/seo/OG-image-Discover-Journal-3.jpg',
+  'davide-champion-scarpa-journey': '/images/seo/OG-image-Discover-Journal-4.jpg',
+};
+
 export function JournalArticlePage() {
   const { articleId } = useParams<{ articleId: string }>();
   const { t, i18n } = useTranslation();
@@ -32,6 +39,8 @@ export function JournalArticlePage() {
 
   const seoKey = `seo.journalArticle.${article.id}`;
 
+  const seoImage = articleSeoImages[article.id];
+
   const title = isItalian ? article.title_ital : article.title;
   const subtitle = isItalian ? article.subtitle_ital : article.subtitle;
   const month = isItalian ? article.date.month_ital : article.date.month;
@@ -47,7 +56,7 @@ export function JournalArticlePage() {
 
   return (
     <>
-      <SEO title={t(`${seoKey}.title`)} description={t(`${seoKey}.description`)} />
+      <SEO title={t(`${seoKey}.title`)} description={t(`${seoKey}.description`)} image={seoImage} />
 
       <main className="bg-white text-[#2C3654]">
         {/* HEADER */}

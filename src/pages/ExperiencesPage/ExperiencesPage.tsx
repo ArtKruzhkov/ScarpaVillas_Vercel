@@ -109,7 +109,11 @@ export function ExperiencesPage() {
 
   return (
     <>
-      <SEO title={t('seo.experiences.title')} description={t('seo.experiences.description')} />
+      <SEO
+        title={t('seo.experiences.title')}
+        description={t('seo.experiences.description')}
+        image="/images/seo/OG-imagine-Experiences.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <ExperiencesHero />

@@ -22,7 +22,11 @@ export function OriginsPage() {
 
   return (
     <>
-      <SEO title={t('seo.origins.title')} description={t('seo.origins.description')} />
+      <SEO
+        title={t('seo.origins.title')}
+        description={t('seo.origins.description')}
+        image="/images/seo/OG-imagine-Story-Origins.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <OriginsHero />

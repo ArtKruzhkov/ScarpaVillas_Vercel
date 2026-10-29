@@ -19,7 +19,11 @@ export function PeoplePage() {
 
   return (
     <>
-      <SEO title={t('seo.people.title')} description={t('seo.people.description')} />
+      <SEO
+        title={t('seo.people.title')}
+        description={t('seo.people.description')}
+        image="/images/seo/OG-imagine-Story-People.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <PeopleHero />

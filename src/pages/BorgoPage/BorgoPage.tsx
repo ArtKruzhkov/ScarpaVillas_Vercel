@@ -24,7 +24,11 @@ export function BorgoPage() {
 
   return (
     <>
-      <SEO title={t('seo.borgo.title')} description={t('seo.borgo.description')} />
+      <SEO
+        title={t('seo.borgo.title')}
+        description={t('seo.borgo.description')}
+        image="/images/seo/OG-image-Borgo.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <BorgoHero />

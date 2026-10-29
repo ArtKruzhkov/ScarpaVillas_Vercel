@@ -10,7 +10,12 @@ export function NotFoundPage() {
 
   return (
     <>
-      <SEO title={t('seo.notFound.title')} description={t('seo.notFound.description')} noIndex />
+      <SEO
+        title={t('seo.notFound.title')}
+        description={t('seo.notFound.description')}
+        image="/images/seo/OG-image-404.jpg"
+        noIndex
+      />
 
       <main className="flex min-h-screen items-center justify-center bg-white px-6 text-[#2C3654]">
         <div className="text-center">

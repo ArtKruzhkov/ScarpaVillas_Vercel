@@ -19,7 +19,11 @@ export function PressPage() {
 
   return (
     <>
-      <SEO title={t('seo.press.title')} description={t('seo.press.description')} />
+      <SEO
+        title={t('seo.press.title')}
+        description={t('seo.press.description')}
+        image="/images/seo/OG-imagine-Story-Press.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <PressHero />

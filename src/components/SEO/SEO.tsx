@@ -11,7 +11,7 @@ interface SEOProps {
 
 const SITE_URL = (process.env.REACT_APP_SITE_URL || window.location.origin).replace(/\/$/, '');
 
-const DEFAULT_IMAGE = '/images/seo/og-default.jpg';
+const DEFAULT_IMAGE = '/images/seo/OG-imagine-Main.jpg';
 
 const setMetaTag = (attribute: 'name' | 'property', key: string, content: string) => {
   let element = document.head.querySelector<HTMLMetaElement>(`meta[${attribute}="${key}"]`);
@@ -72,7 +72,7 @@ export function SEO({ title, description, image = DEFAULT_IMAGE, noIndex = false
 
     setMetaTag('name', 'description', description);
 
-    setMetaTag('name', 'robots', noIndex ? 'noindex, follow' : 'index, follow');
+    setMetaTag('name', 'robots', noIndex ? 'noindex, nofollow' : 'index, follow');
 
     // Open Graph
     setMetaTag('property', 'og:type', 'website');

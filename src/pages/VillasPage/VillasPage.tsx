@@ -20,7 +20,11 @@ export function VillasPage() {
 
   return (
     <>
-      <SEO title={t('seo.villas.title')} description={t('seo.villas.description')} />
+      <SEO
+        title={t('seo.villas.title')}
+        description={t('seo.villas.description')}
+        image="/images/seo/OG-imagine-Villas.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <VillasHero />

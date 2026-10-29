@@ -25,7 +25,11 @@ export function ScarpaWineryPage() {
 
   return (
     <>
-      <SEO title={t('seo.scarpaWinery.title')} description={t('seo.scarpaWinery.description')} />
+      <SEO
+        title={t('seo.scarpaWinery.title')}
+        description={t('seo.scarpaWinery.description')}
+        image="/images/seo/OG-imagine-Story-SWinery.jpg"
+      />
 
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <ScarpaWineryHero />
