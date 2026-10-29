@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { PressHero } from '../../sections/PressPageSections/PressHero/PressHero';
 import { PressIntro } from '../../sections/PressPageSections/PressIntro/PressIntro';
@@ -6,6 +8,8 @@ import { PressArticles } from '../../sections/PressPageSections/PressArticles/Pr
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function PressPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -15,6 +19,8 @@ export function PressPage() {
 
   return (
     <>
+      <SEO title={t('seo.press.title')} description={t('seo.press.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <PressHero />
         <PressIntro />

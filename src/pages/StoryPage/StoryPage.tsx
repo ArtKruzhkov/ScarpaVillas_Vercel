@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { StoryChapters } from '../../sections/StoryPageSections/StoryChapters/StoryChapters';
 import { StoryHero } from '../../sections/StoryPageSections/StoryHero/StoryHero';
 import { StoryVillasCTA } from '../../sections/StoryPageSections/StoryVillasCTA/StoryVillasCTA';
@@ -6,6 +8,8 @@ import { ContactUs } from '../../components/ui/ContactUs';
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function StoryPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -15,6 +19,8 @@ export function StoryPage() {
 
   return (
     <>
+      <SEO title={t('seo.story.title')} description={t('seo.story.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <StoryHero />
         <StoryChapters />

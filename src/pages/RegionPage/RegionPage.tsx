@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { RegionHero } from '../../sections/RegionPageSection/RegionHero/RegionHero';
 import { RegionIntro } from '../../sections/RegionPageSection/RegionIntro/RegionIntro';
@@ -14,6 +16,8 @@ import { RegionPlanStay } from '../../sections/RegionPageSection/RegionPlanStay/
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function RegionPage() {
+  const { t } = useTranslation();
+
   useEffect(() => {
     const hash = window.location.hash;
 
@@ -40,6 +44,8 @@ export function RegionPage() {
 
   return (
     <>
+      <SEO title={t('seo.region.title')} description={t('seo.region.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <RegionHero />
         <RegionIntro />

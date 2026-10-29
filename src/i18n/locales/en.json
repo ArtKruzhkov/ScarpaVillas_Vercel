@@ -1590,5 +1590,100 @@
     "regionPlanStayExperiences": "Guests gathered beneath a large tree beside Scarpa Villas and the surrounding vineyards",
     "regionPlanStayVillas": "Scarpa Villas with balconies, terracotta rooftops and landscaped gardens beneath a clear blue sky",
     "journalHero": "Autumn vineyards stretching across the rolling hills of the Langhe with a country house on the hilltop"
+  },
+
+  "seo": {
+    "home": {
+      "title": "Luxury Private Villas in Piedmont | Scarpa Villas",
+      "description": "Discover Scarpa Villas, a collection of luxury private villas in the heart of the Langhe, Piedmont, surrounded by vineyards and breathtaking landscapes."
+    },
+    "villas": {
+      "title": "Luxury Villas in the Langhe | Scarpa Villas",
+      "description": "Explore our collection of four private luxury villas in Piedmont, offering elegant accommodation, exceptional comfort and authentic experiences in the Langhe."
+    },
+    "villa": {
+      "tettineive": {
+        "title": "Villa Tettineive | Scarpa Villas",
+        "description": "Discover Villa Tettineive, a private luxury residence in the Langhe, Piedmont. Enjoy an exclusive stay surrounded by the beauty of Italian wine country."
+      },
+      "bogliona": {
+        "title": "Villa La Bogliona | Scarpa Villas",
+        "description": "Discover Villa La Bogliona, an exclusive private villa in Piedmont. Experience the charm, comfort and natural beauty of the Langhe."
+      },
+      "bricchi": {
+        "title": "Villa I Bricchi | Scarpa Villas",
+        "description": "Explore Villa I Bricchi, a luxury private residence in the Langhe, offering a peaceful retreat among the vineyards and rolling hills of Piedmont."
+      },
+      "tettimorra": {
+        "title": "Villa Tettimora | Scarpa Villas",
+        "description": "Discover Villa Tettimora, a private luxury villa in Piedmont, where refined accommodation meets the authentic atmosphere of the Langhe."
+      }
+    },
+    "borgo": {
+      "title": "The Borgo | Private Estate in Piedmont | Scarpa Villas",
+      "description": "Discover the Borgo at Scarpa Villas, a private estate in the Langhe for exclusive celebrations, destination weddings, corporate retreats and group stays."
+    },
+    "experiences": {
+      "title": "Exclusive Experiences in the Langhe | Scarpa Villas",
+      "description": "Discover exclusive experiences in Piedmont, from wine tastings and local gastronomy to cultural discoveries and outdoor adventures in the Langhe."
+    },
+    "story": {
+      "title": "Our Story | Heritage and Hospitality | Scarpa Villas",
+      "description": "Explore the story behind Scarpa Villas, where Italian heritage, winemaking traditions and contemporary luxury hospitality come together."
+    },
+    "origins": {
+      "title": "Our Origins | The History of Scarpa Villas",
+      "description": "Discover the origins of Scarpa Villas, rooted in the history, architecture and cultural heritage of the Langhe region in Piedmont."
+    },
+    "scarpaWinery": {
+      "title": "Scarpa Winery | A Legacy of Winemaking | Scarpa Villas",
+      "description": "Explore the heritage of Scarpa Winery, its winemaking philosophy, historic vineyards and dedication to producing exceptional wines in Piedmont."
+    },
+    "people": {
+      "title": "Our People | Meet the Team | Scarpa Villas",
+      "description": "Meet the people behind Scarpa Villas, a dedicated team bringing together authentic Italian hospitality, local knowledge and personalised service."
+    },
+    "press": {
+      "title": "Press and Media | Scarpa Villas",
+      "description": "Explore the latest press coverage, publications and media features about Scarpa Villas, luxury hospitality and exceptional stays in Piedmont."
+    },
+    "stays": {
+      "title": "Signature Stays in Piedmont | Scarpa Villas",
+      "description": "Discover Signature Stays at Scarpa Villas, thoughtfully curated escapes combining luxury accommodation, local experiences and the beauty of the Langhe."
+    },
+    "discover": {
+      "title": "Discover the Langhe and Piedmont | Scarpa Villas",
+      "description": "Discover the Langhe region in Piedmont, from UNESCO-listed vineyard landscapes and historic villages to authentic Italian food, wine and culture."
+    },
+    "region": {
+      "title": "The Langhe Region | Discover Piedmont | Scarpa Villas",
+      "description": "Explore the Langhe region, its picturesque villages, renowned vineyards, cultural heritage and breathtaking landscapes in the heart of Piedmont."
+    },
+    "journal": {
+      "title": "The Journal | Stories from the Langhe | Scarpa Villas",
+      "description": "Explore the Scarpa Villas Journal for stories, travel inspiration, local discoveries and insights into the culture, wine and lifestyle of Piedmont."
+    },
+    "journalArticle": {
+      "viticultural-identity": {
+        "title": "Viticultural Identity: Vinifying Diversity | Scarpa Villas",
+        "description": "Explore Piedmont's indigenous grape varieties, from Nebbiolo to Freisa, and discover how preserving viticultural diversity expresses the identity of the Langhe."
+      },
+      "la-bogliona-125-years": {
+        "title": "La Bogliona Takes the Stage: 125 Years of Scarpa",
+        "description": "Discover La Bogliona Takes the Stage, a creative competition celebrating Scarpa's 125-year heritage through a dialogue between wine, art and tradition."
+      },
+      "scarpa-villas-part-2": {
+        "title": "Matteo Scalise and the Scarpa Villas Project | Part 2",
+        "description": "Explore Matteo Scalise's vision for Scarpa Villas, where architecture, natural materials and the Langhe landscape come together to create meaningful experiences."
+      },
+      "davide-champion-scarpa-journey": {
+        "title": "Davide Champion: From Monferrato to the Langhe | Scarpa",
+        "description": "Discover Scarpa's journey from Monferrato to the Langhe with CEO Davide Champion, exploring historic vineyards, winemaking heritage and a vision for the future."
+      }
+    },
+    "notFound": {
+      "title": "404 - Page Not Found | Scarpa Villas",
+      "description": "The page you are looking for could not be found. Explore Scarpa Villas and discover our luxury private villas in Piedmont."
+    }
   }
 }

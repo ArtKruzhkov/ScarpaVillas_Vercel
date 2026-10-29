@@ -1542,5 +1542,99 @@
     "regionPlanStayExperiences": "Ospiti riuniti sotto un grande albero accanto alle Scarpa Villas e ai vigneti circostanti",
     "regionPlanStayVillas": "Le Scarpa Villas con balconi, tetti in terracotta e giardini curati sotto un cielo azzurro",
     "journalHero": "Vigneti autunnali che si estendono sulle dolci colline delle Langhe con una casa di campagna sulla sommità"
+  },
+  "seo": {
+    "home": {
+      "title": "Ville Private di Lusso in Piemonte | Scarpa Villas",
+      "description": "Scoprite Scarpa Villas, una collezione di ville private di lusso nel cuore delle Langhe, in Piemonte, circondate da vigneti e paesaggi suggestivi."
+    },
+    "villas": {
+      "title": "Ville di Lusso nelle Langhe | Scarpa Villas",
+      "description": "Esplorate la nostra collezione di quattro ville private di lusso in Piemonte, tra comfort esclusivo, ospitalità raffinata ed esperienze autentiche nelle Langhe."
+    },
+    "villa": {
+      "tettineive": {
+        "title": "Villa Tettineive | Scarpa Villas",
+        "description": "Scoprite Villa Tettineive, una residenza privata di lusso nelle Langhe, in Piemonte. Vivete un soggiorno esclusivo immersi nella bellezza del territorio."
+      },
+      "bogliona": {
+        "title": "Villa La Bogliona | Scarpa Villas",
+        "description": "Scoprite Villa La Bogliona, una villa privata esclusiva in Piemonte. Vivete il fascino, il comfort e la bellezza naturale delle Langhe."
+      },
+      "bricchi": {
+        "title": "Villa I Bricchi | Scarpa Villas",
+        "description": "Esplorate Villa I Bricchi, una residenza privata di lusso nelle Langhe, ideale per un soggiorno di tranquillità tra vigneti e colline piemontesi."
+      },
+      "tettimorra": {
+        "title": "Villa Tettimora | Scarpa Villas",
+        "description": "Scoprite Villa Tettimora, una villa privata di lusso in Piemonte, dove l'ospitalità raffinata incontra l'atmosfera autentica delle Langhe."
+      }
+    },
+    "borgo": {
+      "title": "Il Borgo | Tenuta Privata in Piemonte | Scarpa Villas",
+      "description": "Scoprite il Borgo di Scarpa Villas, una tenuta privata nelle Langhe per celebrazioni esclusive, matrimoni, ritiri aziendali e soggiorni di gruppo."
+    },
+    "experiences": {
+      "title": "Esperienze Esclusive nelle Langhe | Scarpa Villas",
+      "description": "Scoprite esperienze esclusive in Piemonte, dalle degustazioni di vino alla gastronomia locale, dalle visite culturali alle attività nella natura delle Langhe."
+    },
+    "story": {
+      "title": "La Nostra Storia | Tradizione e Ospitalità | Scarpa Villas",
+      "description": "Esplorate la storia di Scarpa Villas, dove il patrimonio italiano, la tradizione vinicola e l'ospitalità contemporanea si incontrano."
+    },
+    "origins": {
+      "title": "Le Nostre Origini | La Storia di Scarpa Villas",
+      "description": "Scoprite le origini di Scarpa Villas, radicate nella storia, nell'architettura e nel patrimonio culturale delle Langhe, in Piemonte."
+    },
+    "scarpaWinery": {
+      "title": "Cantina Scarpa | Tradizione Vinicola | Scarpa Villas",
+      "description": "Esplorate la storia della Cantina Scarpa, la sua filosofia produttiva, i vigneti storici e la dedizione alla produzione di grandi vini piemontesi."
+    },
+    "people": {
+      "title": "Le Nostre Persone | Il Team | Scarpa Villas",
+      "description": "Conoscete le persone dietro Scarpa Villas, un team dedicato all'ospitalità italiana, alla conoscenza del territorio e a un servizio personalizzato."
+    },
+    "press": {
+      "title": "Stampa e Media | Scarpa Villas",
+      "description": "Esplorate gli articoli, le pubblicazioni e le ultime notizie dedicate a Scarpa Villas, all'ospitalità di lusso e ai soggiorni esclusivi in Piemonte."
+    },
+    "stays": {
+      "title": "Soggiorni Esclusivi in Piemonte | Scarpa Villas",
+      "description": "Scoprite i soggiorni esclusivi di Scarpa Villas, esperienze su misura che uniscono alloggi di lusso, attività locali e la bellezza delle Langhe."
+    },
+    "discover": {
+      "title": "Scoprite le Langhe e il Piemonte | Scarpa Villas",
+      "description": "Scoprite le Langhe in Piemonte, tra paesaggi vitivinicoli patrimonio UNESCO, borghi storici, gastronomia, vino e cultura italiana."
+    },
+    "region": {
+      "title": "Il Territorio delle Langhe | Scarpa Villas",
+      "description": "Esplorate il territorio delle Langhe, i suoi borghi pittoreschi, i vigneti rinomati, il patrimonio culturale e i paesaggi del Piemonte."
+    },
+    "journal": {
+      "title": "Il Journal | Storie dalle Langhe | Scarpa Villas",
+      "description": "Esplorate il Journal di Scarpa Villas per storie, ispirazioni di viaggio, scoperte locali e approfondimenti sulla cultura e sul territorio piemontese."
+    },
+    "journalArticle": {
+      "viticultural-identity": {
+        "title": "Identità Varietale: Vinificare la Diversità | Scarpa Villas",
+        "description": "Esplorate i vitigni autoctoni del Piemonte, dal Nebbiolo alla Freisa, e scoprite come la diversità varietale racconta l'identità vitivinicola delle Langhe."
+      },
+      "la-bogliona-125-years": {
+        "title": "La Bogliona va in Scena: 125 Anni di Scarpa",
+        "description": "Scoprite La Bogliona va in scena, il contest creativo che celebra i 125 anni di Scarpa attraverso l'incontro tra vino, arte, tradizione e innovazione."
+      },
+      "scarpa-villas-part-2": {
+        "title": "Matteo Scalise e il Progetto Scarpa Villas | Parte 2",
+        "description": "Esplorate la visione di Matteo Scalise per Scarpa Villas, dove architettura, materiali naturali e paesaggio delle Langhe si incontrano per creare nuove esperienze."
+      },
+      "davide-champion-scarpa-journey": {
+        "title": "Davide Champion: dal Monferrato alle Langhe | Scarpa",
+        "description": "Scoprite il percorso di Scarpa dal Monferrato alle Langhe con Davide Champion, tra vigneti storici, tradizione vinicola e una visione rivolta al futuro."
+      }
+    },
+    "notFound": {
+      "title": "404 - Pagina Non Trovata | Scarpa Villas",
+      "description": "La pagina che state cercando non è disponibile. Esplorate Scarpa Villas e scoprite le nostre ville private di lusso in Piemonte."
+    }
   }
 }

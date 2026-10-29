@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { DiscoverHero } from '../../sections/DiscoverPageSections/DiscoverHero/DiscoverHero';
 import { DiscoverIntro } from '../../sections/DiscoverPageSections/DiscoverIntro/DiscoverIntro';
@@ -8,6 +10,8 @@ import { DiscoverPlanStay } from '../../sections/DiscoverPageSections/DiscoverPl
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function DiscoverPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -18,6 +22,8 @@ export function DiscoverPage() {
 
   return (
     <>
+      <SEO title={t('seo.discover.title')} description={t('seo.discover.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <DiscoverHero />
         <DiscoverIntro />

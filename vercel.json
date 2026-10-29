@@ -1,5 +1,16 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "build",
+  "trailingSlash": false,
   "rewrites": [
+    {
+      "source": "/villas/bogliona",
+      "destination": "/villas/bogliona/index.html"
+    },
+    {
+      "source": "/it/villas/bogliona",
+      "destination": "/it/villas/bogliona/index.html"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"

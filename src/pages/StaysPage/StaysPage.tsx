@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { StaysHero } from '../../sections/StaysPageSections/StaysHero/StaysHero';
 import { StaysIntro } from '../../sections/StaysPageSections/StaysIntro/StaysIntro';
@@ -10,6 +12,7 @@ import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToT
 
 export function StaysPage() {
   const baseUrl = process.env.PUBLIC_URL;
+  const { t } = useTranslation();
 
   useEffect(() => {
     const hash = window.location.hash;
@@ -253,6 +256,8 @@ export function StaysPage() {
 
   return (
     <>
+      <SEO title={t('seo.stays.title')} description={t('seo.stays.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <StaysHero />
         <StaysIntro />

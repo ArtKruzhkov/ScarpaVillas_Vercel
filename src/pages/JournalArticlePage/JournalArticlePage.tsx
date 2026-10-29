@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next';
 import { journalArticles } from '../../data/journalArticles';
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 import { ContactUs } from '../../components/ui/ContactUs';
+import { SEO } from '../../components/SEO/SEO';
+import { NotFoundPage } from '../NotFoundPage/NotFoundPage';
 
 export function JournalArticlePage() {
   const { articleId } = useParams<{ articleId: string }>();
@@ -25,12 +27,10 @@ export function JournalArticlePage() {
   }, [articleId]);
 
   if (!article) {
-    return (
-      <main className="flex min-h-screen items-center justify-center">
-        <h1 className="font-serif text-[32px] text-[#2C3654]">Article not found</h1>
-      </main>
-    );
+    return <NotFoundPage />;
   }
+
+  const seoKey = `seo.journalArticle.${article.id}`;
 
   const title = isItalian ? article.title_ital : article.title;
   const subtitle = isItalian ? article.subtitle_ital : article.subtitle;
@@ -47,6 +47,8 @@ export function JournalArticlePage() {
 
   return (
     <>
+      <SEO title={t(`${seoKey}.title`)} description={t(`${seoKey}.description`)} />
+
       <main className="bg-white text-[#2C3654]">
         {/* HEADER */}
         <section className="px-4 py-8 lg:px-8 lg:py-12">

@@ -11,10 +11,12 @@ import { villas } from '../../data/villas';
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ContactUs } from '../../components/ui/ContactUs';
+import { SEO } from '../../components/SEO/SEO';
+import { NotFoundPage } from '../NotFoundPage/NotFoundPage';
 
 export function VillaPage() {
   const { villaId } = useParams();
-  const { i18n } = useTranslation();
+  const { t } = useTranslation();
 
   // useEffect(() => {
   //   window.scrollTo({
@@ -29,17 +31,15 @@ export function VillaPage() {
   const villa = villas.find((villa) => villa.id === villaId);
 
   if (!villa) {
-    return (
-      <div>
-        <h1 className="text-[#2C3654] text-center mt-5 font-serif text-[28px] md:text-[36px] lg:text-[42px]">
-          {i18n.language === 'it' ? 'Villa non trovata' : 'Villa not found'}
-        </h1>
-      </div>
-    );
+    return <NotFoundPage />;
   }
+
+  const seoKey = `seo.villa.${villa.id}`;
 
   return (
     <>
+      <SEO title={t(`${seoKey}.title`)} description={t(`${seoKey}.description`)} />
+
       <main key={villa.id} className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <VillaHero hero={villa.hero} />
         <VillaOverview overview={villa.overview} hero={villa.hero} />

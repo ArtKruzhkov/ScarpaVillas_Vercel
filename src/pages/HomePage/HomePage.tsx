@@ -1,5 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+
 import { Hero } from '../../sections/Hero/Hero';
 import { About } from '../../sections/About/About';
 import { Gallery } from '../../sections/Gallery/Gallery';
@@ -12,8 +14,11 @@ import { PlanStay } from '../../sections/Plan/PlanStay';
 import { ContactUs } from '../../components/ui/ContactUs';
 // import { ScarpaLeadership } from '../../sections/ScarpaLeadership/ScarpaLeadership';
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
+import { SEO } from '../../components/SEO/SEO';
 
 export function HomePage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -23,6 +28,7 @@ export function HomePage() {
 
   return (
     <>
+      <SEO title={t('seo.home.title')} description={t('seo.home.description')} />
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <Hero />
         <About />

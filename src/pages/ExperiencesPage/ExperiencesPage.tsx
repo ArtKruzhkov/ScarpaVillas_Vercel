@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { ExperiencesHero } from '../../sections/ExperiencesPageSections/ExperiencesHero/ExperiencesHero';
 import { ExperiencesIntro } from '../../sections/ExperiencesPageSections/ExperiencesIntro/ExperiencesIntro';
@@ -8,6 +10,7 @@ import { ExperiencesPlanStay } from '../../sections/ExperiencesPageSections/Expe
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function ExperiencesPage() {
+  const { t } = useTranslation();
   const location = useLocation();
 
   useEffect(() => {
@@ -106,6 +109,8 @@ export function ExperiencesPage() {
 
   return (
     <>
+      <SEO title={t('seo.experiences.title')} description={t('seo.experiences.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <ExperiencesHero />
         <ExperiencesIntro />

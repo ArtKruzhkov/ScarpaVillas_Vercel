@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { ScarpaWineryHero } from '../../sections/ScarpaWineryPageSections/ScarpaWineryHero/ScarpaWineryHero';
 import { ScarpaWineryIntro } from '../../sections/ScarpaWineryPageSections/ScarpaWineryIntro/ScarpaWineryIntro';
@@ -12,6 +14,8 @@ import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToT
 import { ScarpaWineryCTA } from '../../sections/ScarpaWineryPageSections/ScarpaWineryCTA/ScarpaWineryCTA';
 
 export function ScarpaWineryPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -21,6 +25,8 @@ export function ScarpaWineryPage() {
 
   return (
     <>
+      <SEO title={t('seo.scarpaWinery.title')} description={t('seo.scarpaWinery.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <ScarpaWineryHero />
         <ScarpaWineryIntro />

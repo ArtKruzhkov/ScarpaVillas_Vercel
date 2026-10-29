@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { OriginsHero } from '../../sections/OriginsPageSections/OriginsHero/OriginsHero';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { OriginsIntro } from '../../sections/OriginsPageSections/OriginsIntro/OriginsInto';
@@ -9,6 +11,8 @@ import { OriginsCTA } from '../../sections/OriginsPageSections/OriginsCTA/Origin
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function OriginsPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -18,6 +22,8 @@ export function OriginsPage() {
 
   return (
     <>
+      <SEO title={t('seo.origins.title')} description={t('seo.origins.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <OriginsHero />
         <OriginsIntro />

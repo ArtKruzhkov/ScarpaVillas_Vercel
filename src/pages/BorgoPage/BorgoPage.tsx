@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { BorgoAbout } from '../../sections/BorgoPageSections/BorgoAbout/BorgoAbout';
 import { BorgoEstate } from '../../sections/BorgoPageSections/BorgoEstate/BorgoEstate';
 import { BorgoHero } from '../../sections/BorgoPageSections/BorgoHero/BorgoHero';
@@ -10,6 +12,8 @@ import { ContactUs } from '../../components/ui/ContactUs';
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function BorgoPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -20,6 +24,8 @@ export function BorgoPage() {
 
   return (
     <>
+      <SEO title={t('seo.borgo.title')} description={t('seo.borgo.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <BorgoHero />
         <BorgoEstate />

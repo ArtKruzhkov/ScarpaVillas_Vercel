@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SEO } from '../../components/SEO/SEO';
 import { ContactUs } from '../../components/ui/ContactUs';
 import { JournalHero } from '../../sections/JournalPageSections/JournalHero/JournalHero';
 import { JournalIntro } from '../../sections/JournalPageSections/JournalIntro/JournalIntro';
@@ -6,6 +8,8 @@ import { JournalArticles } from '../../sections/JournalPageSections/JournalArtic
 import { smoothScrollToTop } from '../../utils/smoothScrollToTop/smoothScrollToTop';
 
 export function JournalPage() {
+  const { t } = useTranslation();
+
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
@@ -15,6 +19,8 @@ export function JournalPage() {
 
   return (
     <>
+      <SEO title={t('seo.journal.title')} description={t('seo.journal.description')} />
+
       <main className="mx-auto max-w-8xl 2xl:max-w-[1920px]">
         <JournalHero />
         <JournalIntro />
