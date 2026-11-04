@@ -210,7 +210,19 @@ export function SignatureStays() {
     <section className="bg-[#2C3654] pb-8 lg:pb-16">
       <div className="mx-auto w-full max-w-8xl px-0">
         {/* TOP HERO */}
-        <div className="relative section-height overflow-hidden">
+        <motion.div
+          className="relative section-height overflow-hidden"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{
+            once: true,
+            amount: 0.2,
+          }}
+          transition={{
+            duration: 1,
+            ease: [0.22, 1, 0.36, 1],
+          }}>
+          {' '}
           <Swiper
             modules={[Autoplay]}
             slidesPerView={1}
@@ -239,7 +251,6 @@ export function SignatureStays() {
               </SwiperSlide>
             ))}
           </Swiper>
-
           {/* TITLE */}
           <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center">
             <AnimatePresence mode="wait">
@@ -250,14 +261,13 @@ export function SignatureStays() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -8 }}
                 transition={{ duration: 0.3 }}>
-                {/* {t('moments.title')} */}
                 <span>{t('moments.title1')}</span>
 
                 <span className="block sm:inline">{t('moments.title2')}</span>
               </motion.h2>
             </AnimatePresence>
           </div>
-        </div>
+        </motion.div>
 
         {/* STAYS GRID */}
         <div id="stays" className="bg-[#2C3654] w-full max-w-8xl px-4 lg:px-8 pt-8 lg:pt-16">
